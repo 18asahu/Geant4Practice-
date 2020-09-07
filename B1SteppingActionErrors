@@ -1,0 +1,80 @@
+neha@Lenovo-YOGA-Anwesha:~/G4WORk/B1-build$ make -j9
+Scanning dependencies of target exampleB1
+[ 12%] Building CXX object CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:67:3: error: expected initializer before ‘G4LogicalVolume’
+   67 |   G4LogicalVolume* volumepre
+      |   ^~~~~~~~~~~~~~~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:71:33: error: ‘volumepre’ was not declared in this scope; did you mean ‘volumepost’?
+   71 |   G4LogicalVolume* volumepost = volumepre;
+      |                                 ^~~~~~~~~
+      |                                 volumepost
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:73:3: error: expected unqualified-id before ‘if’
+   73 |   if(step->GetPostStepPoint()->GetTouchableHandle()->GetVolume() != NULL){
+      |   ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:81:3: error: expected unqualified-id before ‘if’
+   81 |   if(step->GetPostStepPoint()->GetTouchableHandle()->GetVolume() == NULL) return;
+      |   ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:84:23: error: ‘step’ was not declared in this scope; did you mean ‘strsep’?
+   84 |   G4double edepStep = step->GetTotalEnergyDeposit();
+      |                       ^~~~
+      |                       strsep
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:85:21: error: ‘step’ was not declared in this scope; did you mean ‘strsep’?
+   85 |   G4double energy = step->GetPreStepPoint()->GetTotalEnergy();
+      |                     ^~~~
+      |                     strsep
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:86:19: error: ‘step’ was not declared in this scope; did you mean ‘strsep’?
+   86 |   G4double mass = step->GetPreStepPoint()->GetMass();
+      |                   ^~~~
+      |                   strsep
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:87:27: error: ‘step’ was not declared in this scope; did you mean ‘strsep’?
+   87 |   G4ThreeVector xyzStep = step->GetPreStepPoint()->GetPosition();
+      |                           ^~~~
+      |                           strsep
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:88:25: error: ‘step’ was not declared in this scope; did you mean ‘strsep’?
+   88 |   G4String preVolName = step->GetPreStepPoint()->GetPhysicalVolume()->GetName();
+      |                         ^~~~
+      |                         strsep
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:89:26: error: ‘step’ was not declared in this scope; did you mean ‘strsep’?
+   89 |   G4String postVolName = step->GetPostStepPoint()->GetPhysicalVolume()->GetName();
+      |                          ^~~~
+      |                          strsep
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:91:10: error: expected constructor, destructor, or type conversion before ‘<<’ token
+   91 |   G4cout << "Line of interest: " << edepStep*MeV << " " << energy*MeV << " " << mass*MeV << " ";
+      |          ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:92:10: error: expected constructor, destructor, or type conversion before ‘<<’ token
+   92 |   G4cout << " " << xyzStep.getX()*mm << " " << xyzStep.getY()*mm << " " << xyzStep.getZ()*mm << " ";
+      |          ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:93:10: error: expected constructor, destructor, or type conversion before ‘<<’ token
+   93 |   G4cout << preVolName << " " << postVolName << G4endl;
+      |          ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:97:3: error: expected unqualified-id before ‘if’
+   97 |   if (postVolName == "Tracker1"){
+      |   ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:100:3: error: expected unqualified-id before ‘if’
+  100 |   if (postVolName == "Tracker2"){
+      |   ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:105:3: error: ‘fEventAction’ does not name a type; did you mean ‘B1EventAction’?
+  105 |   fEventAction->AddEnergy(energy);
+      |   ^~~~~~~~~~~~
+      |   B1EventAction
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:106:3: error: ‘fEventAction’ does not name a type; did you mean ‘B1EventAction’?
+  106 |   fEventAction->AddMass(mass);
+      |   ^~~~~~~~~~~~
+      |   B1EventAction
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:112:3: error: expected unqualified-id before ‘if’
+  112 |   if(postVol == 1){
+      |   ^~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:118:3: error: expected unqualified-id before ‘else’
+  118 |   else if(postVol == 2){
+      |   ^~~~
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:124:3: error: ‘fEventAction’ does not name a type; did you mean ‘B1EventAction’?
+  124 |   fEventAction->AddEdep(edepStep);
+      |   ^~~~~~~~~~~~
+      |   B1EventAction
+/home/neha/G4WORk/B1/src/B1SteppingAction.cc:125:1: error: expected declaration before ‘}’ token
+  125 | }
+      | ^
+make[2]: *** [CMakeFiles/exampleB1.dir/build.make:141: CMakeFiles/exampleB1.dir/src/B1SteppingAction.cc.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:104: CMakeFiles/exampleB1.dir/all] Error 2
+make: *** [Makefile:130: all] Error 2
+
