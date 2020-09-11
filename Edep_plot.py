@@ -53,7 +53,7 @@ for i in values:
 #Plotting histogram
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
             
-np_hist = edep_s1
+np_hist = edep_s1   #change to edep_s2 for stream2
 hist,bin_edges = np.histogram(np_hist)
 
 plt.figure(figsize=[10,8])
