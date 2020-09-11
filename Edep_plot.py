@@ -13,24 +13,17 @@ lines = f.readlines()
 
 values = lines[737: ]
 
-#j = values[0:300]
-
 energy_s1 = []
 edep_s1 = []
-
 energy_s0 = []
 edep_s0 = []
 
 #Separate the parallel runs
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 for i in values:
     k = (i[8:15])
-    
     stream = i[4]
     
     if stream == '1':
-    
         if k == 'Energy:':
             p = i[15::]
             d = float(p[:-2])
@@ -50,9 +43,7 @@ for i in values:
             e = float(q[:-2])
             edep_s0.append(e)
 
-#Plotting histogram
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            
+#Plotting histogram            
 np_hist = edep_s1   #change to edep_s2 for stream2
 hist,bin_edges = np.histogram(np_hist)
 
