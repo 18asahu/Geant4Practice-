@@ -10,6 +10,7 @@
 **************************************************************
 
 <<< Reference Physics List QBBC 
+Seed:1601672249
 Visualization Manager instantiating with verbosity "warnings (3)"...
 Visualization Manager initialising...
 Registering graphics systems...
@@ -709,6 +710,8 @@ CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
      Cr_sctns:     G4ParticleInelasticXS: 0 eV  ---> 100 TeV
 
 ================================================================
+G4WT1 > Seed:1601672256
+G4WT0 > Seed:1601672256
 =======================================================================
 ======       Pre-compound/De-excitation Physics Parameters     ========
 =======================================================================
@@ -735,1991 +738,2005 @@ Upload data before 1st event for                Z < 9
 =======================================================================
 G4VisManager: Using G4TrajectoryDrawByCharge as fallback trajectory model.
 See commands in /vis/modeling/trajectories/ for other options.
-G4WT1 > Energy: 3.97276
-G4WT0 > Energy: 1.80745
-G4WT0 > Edep_Si = 1.80745
-G4WT1 > Edep_Si = 1.97953
-G4WT0 > Energy: 1.38464
-G4WT1 > Energy: 1.11574
-G4WT1 > Edep_Si = 1.11574
-G4WT0 > Edep_Si = 1.38464
-G4WT1 > Energy: 2.10519
-G4WT0 > Energy: 1.1716
-G4WT1 > Edep_Si = 2.10519
-G4WT0 > Edep_Si = 1.1716
-G4WT1 > Energy: 1.51858
-G4WT0 > Energy: 1.21246
-G4WT0 > Edep_Si = 1.21246
-G4WT1 > Edep_Si = 1.51858
-G4WT0 > Energy: 1.09186
-G4WT1 > Energy: 1.93799
-G4WT0 > Edep_Si = 1.09186
-G4WT1 > Edep_Si = 1.93799
-G4WT1 > Energy: 1.62959
-G4WT0 > Energy: 1.1359
-G4WT1 > Edep_Si = 1.62959
-G4WT0 > Edep_Si = 1.1359
-G4WT1 > Energy: 1.04894
-G4WT0 > Energy: 1.04213
-G4WT1 > Edep_Si = 1.04894
-G4WT0 > Edep_Si = 1.04213
-G4WT1 > Energy: 1.94359
-G4WT0 > Energy: 1.73672
-G4WT1 > Edep_Si = 1.94359
-G4WT0 > Edep_Si = 1.73672
-G4WT1 > Energy: 8.94774
-G4WT0 > Energy: 2.89597
-G4WT1 > Edep_Si = 0.877662
-G4WT0 > Edep_Si = 2.89597
-G4WT1 > Energy: 2.71059
-G4WT0 > Energy: 3.39989
-G4WT0 > Edep_Si = 2.45612
-G4WT1 > Edep_Si = 2.71059
-G4WT1 > Energy: 1.21742
-G4WT0 > Energy: 1.20852
-G4WT1 > Edep_Si = 1.21742
-G4WT0 > Edep_Si = 1.20852
-G4WT1 > Energy: 1.42578
-G4WT0 > Energy: 1.34895
-G4WT1 > Edep_Si = 1.42578
-G4WT0 > Edep_Si = 1.34895
-G4WT1 > Energy: 2.14051
-G4WT0 > Energy: 1.25158
-G4WT0 > Edep_Si = 1.25158
-G4WT1 > Edep_Si = 2.14051
-G4WT0 > Energy: 1.51805
-G4WT1 > Energy: 2.13744
-G4WT0 > Edep_Si = 1.51805
-G4WT1 > Edep_Si = 2.13744
-G4WT1 > Energy: 1.86184
-G4WT0 > Energy: 1.57063
-G4WT1 > Edep_Si = 1.86184
-G4WT0 > Edep_Si = 1.57063
-G4WT1 > Energy: 1.0753
-G4WT0 > Energy: 1.49479
-G4WT1 > Edep_Si = 1.0753
-G4WT0 > Edep_Si = 1.49479
-G4WT1 > Energy: 1.00514
-G4WT0 > Energy: 1.34846
-G4WT1 > Edep_Si = 1.00514
-G4WT0 > Edep_Si = 1.34846
-G4WT1 > Energy: 1.00899
-G4WT0 > Energy: 7.47187
-G4WT1 > Edep_Si = 1.00899
-G4WT0 > Edep_Si = 1.10646
-G4WT1 > Energy: 1.08561
-G4WT0 > Energy: 1.61128
-G4WT1 > Edep_Si = 1.08561
-G4WT0 > Edep_Si = 1.61128
-G4WT1 > Energy: 1.00229
-G4WT0 > Energy: 1.48667
-G4WT1 > Edep_Si = 1.00229
-G4WT0 > Edep_Si = 1.48667
-G4WT0 > Energy: 2.81107
-G4WT1 > Energy: 2.28172
-G4WT0 > Edep_Si = 2.81107
-G4WT1 > Edep_Si = 2.28172
-G4WT0 > Energy: 1.16424
-G4WT1 > Energy: 1.47569
-G4WT0 > Edep_Si = 1.16424
-G4WT1 > Edep_Si = 1.47569
-G4WT0 > Energy: 1.35563
-G4WT1 > Energy: 1.03496
-G4WT0 > Edep_Si = 1.35563
-G4WT1 > Edep_Si = 1.03496
-G4WT1 > Energy: 1.01103
-G4WT0 > Energy: 1.25287
-G4WT0 > Edep_Si = 1.25287
-G4WT1 > Edep_Si = 1.01103
-G4WT1 > Energy: 2.33058
-G4WT0 > Energy: 1.33163
-G4WT0 > Edep_Si = 1.33163
-G4WT1 > Edep_Si = 2.33058
-G4WT0 > Energy: 9.53999
-G4WT1 > Energy: 1.09631
-G4WT1 > Edep_Si = 1.09631
-G4WT0 > Edep_Si = 0.863888
-G4WT0 > Energy: 1.57334
-G4WT1 > Energy: 2.38917
-G4WT1 > Edep_Si = 2.38917
-G4WT0 > Edep_Si = 1.57334
-G4WT1 > Energy: 1.78557
-G4WT0 > Energy: 1.33716
-G4WT0 > Edep_Si = 1.33716
-G4WT1 > Edep_Si = 1.78557
-G4WT0 > Energy: 2.24259
-G4WT1 > Energy: 1.03591
-G4WT1 > Edep_Si = 1.03591
-G4WT0 > Edep_Si = 2.24259
-G4WT1 > Energy: 1.28908
-G4WT0 > Energy: 1.49172
-G4WT1 > Edep_Si = 1.28908
-G4WT0 > Edep_Si = 1.49172
-G4WT1 > Energy: 2.50038
-G4WT0 > Energy: 2.8252
-G4WT0 > Edep_Si = 2.8252
-G4WT1 > Edep_Si = 2.50038
-G4WT0 > Energy: 6.31595
-G4WT1 > Energy: 1.2691
-G4WT1 > Edep_Si = 1.2691
-G4WT0 > Edep_Si = 1.19931
-G4WT1 > Energy: 2.05343
-G4WT0 > Energy: 1.00058
-G4WT1 > Edep_Si = 2.05343
-G4WT0 > Edep_Si = 1.00058
-G4WT1 > Energy: 2.88075
-G4WT0 > Energy: 1.78529
-G4WT1 > Edep_Si = 2.88075
-G4WT0 > Edep_Si = 1.78529
-G4WT1 > Energy: 1.86098
-G4WT0 > Energy: 1.76067
-G4WT1 > Edep_Si = 1.86098
-G4WT0 > Edep_Si = 1.76067
-G4WT0 > Energy: 1.31879
-G4WT1 > Energy: 1.37122
-G4WT0 > Edep_Si = 1.31879
-G4WT1 > Edep_Si = 1.37122
-G4WT0 > Energy: 1.24671
-G4WT1 > Energy: 1.09057
-G4WT0 > Edep_Si = 1.24671
-G4WT1 > Edep_Si = 1.09057
-G4WT1 > Energy: 1.21977
-G4WT0 > Energy: 1.01762
-G4WT1 > Edep_Si = 1.21977
-G4WT0 > Edep_Si = 1.01762
-G4WT1 > Energy: 1.02632
-G4WT0 > Energy: 1.88848
-G4WT1 > Edep_Si = 1.02632
-G4WT0 > Edep_Si = 1.88848
-G4WT1 > Energy: 1.24358
-G4WT0 > Energy: 1.07268
-G4WT1 > Edep_Si = 1.24358
-G4WT0 > Edep_Si = 1.07268
-G4WT1 > Energy: 1.8349
-G4WT0 > Energy: 2.12266
-G4WT1 > Edep_Si = 1.8349
-G4WT0 > Edep_Si = 2.12266
-G4WT0 > Energy: 9.02757
-G4WT1 > Energy: 1.04771
-G4WT1 > Edep_Si = 1.04771
-G4WT0 > Edep_Si = 1.00185
-G4WT1 > Energy: 2.10629
-G4WT0 > Energy: 1.00488
-G4WT1 > Edep_Si = 2.10629
-G4WT0 > Edep_Si = 1.00488
-G4WT1 > Energy: 3.2115
-G4WT0 > Energy: 1.15343
-G4WT0 > Edep_Si = 1.15343
-G4WT1 > Edep_Si = 2.85438
-G4WT1 > Energy: 1.04148
-G4WT0 > Energy: 2.30947
-G4WT0 > Edep_Si = 2.30947
-G4WT1 > Edep_Si = 1.04148
-G4WT1 > Energy: 1.56643
-G4WT0 > Energy: 1.09707
-G4WT0 > Edep_Si = 1.09707
-G4WT1 > Edep_Si = 1.56643
-G4WT1 > Energy: 1.72119
-G4WT0 > Energy: 1.72567
-G4WT0 > Edep_Si = 1.72567
-G4WT1 > Edep_Si = 1.72119
-G4WT0 > Energy: 1.0714
-G4WT1 > Energy: 1.16902
-G4WT1 > Edep_Si = 1.16902
-G4WT0 > Edep_Si = 1.0714
-G4WT0 > Energy: 3.11801
-G4WT1 > Energy: 1.07827
-G4WT0 > Edep_Si = 3.11801
-G4WT1 > Edep_Si = 1.07827
-G4WT0 > Energy: 5.45933
-G4WT1 > Energy: 1.48395
-G4WT1 > Edep_Si = 1.48395
-G4WT0 > Edep_Si = 5.45933
-G4WT1 > Energy: 2.7578
-G4WT0 > Energy: 1.24781
-G4WT1 > Edep_Si = 2.7578
-G4WT0 > Edep_Si = 1.24781
-G4WT1 > Energy: 1.57624
-G4WT0 > Energy: 1.0444
-G4WT1 > Edep_Si = 1.57624
-G4WT0 > Edep_Si = 1.0444
-G4WT1 > Energy: 1.11689
-G4WT0 > Energy: 1.49878
-G4WT1 > Edep_Si = 1.11689
-G4WT0 > Edep_Si = 1.49878
-G4WT1 > Energy: 1.92565
-G4WT0 > Energy: 1.60708
-G4WT1 > Edep_Si = 1.92565
-G4WT0 > Edep_Si = 1.60708
-G4WT1 > Energy: 1.49715
-G4WT0 > Energy: 3.21342
+G4WT1 > Energy: 1.0396
+G4WT0 > Energy: 1.2323
+G4WT1 > Edep_Si = 1.0396
+G4WT0 > Edep_Si = 1.2323
+G4WT1 > Energy: 1.27532
+G4WT0 > Energy: 1.34037
+G4WT0 > Edep_Si = 1.34037
+G4WT1 > Edep_Si = 1.27532
+G4WT0 > Energy: 3.77869
+G4WT0 > Edep_Si = 2.11117
+G4WT1 > Energy: 1.80943
+G4WT0 > Energy: 1.11609
+G4WT1 > Edep_Si = 1.80943
+G4WT0 > Edep_Si = 1.11609
+G4WT0 > Energy: 1.57146
+G4WT1 > Energy: 1.44673
+G4WT1 > Edep_Si = 1.44673
+G4WT0 > Edep_Si = 1.57146
+G4WT1 > Energy: 5.46138
+G4WT0 > Energy: 1.60798
+G4WT1 > Edep_Si = 1.35086
+G4WT0 > Edep_Si = 1.60798
+G4WT1 > Energy: 1.89625
+G4WT0 > Energy: 1.65679
+G4WT1 > Edep_Si = 1.89625
+G4WT0 > Edep_Si = 1.65679
+G4WT1 > Energy: 10.9408
+G4WT0 > Energy: 1.07947
+G4WT1 > Edep_Si = 0.817654
+G4WT0 > Edep_Si = 1.07947
+G4WT1 > Energy: 1.01667
+G4WT0 > Energy: 1.82558
+G4WT1 > Edep_Si = 1.01667
+G4WT0 > Edep_Si = 1.82558
+G4WT1 > Energy: 2.2087
+G4WT0 > Energy: 1.56873
+G4WT1 > Edep_Si = 2.2087
+G4WT0 > Edep_Si = 1.56873
+G4WT0 > Energy: 1.02126
+G4WT1 > Energy: 1.28026
+G4WT0 > Edep_Si = 1.02126
+G4WT1 > Edep_Si = 1.28026
+G4WT0 > Energy: 2.8034
+G4WT1 > Energy: 1.02682
+G4WT0 > Edep_Si = 2.8034
+G4WT1 > Edep_Si = 1.02682
+G4WT0 > Energy: 5.53902
+G4WT1 > Energy: 1.30246
+G4WT0 > Edep_Si = 5.53902
+G4WT1 > Edep_Si = 1.30246
+G4WT0 > Energy: 1.98246
+G4WT1 > Energy: 1.16412
+G4WT0 > Edep_Si = 1.98246
+G4WT1 > Edep_Si = 1.16412
+G4WT0 > Energy: 1.24036
+G4WT1 > Energy: 3.18327
+G4WT0 > Edep_Si = 1.24036
+G4WT1 > Edep_Si = 3.03371
+G4WT0 > Energy: 1.15972
+G4WT1 > Energy: 1.42981
+G4WT0 > Edep_Si = 1.15972
+G4WT1 > Edep_Si = 1.42981
+G4WT0 > Energy: 1.46375
+G4WT1 > Energy: 3.8742
+G4WT1 > Edep_Si = 2.07701
+G4WT0 > Edep_Si = 1.46375
+G4WT1 > Energy: 1.16172
+G4WT0 > Energy: 52.9242
+G4WT0 > Edep_Si = 0.289446
+G4WT1 > Edep_Si = 1.16172
+G4WT0 > Energy: 1.44127
+G4WT1 > Energy: 1.16947
+G4WT1 > Edep_Si = 1.16947
+G4WT0 > Edep_Si = 1.44127
+G4WT1 > Energy: 1.23905
+G4WT0 > Energy: 2.90038
+G4WT1 > Edep_Si = 1.23905
+G4WT0 > Edep_Si = 2.90038
+G4WT1 > Energy: 1.07407
+G4WT0 > Energy: 2.23416
+G4WT1 > Edep_Si = 1.07407
+G4WT0 > Edep_Si = 2.23416
+G4WT1 > Energy: 2.02176
+G4WT0 > Energy: 1.32883
+G4WT1 > Edep_Si = 2.02176
+G4WT0 > Edep_Si = 1.32883
+G4WT1 > Energy: 1.25626
+G4WT1 > Edep_Si = 1.25626
+G4WT0 > Energy: 2.00359
+G4WT0 > Edep_Si = 2.00359
+G4WT1 > Energy: 1.60653
+G4WT1 > Edep_Si = 1.60653
+G4WT0 > Energy: 2.28149
+G4WT0 > Edep_Si = 2.28149
+G4WT1 > Energy: 1.83646
+G4WT0 > Energy: 1.49856
+G4WT1 > Edep_Si = 1.83646
+G4WT0 > Edep_Si = 1.49856
+G4WT1 > Energy: 1.41387
+G4WT0 > Energy: 1.00863
+G4WT1 > Edep_Si = 1.41387
+G4WT0 > Edep_Si = 1.00863
+G4WT1 > Energy: 1.72646
+G4WT0 > Energy: 1.07681
+G4WT1 > Edep_Si = 1.72646
+G4WT0 > Edep_Si = 1.07681
+G4WT1 > Energy: 1.68478
+G4WT0 > Energy: 1.83273
+G4WT1 > Edep_Si = 1.68478
+G4WT0 > Edep_Si = 1.83273
+G4WT1 > Energy: 1.69601
+G4WT0 > Energy: 1.02935
+G4WT1 > Edep_Si = 1.69601
+G4WT0 > Edep_Si = 1.02935
+G4WT0 > Energy: 7.65312
+G4WT1 > Energy: 1.09322
+G4WT0 > Edep_Si = 1.03609
+G4WT1 > Edep_Si = 1.09322
+G4WT0 > Energy: 1.05147
+G4WT1 > Energy: 1.05848
+G4WT0 > Edep_Si = 1.05147
+G4WT1 > Edep_Si = 1.05848
+G4WT0 > Energy: 1.12094
+G4WT1 > Energy: 1.12671
+G4WT0 > Edep_Si = 1.12094
+G4WT1 > Edep_Si = 1.12671
+G4WT0 > Energy: 1.01337
+G4WT0 > Edep_Si = 1.01337
+G4WT1 > Energy: 1.16397
+G4WT0 > Energy: 1.48122
+G4WT1 > Edep_Si = 1.16397
+G4WT0 > Edep_Si = 1.48122
+G4WT1 > Energy: 1.68811
+G4WT0 > Energy: 1.85747
+G4WT1 > Edep_Si = 1.68811
+G4WT0 > Edep_Si = 1.85747
+G4WT0 > Energy: 1.23844
+G4WT1 > Energy: 1.15701
+G4WT0 > Edep_Si = 1.23844
+G4WT1 > Edep_Si = 1.15701
+G4WT0 > Energy: 15.5132
+G4WT1 > Energy: 1.18516
+G4WT1 > Edep_Si = 1.18516
+G4WT0 > Edep_Si = 15.5132
+G4WT1 > Energy: 1.3742
+G4WT0 > Energy: 1.57965
+G4WT1 > Edep_Si = 1.3742
+G4WT0 > Edep_Si = 1.57965
+G4WT1 > Energy: 1.82329
+G4WT0 > Energy: 1.87987
+G4WT1 > Edep_Si = 1.82329
+G4WT0 > Edep_Si = 1.87987
+G4WT1 > Energy: 1.30476
+G4WT0 > Energy: 7.31909
+G4WT1 > Edep_Si = 1.30476
+G4WT0 > Edep_Si = 1.04501
+G4WT1 > Energy: 1.46779
+G4WT0 > Energy: 1.33476
+G4WT1 > Edep_Si = 1.46779
+G4WT0 > Edep_Si = 1.33476
+G4WT1 > Energy: 1.19767
+G4WT0 > Energy: 1.95779
+G4WT0 > Edep_Si = 1.95779
+G4WT1 > Edep_Si = 1.19767
+G4WT0 > Energy: 1.83397
+G4WT1 > Energy: 1.18973
+G4WT0 > Edep_Si = 1.83397
+G4WT1 > Edep_Si = 1.18973
+G4WT0 > Energy: 4.24596
+G4WT0 > Edep_Si = 4.24596
+G4WT1 > Energy: 1.26026
+G4WT0 > Energy: 1.04018
+G4WT1 > Edep_Si = 1.26026
+G4WT0 > Edep_Si = 1.04018
+G4WT1 > Energy: 1.11603
+G4WT0 > Energy: 1.59154
+G4WT1 > Edep_Si = 1.11603
+G4WT0 > Edep_Si = 1.59154
+G4WT1 > Energy: 1.54834
+G4WT0 > Energy: 1.38876
+G4WT1 > Edep_Si = 1.54834
+G4WT0 > Edep_Si = 1.38876
+G4WT1 > Energy: 1.89339
+G4WT1 > Edep_Si = 1.89339
+G4WT0 > Energy: 1.55785
+G4WT0 > Edep_Si = 1.55785
+G4WT1 > Energy: 1.05653
+G4WT1 > Edep_Si = 1.05653
+G4WT0 > Energy: 1.056
+G4WT0 > Edep_Si = 1.056
+G4WT1 > Energy: 1.62776
+G4WT1 > Edep_Si = 1.62776
+G4WT0 > Energy: 1.651
+G4WT1 > Energy: 1.65468
+G4WT0 > Edep_Si = 1.651
+G4WT1 > Edep_Si = 1.65468
+G4WT0 > Energy: 2.0466
+G4WT1 > Energy: 1.295
+G4WT0 > Edep_Si = 2.0466
+G4WT1 > Edep_Si = 1.295
+G4WT0 > Energy: 1.57721
+G4WT0 > Edep_Si = 1.57721
+G4WT1 > Energy: 1.34957
+G4WT1 > Edep_Si = 1.34957
+G4WT0 > Energy: 1.52222
+G4WT0 > Edep_Si = 1.52222
+G4WT1 > Energy: 1.12381
+G4WT1 > Edep_Si = 1.12381
+G4WT0 > Energy: 3.46138
+G4WT1 > Energy: 2.08426
+G4WT0 > Edep_Si = 2.40434
+G4WT1 > Edep_Si = 2.08426
+G4WT0 > Energy: 1.05887
+G4WT1 > Energy: 1.0116
+G4WT0 > Edep_Si = 1.05887
+G4WT1 > Edep_Si = 1.0116
+G4WT0 > Energy: 1.01004
+G4WT0 > Edep_Si = 1.01004
+G4WT1 > Energy: 1.39219
+G4WT0 > Energy: 2.86984
+G4WT1 > Edep_Si = 1.39219
+G4WT0 > Edep_Si = 2.86984
+G4WT1 > Energy: 2.3389
+G4WT0 > Energy: 1.02415
+G4WT1 > Edep_Si = 2.3389
+G4WT0 > Edep_Si = 1.02415
+G4WT0 > Energy: 1.06431
+G4WT1 > Energy: 1.07402
+G4WT0 > Edep_Si = 1.06431
+G4WT1 > Edep_Si = 1.07402
+G4WT0 > Energy: 2.11579
+G4WT1 > Energy: 1.32483
+G4WT0 > Edep_Si = 2.11579
+G4WT1 > Edep_Si = 1.32483
+G4WT0 > Energy: 1.27708
+G4WT1 > Energy: 1.78406
+G4WT1 > Edep_Si = 1.78406
+G4WT0 > Edep_Si = 1.27708
+G4WT1 > Energy: 10.8399
+G4WT0 > Energy: 1.14305
+G4WT1 > Edep_Si = 0.828858
+G4WT0 > Edep_Si = 1.14305
+G4WT1 > Energy: 5.25883
+G4WT0 > Energy: 1.63416
+G4WT1 > Edep_Si = 1.46287
+G4WT0 > Edep_Si = 1.63416
+G4WT1 > Energy: 1.5053
+G4WT0 > Energy: 1.07399
+G4WT1 > Edep_Si = 1.5053
+G4WT0 > Edep_Si = 1.07399
+G4WT1 > Energy: 1.11567
+G4WT0 > Energy: 1.00952
+G4WT1 > Edep_Si = 1.11567
+G4WT0 > Edep_Si = 1.00952
+G4WT0 > Energy: 1.03625
+G4WT1 > Energy: 7.25485
+G4WT1 > Edep_Si = 1.03915
+G4WT0 > Edep_Si = 1.03625
+G4WT1 > Energy: 1.35474
+G4WT0 > Energy: 2.74706
+G4WT1 > Edep_Si = 1.35474
+G4WT0 > Edep_Si = 2.74706
+G4WT1 > Energy: 1.22673
+G4WT0 > Energy: 1.07685
+G4WT1 > Edep_Si = 1.22673
+G4WT0 > Edep_Si = 1.07685
+G4WT1 > Energy: 1.16041
+G4WT0 > Energy: 1.25544
+G4WT1 > Edep_Si = 1.16041
+G4WT0 > Edep_Si = 1.25544
+G4WT1 > Energy: 1.21304
+G4WT0 > Energy: 1.0452
+G4WT1 > Edep_Si = 1.21304
+G4WT0 > Edep_Si = 1.0452
+G4WT1 > Energy: 1.81479
+G4WT0 > Energy: 1.25248
+G4WT1 > Edep_Si = 1.81479
+G4WT0 > Edep_Si = 1.25248
+G4WT1 > Energy: 2.15643
+G4WT1 > Edep_Si = 2.15643
+G4WT0 > Energy: 7.93463
+G4WT1 > Energy: 1.19891
+G4WT0 > Edep_Si = 1.06087
+G4WT1 > Edep_Si = 1.19891
+G4WT0 > Energy: 2.1977
+G4WT1 > Energy: 3.21631
+G4WT0 > Edep_Si = 2.1977
+G4WT1 > Edep_Si = 2.87636
+G4WT0 > Energy: 1.01018
+G4WT1 > Energy: 1.38279
+G4WT0 > Edep_Si = 1.01018
+G4WT1 > Edep_Si = 1.38279
+G4WT1 > Energy: 2.86552
+G4WT0 > Energy: 2.79413
+G4WT1 > Edep_Si = 2.86552
+G4WT0 > Edep_Si = 2.79413
+G4WT1 > Energy: 7.94897
+G4WT0 > Energy: 1.14591
+G4WT0 > Edep_Si = 1.14591
+G4WT1 > Edep_Si = 0.97862
+G4WT1 > Energy: 1.07351
+G4WT0 > Energy: 1.40545
+G4WT1 > Edep_Si = 1.07351
+G4WT0 > Edep_Si = 1.40545
+G4WT1 > Energy: 2.97583
+G4WT0 > Energy: 1.31491
+G4WT1 > Edep_Si = 2.97583
+G4WT0 > Edep_Si = 1.31491
+G4WT1 > Energy: 3.79254
+G4WT0 > Energy: 1.51671
+G4WT1 > Edep_Si = 2.04136
+G4WT0 > Edep_Si = 1.51671
+G4WT1 > Energy: 1.33433
+G4WT0 > Energy: 1.38825
+G4WT1 > Edep_Si = 1.33433
+G4WT0 > Edep_Si = 1.38825
+G4WT1 > Energy: 1.04526
+G4WT0 > Energy: 1.04236
+G4WT1 > Edep_Si = 1.04526
+G4WT0 > Edep_Si = 1.04236
+G4WT1 > Energy: 1.6312
+G4WT0 > Energy: 2.79715
+G4WT0 > Edep_Si = 2.79715
+G4WT1 > Edep_Si = 1.6312
+G4WT0 > Energy: 3.54439
+G4WT1 > Energy: 1.34767
+G4WT0 > Edep_Si = 2.25062
+G4WT1 > Edep_Si = 1.34767
+G4WT0 > Energy: 2.10013
+G4WT1 > Energy: 2.07608
+G4WT0 > Edep_Si = 2.10013
+G4WT1 > Edep_Si = 2.07608
+G4WT0 > Energy: 1.17991
+G4WT1 > Energy: 1.60866
+G4WT0 > Edep_Si = 1.17991
+G4WT1 > Edep_Si = 1.60866
+G4WT0 > Energy: 1.3309
+G4WT0 > Edep_Si = 1.3309
+G4WT1 > Energy: 1.1157
+G4WT1 > Edep_Si = 1.1157
+G4WT0 > Energy: 1.15816
+G4WT1 > Energy: 2.74513
+G4WT0 > Edep_Si = 1.15816
+G4WT1 > Edep_Si = 2.74513
+G4WT0 > Energy: 2.66843
+G4WT1 > Energy: 2.24353
+G4WT0 > Edep_Si = 2.66843
+G4WT1 > Edep_Si = 2.24353
+G4WT0 > Energy: 1.42878
+G4WT1 > Energy: 1.41554
+G4WT0 > Edep_Si = 1.42878
+G4WT1 > Edep_Si = 1.41554
+G4WT0 > Energy: 1.07804
+G4WT1 > Energy: 1.10658
+G4WT0 > Edep_Si = 1.07804
+G4WT1 > Edep_Si = 1.10658
+G4WT0 > Energy: 1.9142
+G4WT1 > Energy: 1.53725
+G4WT0 > Edep_Si = 1.9142
+G4WT1 > Edep_Si = 1.53725
+G4WT0 > Energy: 1.1318
+G4WT1 > Energy: 1.90933
+G4WT0 > Edep_Si = 1.1318
+G4WT1 > Edep_Si = 1.90933
+G4WT0 > Energy: 1.07525
+G4WT1 > Energy: 1.2812
+G4WT0 > Edep_Si = 1.07525
+G4WT1 > Edep_Si = 1.2812
+G4WT0 > Energy: 1.66453
+G4WT1 > Energy: 1.28646
+G4WT0 > Edep_Si = 1.66453
+G4WT1 > Edep_Si = 1.28646
+G4WT0 > Energy: 1.42847
+G4WT0 > Edep_Si = 1.42847
+G4WT1 > Energy: 1.02814
+G4WT0 > Energy: 1.11024
+G4WT1 > Edep_Si = 1.02814
+G4WT0 > Edep_Si = 1.11024
+G4WT1 > Energy: 1.83097
+G4WT0 > Energy: 1.01003
+G4WT1 > Edep_Si = 1.83097
+G4WT0 > Edep_Si = 1.01003
+G4WT1 > Energy: 1.42529
+G4WT0 > Energy: 1.16263
+G4WT1 > Edep_Si = 1.42529
+G4WT0 > Edep_Si = 1.16263
+G4WT0 > Energy: 1.96297
+G4WT1 > Energy: 1.51506
+G4WT1 > Edep_Si = 1.51506
+G4WT0 > Edep_Si = 1.96297
+G4WT1 > Energy: 1.10638
+G4WT0 > Energy: 1.08508
+G4WT1 > Edep_Si = 1.10638
+G4WT0 > Edep_Si = 1.08508
+G4WT1 > Energy: 1.27837
+G4WT0 > Energy: 1.65058
+G4WT1 > Edep_Si = 1.27837
+G4WT0 > Edep_Si = 1.65058
+G4WT1 > Energy: 2.08694
+G4WT0 > Energy: 2.17372
+G4WT1 > Edep_Si = 2.08694
+G4WT0 > Edep_Si = 2.17372
+G4WT1 > Energy: 1.37135
+G4WT0 > Energy: 1.23488
+G4WT1 > Edep_Si = 1.37135
+G4WT0 > Edep_Si = 1.23488
+G4WT1 > Energy: 1.95567
+G4WT0 > Energy: 1.86718
+G4WT1 > Edep_Si = 1.95567
+G4WT0 > Edep_Si = 1.86718
+G4WT1 > Energy: 1.59812
+G4WT0 > Energy: 1.63975
+G4WT1 > Edep_Si = 1.59812
+G4WT0 > Edep_Si = 1.63975
+G4WT1 > Energy: 1.09068
+G4WT0 > Energy: 2.27765
+G4WT1 > Edep_Si = 1.09068
+G4WT0 > Edep_Si = 2.27765
+G4WT1 > Energy: 1.24275
+G4WT0 > Energy: 1.33606
+G4WT1 > Edep_Si = 1.24275
+G4WT0 > Edep_Si = 1.33606
+G4WT1 > Energy: 1.0135
+G4WT0 > Energy: 2.02125
+G4WT0 > Edep_Si = 2.02125
+G4WT1 > Edep_Si = 1.0135
+G4WT0 > Energy: 1.63658
+G4WT1 > Energy: 1.1246
+G4WT0 > Edep_Si = 1.63658
+G4WT1 > Edep_Si = 1.1246
+G4WT0 > Energy: 1.18935
+G4WT0 > Edep_Si = 1.18935
+G4WT1 > Energy: 1.49817
+G4WT0 > Energy: 1.14578
+G4WT1 > Edep_Si = 1.49817
+G4WT0 > Edep_Si = 1.14578
+G4WT1 > Energy: 1.41622
+G4WT1 > Edep_Si = 1.41622
+G4WT0 > Energy: 1.52177
+G4WT0 > Edep_Si = 1.52177
+G4WT1 > Energy: 1.17684
+G4WT1 > Edep_Si = 1.17684
+G4WT0 > Energy: 4.4718
+G4WT0 > Edep_Si = 1.74173
+G4WT1 > Energy: 1.00707
+G4WT0 > Energy: 5.69556
+G4WT1 > Edep_Si = 1.00707
+G4WT0 > Edep_Si = 1.3274
+G4WT1 > Energy: 1.13883
+G4WT1 > Edep_Si = 1.13883
+G4WT0 > Energy: 1.44821
+G4WT0 > Edep_Si = 1.44821
+G4WT1 > Energy: 3.44377
+G4WT0 > Energy: 1.79793
+G4WT1 > Edep_Si = 2.42669
+G4WT0 > Edep_Si = 1.79793
+G4WT1 > Energy: 1.58195
+G4WT0 > Energy: 1.10137
+G4WT1 > Edep_Si = 1.58195
+G4WT0 > Edep_Si = 1.10137
+G4WT1 > Energy: 1.02686
+G4WT0 > Energy: 1.2278
+G4WT1 > Edep_Si = 1.02686
+G4WT0 > Edep_Si = 1.2278
+G4WT1 > Energy: 1.51244
+G4WT0 > Energy: 1.10954
+G4WT1 > Edep_Si = 1.51244
+G4WT0 > Edep_Si = 1.10954
+G4WT1 > Energy: 1.98395
+G4WT0 > Energy: 1.31435
+G4WT1 > Edep_Si = 1.98395
+G4WT0 > Edep_Si = 1.31435
+G4WT1 > Energy: 2.16375
+G4WT0 > Energy: 1.08655
+G4WT1 > Edep_Si = 2.16375
+G4WT0 > Edep_Si = 1.08655
+G4WT1 > Energy: 1.6743
+G4WT0 > Energy: 1.0911
+G4WT0 > Edep_Si = 1.0911
+G4WT1 > Edep_Si = 1.6743
+G4WT0 > Energy: 1.26284
+G4WT1 > Energy: 18.1004
+G4WT0 > Edep_Si = 1.26284
+G4WT1 > Edep_Si = 18.1004
+G4WT0 > Energy: 1.2398
+G4WT0 > Edep_Si = 1.2398
+G4WT1 > Energy: 1.59065
+G4WT1 > Edep_Si = 1.59065
+G4WT0 > Energy: 1.98531
+G4WT0 > Edep_Si = 1.98531
+G4WT1 > Energy: 2.16476
+G4WT0 > Energy: 1.17207
+G4WT1 > Edep_Si = 2.16476
+G4WT0 > Edep_Si = 1.17207
+G4WT1 > Energy: 1.31171
+G4WT1 > Edep_Si = 1.31171
+G4WT0 > Energy: 1.01991
+G4WT0 > Edep_Si = 1.01991
+G4WT1 > Energy: 2.01967
+G4WT1 > Edep_Si = 2.01967
+G4WT0 > Energy: 1.55039
+G4WT0 > Edep_Si = 1.55039
+G4WT1 > Energy: 1.28
+G4WT0 > Energy: 3.66575
+G4WT1 > Edep_Si = 1.28
+G4WT0 > Edep_Si = 2.12281
+G4WT1 > Energy: 2.04804
+G4WT0 > Energy: 1.82227
+G4WT1 > Edep_Si = 2.04804
+G4WT0 > Edep_Si = 1.82227
+G4WT1 > Energy: 1.94728
+G4WT0 > Energy: 1.04162
+G4WT1 > Edep_Si = 1.94728
+G4WT0 > Edep_Si = 1.04162
+G4WT1 > Energy: 1.39827
+G4WT0 > Energy: 1.91455
+G4WT1 > Edep_Si = 1.39827
+G4WT0 > Edep_Si = 1.91455
+G4WT1 > Energy: 1.02955
+G4WT0 > Energy: 1.40998
+G4WT1 > Edep_Si = 1.02955
+G4WT0 > Edep_Si = 1.40998
+G4WT1 > Energy: 4.86035
+G4WT0 > Energy: 3.01397
+G4WT1 > Edep_Si = 4.86035
+G4WT0 > Edep_Si = 3.01397
+G4WT1 > Energy: 1.83794
+G4WT0 > Energy: 1.77542
+G4WT1 > Edep_Si = 1.83794
+G4WT0 > Edep_Si = 1.77542
+G4WT1 > Energy: 1.02738
+G4WT0 > Energy: 1.1004
+G4WT1 > Edep_Si = 1.02738
+G4WT0 > Edep_Si = 1.1004
+G4WT0 > Energy: 1.48645
+G4WT1 > Energy: 1.20477
+G4WT0 > Edep_Si = 1.48645
+G4WT1 > Edep_Si = 1.20477
+G4WT0 > Energy: 1.28109
+G4WT1 > Energy: 1.62641
+G4WT0 > Edep_Si = 1.28109
+G4WT1 > Edep_Si = 1.62641
+G4WT1 > Energy: 1.11941
+G4WT0 > Energy: 2.21073
+G4WT0 > Edep_Si = 2.21073
+G4WT1 > Edep_Si = 1.11941
+G4WT0 > Energy: 1.04373
+G4WT1 > Energy: 6.03556
+G4WT1 > Edep_Si = 1.35501
+G4WT0 > Edep_Si = 1.04373
+G4WT1 > Energy: 5.11992
+G4WT0 > Energy: 1.40243
 G4WT1 > Edep_Si = 1.49715
-G4WT0 > Edep_Si = 2.83594
-G4WT1 > Energy: 1.33778
-G4WT0 > Energy: 1.41077
-G4WT0 > Edep_Si = 1.41077
-G4WT1 > Edep_Si = 1.33778
-G4WT0 > Energy: 1.06429
+G4WT0 > Edep_Si = 1.40243
+G4WT0 > Energy: 2.30695
+G4WT1 > Energy: 1.10892
+G4WT0 > Edep_Si = 2.30695
+G4WT1 > Edep_Si = 1.10892
+G4WT0 > Energy: 2.94394
+G4WT1 > Energy: 1.60163
+G4WT0 > Edep_Si = 2.94394
+G4WT1 > Edep_Si = 1.60163
+G4WT0 > Energy: 1.60286
+G4WT1 > Energy: 1.0869
+G4WT0 > Edep_Si = 1.60286
+G4WT1 > Edep_Si = 1.0869
+G4WT1 > Energy: 1.15566
+G4WT0 > Energy: 3.22817
+G4WT1 > Edep_Si = 1.15566
+G4WT0 > Edep_Si = 2.8671
+G4WT1 > Energy: 1.72631
+G4WT0 > Energy: 1.34557
+G4WT1 > Edep_Si = 1.72631
+G4WT0 > Edep_Si = 1.34557
+G4WT1 > Energy: 13.4194
+G4WT0 > Energy: 2.82252
+G4WT1 > Edep_Si = 0.615361
+G4WT0 > Edep_Si = 2.82252
+G4WT1 > Energy: 1.21711
+G4WT0 > Energy: 2.5638
+G4WT1 > Edep_Si = 1.21711
+G4WT0 > Edep_Si = 2.5638
+G4WT1 > Energy: 1.0727
+G4WT0 > Energy: 1.20259
+G4WT1 > Edep_Si = 1.0727
+G4WT0 > Edep_Si = 1.20259
+G4WT1 > Energy: 2.41247
+G4WT0 > Energy: 2.65809
+G4WT1 > Edep_Si = 2.41247
+G4WT0 > Edep_Si = 2.65809
+G4WT1 > Energy: 1.02237
+G4WT0 > Energy: 1.01786
+G4WT1 > Edep_Si = 1.02237
+G4WT0 > Edep_Si = 1.01786
+G4WT1 > Energy: 1.55077
+G4WT0 > Energy: 1.02483
+G4WT1 > Edep_Si = 1.55077
+G4WT0 > Edep_Si = 1.02483
+G4WT1 > Energy: 1.77128
+G4WT0 > Energy: 1.03469
+G4WT1 > Edep_Si = 1.77128
+G4WT0 > Edep_Si = 1.03469
+G4WT1 > Energy: 1.05491
+G4WT1 > Edep_Si = 1.05491
+G4WT0 > Energy: 1.05332
+G4WT0 > Edep_Si = 1.05332
+G4WT1 > Energy: 3.17478
+G4WT1 > Edep_Si = 3.09835
+G4WT0 > Energy: 1.68315
+G4WT1 > Energy: 1.26214
+G4WT0 > Edep_Si = 1.68315
+G4WT1 > Edep_Si = 1.26214
+G4WT0 > Energy: 1.28801
+G4WT1 > Energy: 2.42275
+G4WT0 > Edep_Si = 1.28801
+G4WT1 > Edep_Si = 2.42275
+G4WT0 > Energy: 1.73373
+G4WT1 > Energy: 1.06054
+G4WT0 > Edep_Si = 1.73373
+G4WT1 > Edep_Si = 1.06054
+G4WT0 > Energy: 2.23257
+G4WT1 > Energy: 1.25008
+G4WT0 > Edep_Si = 2.23257
+G4WT1 > Edep_Si = 1.25008
+G4WT0 > Energy: 1.06379
+G4WT1 > Energy: 1.00316
+G4WT0 > Edep_Si = 1.06379
+G4WT1 > Edep_Si = 1.00316
+G4WT0 > Energy: 3.38
+G4WT1 > Energy: 8.93492
+G4WT0 > Edep_Si = 2.58064
+G4WT1 > Edep_Si = 0.885118
+G4WT0 > Energy: 1.23928
+G4WT1 > Energy: 1.31109
+G4WT0 > Edep_Si = 1.23928
+G4WT1 > Edep_Si = 1.31109
+G4WT0 > Energy: 1.08083
+G4WT1 > Energy: 1.43526
+G4WT1 > Edep_Si = 1.43526
+G4WT0 > Edep_Si = 1.08083
+G4WT1 > Energy: 3.34372
+G4WT0 > Energy: 3.46521
+G4WT1 > Edep_Si = 2.63295
+G4WT0 > Edep_Si = 2.42598
+G4WT1 > Energy: 4.90248
+G4WT0 > Energy: 1.6288
+G4WT1 > Edep_Si = 4.90248
+G4WT0 > Edep_Si = 1.6288
+G4WT1 > Energy: 1.12792
+G4WT0 > Energy: 1.14108
+G4WT1 > Edep_Si = 1.12792
+G4WT0 > Edep_Si = 1.14108
+G4WT1 > Energy: 1.30528
+G4WT1 > Edep_Si = 1.30528
+G4WT0 > Energy: 1.03502
+G4WT0 > Edep_Si = 1.03502
+G4WT1 > Energy: 1.0913
+G4WT1 > Edep_Si = 1.0913
+G4WT0 > Energy: 1.93459
+G4WT0 > Edep_Si = 1.93459
+G4WT1 > Energy: 1.25595
+G4WT1 > Edep_Si = 1.25595
+G4WT0 > Energy: 1.37614
+G4WT0 > Edep_Si = 1.37614
+G4WT1 > Energy: 2.08609
+G4WT1 > Edep_Si = 2.08609
+G4WT0 > Energy: 1.49588
+G4WT0 > Edep_Si = 1.49588
+G4WT1 > Energy: 1.33638
+G4WT1 > Edep_Si = 1.33638
+G4WT0 > Energy: 1.40639
+G4WT0 > Edep_Si = 1.40639
+G4WT1 > Energy: 1.27796
+G4WT0 > Energy: 3.44045
+G4WT1 > Edep_Si = 1.27796
+G4WT0 > Edep_Si = 2.40764
+G4WT1 > Energy: 3.4118
+G4WT0 > Energy: 1.00422
+G4WT1 > Edep_Si = 2.50227
+G4WT0 > Edep_Si = 1.00422
+G4WT1 > Energy: 2.28235
+G4WT0 > Energy: 4.3671
+G4WT1 > Edep_Si = 2.28235
+G4WT0 > Edep_Si = 1.75207
+G4WT1 > Energy: 1.10952
+G4WT0 > Energy: 1.03146
+G4WT1 > Edep_Si = 1.10952
+G4WT0 > Edep_Si = 1.03146
+G4WT1 > Energy: 1.09428
+G4WT0 > Energy: 1.73254
+G4WT1 > Edep_Si = 1.09428
+G4WT0 > Edep_Si = 1.73254
+G4WT0 > Energy: 1.17225
+G4WT0 > Edep_Si = 1.17225
+G4WT1 > Energy: 1.17426
+G4WT0 > Energy: 1.27141
+G4WT1 > Edep_Si = 1.17426
+G4WT0 > Edep_Si = 1.27141
+G4WT1 > Energy: 1.35376
+G4WT0 > Energy: 1.82515
+G4WT1 > Edep_Si = 1.35376
+G4WT0 > Edep_Si = 1.82515
+G4WT1 > Energy: 1.46346
+G4WT0 > Energy: 1.03329
+G4WT1 > Edep_Si = 1.46346
+G4WT0 > Edep_Si = 1.03329
+G4WT1 > Energy: 1.88975
+G4WT0 > Energy: 1.61912
+G4WT0 > Edep_Si = 1.61912
+G4WT1 > Edep_Si = 1.88975
+G4WT0 > Energy: 1.35421
+G4WT1 > Energy: 2.13841
+G4WT0 > Edep_Si = 1.35421
+G4WT1 > Edep_Si = 2.13841
+G4WT0 > Energy: 1.33858
+G4WT1 > Energy: 1.24461
+G4WT0 > Edep_Si = 1.33858
+G4WT1 > Edep_Si = 1.24461
+G4WT0 > Energy: 1.00063
+G4WT0 > Edep_Si = 1.00063
+G4WT1 > Energy: 1.60069
+G4WT1 > Edep_Si = 1.60069
+G4WT0 > Energy: 2.70624
+G4WT0 > Edep_Si = 2.70624
+G4WT1 > Energy: 1.08137
+G4WT1 > Edep_Si = 1.08137
+G4WT0 > Energy: 1.00984
+G4WT0 > Edep_Si = 1.00984
+G4WT1 > Energy: 1.17171
+G4WT0 > Energy: 1.69628
+G4WT1 > Edep_Si = 1.17171
+G4WT0 > Edep_Si = 1.69628
+G4WT1 > Energy: 1.51565
+G4WT0 > Energy: 2.10715
+G4WT1 > Edep_Si = 1.51565
+G4WT0 > Edep_Si = 2.10715
+G4WT0 > Energy: 1.86625
+G4WT1 > Energy: 1.10674
+G4WT1 > Edep_Si = 1.10674
+G4WT0 > Edep_Si = 1.86625
+G4WT1 > Energy: 1.03165
+G4WT0 > Energy: 1.2909
+G4WT1 > Edep_Si = 1.03165
+G4WT0 > Edep_Si = 1.2909
+G4WT1 > Energy: 1.37228
+G4WT0 > Energy: 1.04976
+G4WT1 > Edep_Si = 1.37228
+G4WT0 > Edep_Si = 1.04976
+G4WT0 > Energy: 1.17871
+G4WT1 > Energy: 1.09599
+G4WT1 > Edep_Si = 1.09599
+G4WT0 > Edep_Si = 1.17871
+G4WT1 > Energy: 1.20012
+G4WT0 > Energy: 1.11636
+G4WT1 > Edep_Si = 1.20012
+G4WT0 > Edep_Si = 1.11636
+G4WT1 > Energy: 2.13235
+G4WT0 > Energy: 1.07364
+G4WT1 > Edep_Si = 2.13235
+G4WT0 > Edep_Si = 1.07364
+G4WT0 > Energy: 1.61837
+G4WT1 > Energy: 1.242
+G4WT0 > Edep_Si = 1.61837
+G4WT1 > Edep_Si = 1.242
+G4WT0 > Energy: 1.14061
+G4WT1 > Energy: 1.01796
+G4WT0 > Edep_Si = 1.14061
+G4WT1 > Edep_Si = 1.01796
+G4WT0 > Energy: 1.17338
+G4WT1 > Energy: 1.12429
+G4WT0 > Edep_Si = 1.17338
+G4WT1 > Edep_Si = 1.12429
+G4WT0 > Energy: 1.73608
+G4WT1 > Energy: 4.68048
+G4WT0 > Edep_Si = 1.73608
+G4WT1 > Edep_Si = 1.62339
+G4WT0 > Energy: 1.27657
+G4WT1 > Energy: 1.97938
+G4WT0 > Edep_Si = 1.27657
+G4WT1 > Edep_Si = 1.97938
+G4WT0 > Energy: 1.3387
+G4WT1 > Energy: 1.23795
+G4WT0 > Edep_Si = 1.3387
+G4WT1 > Edep_Si = 1.23795
+G4WT0 > Energy: 1.15046
+G4WT0 > Edep_Si = 1.15046
+G4WT1 > Energy: 1.19017
+G4WT1 > Edep_Si = 1.19017
+G4WT0 > Energy: 1.65727
+G4WT0 > Edep_Si = 1.65727
+G4WT1 > Energy: 3.96466
+G4WT0 > Energy: 1.60655
+G4WT1 > Edep_Si = 2.01675
+G4WT0 > Edep_Si = 1.60655
+G4WT1 > Energy: 1.10864
+G4WT0 > Energy: 1.18654
+G4WT1 > Edep_Si = 1.10864
+G4WT0 > Edep_Si = 1.18654
+G4WT1 > Energy: 1.22889
+G4WT0 > Energy: 1.60185
+G4WT1 > Edep_Si = 1.22889
+G4WT0 > Edep_Si = 1.60185
+G4WT1 > Energy: 1.17307
+G4WT0 > Energy: 2.04589
+G4WT1 > Edep_Si = 1.17307
+G4WT0 > Edep_Si = 2.04589
+G4WT0 > Energy: 25.9954
+G4WT1 > Energy: 2.11217
+G4WT1 > Edep_Si = 2.11217
+G4WT0 > Edep_Si = 25.9954
+G4WT1 > Energy: 4.46579
+G4WT0 > Energy: 1.24044
+G4WT1 > Edep_Si = 1.69593
+G4WT0 > Edep_Si = 1.24044
+G4WT1 > Energy: 1.52072
+G4WT0 > Energy: 1.58093
+G4WT1 > Edep_Si = 1.52072
+G4WT0 > Edep_Si = 1.58093
+G4WT1 > Energy: 1.26205
+G4WT0 > Energy: 2.05112
+G4WT1 > Edep_Si = 1.26205
+G4WT0 > Edep_Si = 2.05112
+G4WT1 > Energy: 4.47603
+G4WT0 > Energy: 1.41598
+G4WT1 > Edep_Si = 1.78255
+G4WT0 > Edep_Si = 1.41598
+G4WT1 > Energy: 2.84557
+G4WT0 > Energy: 1.34126
+G4WT1 > Edep_Si = 2.84557
+G4WT0 > Edep_Si = 1.34126
+G4WT0 > Energy: 1.39693
+G4WT1 > Energy: 1.32685
+G4WT0 > Edep_Si = 1.39693
+G4WT1 > Edep_Si = 1.32685
+G4WT0 > Energy: 5.60748
+G4WT1 > Energy: 1.60885
+G4WT1 > Edep_Si = 1.60885
+G4WT0 > Edep_Si = 1.38783
+G4WT1 > Energy: 2.49302
+G4WT0 > Energy: 1.69022
+G4WT1 > Edep_Si = 2.49302
+G4WT0 > Edep_Si = 1.69022
+G4WT1 > Energy: 1.28645
+G4WT1 > Edep_Si = 1.28645
+G4WT0 > Energy: 1.32898
+G4WT0 > Edep_Si = 1.32898
+G4WT1 > Energy: 1.21305
+G4WT1 > Edep_Si = 1.21305
+G4WT0 > Energy: 1.25761
+G4WT1 > Energy: 1.77288
+G4WT0 > Edep_Si = 1.25761
+G4WT1 > Edep_Si = 1.77288
+G4WT1 > Energy: 1.44719
+G4WT0 > Energy: 1.03135
+G4WT1 > Edep_Si = 1.44719
+G4WT0 > Edep_Si = 1.03135
+G4WT1 > Energy: 1.17644
+G4WT1 > Edep_Si = 1.17644
+G4WT1 > Energy: 1.95442
+G4WT1 > Edep_Si = 1.95442
+G4WT0 > Energy: 2.26146
+G4WT1 > Energy: 1.28237
+G4WT1 > Edep_Si = 1.28237
+G4WT0 > Edep_Si = 2.26146
+G4WT1 > Energy: 1.54039
+G4WT0 > Energy: 1.41866
+G4WT1 > Edep_Si = 1.54039
+G4WT0 > Edep_Si = 1.41866
+G4WT1 > Energy: 1.1931
+G4WT0 > Energy: 1.23032
+G4WT1 > Edep_Si = 1.1931
+G4WT0 > Edep_Si = 1.23032
+G4WT1 > Energy: 13.2462
+G4WT0 > Energy: 1.09706
+G4WT1 > Edep_Si = 0.561333
+G4WT0 > Edep_Si = 1.09706
+G4WT1 > Energy: 1.56584
+G4WT0 > Energy: 1.02836
+G4WT1 > Edep_Si = 1.56584
+G4WT0 > Edep_Si = 1.02836
+G4WT1 > Energy: 1.84435
+G4WT0 > Energy: 2.8371
+G4WT1 > Edep_Si = 1.84435
+G4WT0 > Edep_Si = 2.8371
+G4WT1 > Energy: 1.07273
+G4WT0 > Energy: 1.00324
+G4WT0 > Edep_Si = 1.00324
+G4WT1 > Edep_Si = 1.07273
+G4WT0 > Energy: 3.53297
+G4WT1 > Energy: 1.81879
+G4WT1 > Edep_Si = 1.81879
+G4WT0 > Edep_Si = 2.3409
+G4WT1 > Energy: 1.99954
+G4WT0 > Energy: 1.00144
+G4WT0 > Edep_Si = 1.00144
+G4WT1 > Edep_Si = 1.99954
+G4WT0 > Energy: 1.0393
+G4WT1 > Energy: 1.02465
+G4WT0 > Edep_Si = 1.0393
+G4WT1 > Edep_Si = 1.02465
+G4WT0 > Energy: 5.53597
+G4WT1 > Energy: 2.0047
+G4WT0 > Edep_Si = 1.4087
+G4WT1 > Edep_Si = 2.0047
+G4WT0 > Energy: 1.09588
+G4WT0 > Edep_Si = 1.09588
+G4WT1 > Energy: 1.35795
+G4WT0 > Energy: 2.17251
+G4WT1 > Edep_Si = 1.35795
+G4WT0 > Edep_Si = 2.17251
+G4WT1 > Energy: 2.90919
+G4WT1 > Edep_Si = 2.90919
+G4WT0 > Energy: 1.78038
+G4WT1 > Energy: 1.69614
+G4WT0 > Edep_Si = 1.78038
+G4WT1 > Edep_Si = 1.69614
+G4WT0 > Energy: 1.29572
+G4WT1 > Energy: 1.78924
+G4WT0 > Edep_Si = 1.29572
+G4WT1 > Edep_Si = 1.78924
+G4WT0 > Energy: 1.22785
+G4WT1 > Energy: 1.23086
+G4WT1 > Edep_Si = 1.23086
+G4WT0 > Edep_Si = 1.22785
+G4WT1 > Energy: 1.44071
+G4WT0 > Energy: 1.05588
+G4WT1 > Edep_Si = 1.44071
+G4WT0 > Edep_Si = 1.05588
+G4WT1 > Energy: 1.03865
+G4WT0 > Energy: 3.74752
+G4WT1 > Edep_Si = 1.03865
+G4WT0 > Edep_Si = 2.11988
+G4WT1 > Energy: 3.33878
+G4WT0 > Energy: 2.15837
+G4WT1 > Edep_Si = 2.59711
+G4WT0 > Edep_Si = 2.15837
+G4WT1 > Energy: 1.48231
+G4WT0 > Energy: 1.05898
+G4WT1 > Edep_Si = 1.48231
+G4WT0 > Edep_Si = 1.05898
+G4WT1 > Energy: 1.05703
+G4WT0 > Energy: 1.30937
+G4WT1 > Edep_Si = 1.05703
+G4WT0 > Edep_Si = 1.30937
+G4WT1 > Energy: 1.79001
+G4WT0 > Energy: 2.78974
+G4WT1 > Edep_Si = 1.79001
+G4WT0 > Edep_Si = 2.78974
+G4WT1 > Energy: 1.55583
+G4WT0 > Energy: 2.08779
+G4WT1 > Edep_Si = 1.55583
+G4WT0 > Edep_Si = 2.08779
+G4WT1 > Energy: 1.0685
+G4WT0 > Energy: 1.12339
+G4WT0 > Edep_Si = 1.12339
+G4WT1 > Edep_Si = 1.0685
+G4WT0 > Energy: 3.2795
+G4WT1 > Energy: 1.02254
+G4WT0 > Edep_Si = 2.64029
+G4WT1 > Edep_Si = 1.02254
+G4WT0 > Energy: 1.29976
+G4WT0 > Edep_Si = 1.29976
+G4WT1 > Energy: 1.32696
+G4WT0 > Energy: 1.38909
+G4WT1 > Edep_Si = 1.32696
+G4WT0 > Edep_Si = 1.38909
+G4WT1 > Energy: 2.21877
+G4WT0 > Energy: 2.69356
+G4WT1 > Edep_Si = 2.21877
+G4WT0 > Edep_Si = 2.69356
+G4WT1 > Energy: 1.06844
+G4WT0 > Energy: 1.29953
+G4WT1 > Edep_Si = 1.06844
+G4WT0 > Edep_Si = 1.29953
+G4WT1 > Energy: 1.06743
+G4WT0 > Energy: 1.69403
+G4WT1 > Edep_Si = 1.06743
+G4WT0 > Edep_Si = 1.69403
+G4WT1 > Energy: 1.24171
+G4WT0 > Energy: 2.02019
+G4WT1 > Edep_Si = 1.24171
+G4WT0 > Edep_Si = 2.02019
+G4WT1 > Energy: 1.30162
+G4WT0 > Energy: 1.98866
+G4WT1 > Edep_Si = 1.30162
+G4WT0 > Edep_Si = 1.98866
+G4WT1 > Energy: 1.31079
+G4WT0 > Energy: 1.21687
+G4WT1 > Edep_Si = 1.31079
+G4WT0 > Edep_Si = 1.21687
 G4WT1 > Energy: 1.2211
 G4WT1 > Edep_Si = 1.2211
-G4WT0 > Edep_Si = 1.06429
-G4WT1 > Energy: 1.01241
-G4WT0 > Energy: 2.06026
-G4WT1 > Edep_Si = 1.01241
-G4WT0 > Edep_Si = 2.06026
-G4WT1 > Energy: 1.15785
-G4WT1 > Edep_Si = 1.15785
-G4WT0 > Energy: 1.27026
-G4WT1 > Energy: 3.18848
-G4WT0 > Edep_Si = 1.27026
-G4WT1 > Edep_Si = 2.9475
-G4WT0 > Energy: 2.13224
-G4WT1 > Energy: 1.38845
-G4WT0 > Edep_Si = 2.13224
-G4WT1 > Edep_Si = 1.38845
-G4WT0 > Energy: 1.03689
-G4WT1 > Energy: 1.82482
-G4WT0 > Edep_Si = 1.03689
-G4WT1 > Edep_Si = 1.82482
-G4WT0 > Energy: 1.11246
-G4WT1 > Energy: 1.75946
-G4WT0 > Edep_Si = 1.11246
-G4WT1 > Edep_Si = 1.75946
-G4WT0 > Energy: 1.32837
-G4WT1 > Energy: 3.3283
-G4WT0 > Edep_Si = 1.32837
-G4WT1 > Edep_Si = 2.65529
-G4WT0 > Energy: 1.28417
-G4WT1 > Energy: 1.01054
-G4WT0 > Edep_Si = 1.28417
-G4WT1 > Edep_Si = 1.01054
-G4WT0 > Energy: 1.32412
-G4WT1 > Energy: 1.17513
-G4WT0 > Edep_Si = 1.32412
-G4WT1 > Edep_Si = 1.17513
-G4WT1 > Energy: 1.03931
-G4WT0 > Energy: 2.24441
-G4WT0 > Edep_Si = 2.24441
-G4WT1 > Edep_Si = 1.03931
-G4WT0 > Energy: 1.39328
-G4WT1 > Energy: 4.42067
-G4WT0 > Edep_Si = 1.39328
-G4WT1 > Edep_Si = 1.76957
-G4WT0 > Energy: 1.64128
-G4WT1 > Energy: 1.426
-G4WT0 > Edep_Si = 1.64128
-G4WT1 > Edep_Si = 1.426
-G4WT1 > Energy: 1.1495
-G4WT0 > Energy: 4.77664
-G4WT1 > Edep_Si = 1.1495
-G4WT0 > Edep_Si = 4.77664
-G4WT1 > Energy: 1.37289
-G4WT0 > Energy: 1.15884
-G4WT1 > Edep_Si = 1.37289
-G4WT0 > Edep_Si = 1.15884
-G4WT0 > Energy: 1.03617
-G4WT1 > Energy: 1.01132
-G4WT0 > Edep_Si = 1.03617
-G4WT1 > Edep_Si = 1.01132
-G4WT1 > Energy: 2.2461
-G4WT0 > Energy: 1.17749
-G4WT1 > Edep_Si = 2.2461
-G4WT0 > Edep_Si = 1.17749
-G4WT0 > Energy: 2.37241
-G4WT1 > Energy: 1.15507
-G4WT0 > Edep_Si = 2.37241
-G4WT1 > Edep_Si = 1.15507
-G4WT0 > Energy: 1.15798
-G4WT1 > Energy: 1.7694
-G4WT0 > Edep_Si = 1.15798
-G4WT1 > Edep_Si = 1.7694
-G4WT0 > Energy: 1.13836
-G4WT0 > Edep_Si = 1.13836
-G4WT0 > Energy: 1.27327
-G4WT1 > Energy: 2.37368
-G4WT0 > Edep_Si = 1.27327
-G4WT0 > Energy: 1.11978
-G4WT1 > Edep_Si = 2.37368
-G4WT0 > Edep_Si = 1.11978
-G4WT1 > Energy: 1.41251
-G4WT0 > Energy: 1.18813
-G4WT0 > Edep_Si = 1.18813
-G4WT1 > Edep_Si = 1.41251
-G4WT0 > Energy: 2.95174
-G4WT0 > Edep_Si = 2.95174
-G4WT1 > Energy: 1.13596
-G4WT1 > Edep_Si = 1.13596
-G4WT0 > Energy: 1.05709
-G4WT0 > Edep_Si = 1.05709
-G4WT1 > Energy: 1.36638
-G4WT0 > Energy: 1.45043
-G4WT1 > Edep_Si = 1.36638
-G4WT0 > Edep_Si = 1.45043
-G4WT1 > Energy: 1.13864
-G4WT0 > Energy: 2.22331
-G4WT0 > Edep_Si = 2.22331
-G4WT1 > Edep_Si = 1.13864
-G4WT0 > Energy: 2.21253
-G4WT0 > Edep_Si = 2.21253
-G4WT1 > Energy: 4.60015
-G4WT0 > Energy: 1.48818
-G4WT1 > Edep_Si = 1.66313
-G4WT0 > Edep_Si = 1.48818
-G4WT1 > Energy: 1.01879
-G4WT0 > Energy: 1.48359
-G4WT1 > Edep_Si = 1.01879
-G4WT0 > Edep_Si = 1.48359
-G4WT0 > Energy: 2.09603
-G4WT1 > Energy: 1.03977
-G4WT0 > Edep_Si = 2.09603
-G4WT1 > Edep_Si = 1.03977
-G4WT0 > Energy: 3.19092
-G4WT0 > Edep_Si = 2.94385
-G4WT0 > Energy: 1.51144
-G4WT1 > Energy: 1.14192
-G4WT0 > Edep_Si = 1.51144
-G4WT1 > Edep_Si = 1.14192
-G4WT0 > Energy: 1.20537
-G4WT1 > Energy: 1.91004
-G4WT0 > Edep_Si = 1.20537
-G4WT1 > Edep_Si = 1.91004
-G4WT0 > Energy: 1.12487
-G4WT0 > Edep_Si = 1.12487
-G4WT1 > Energy: 1.65113
-G4WT0 > Energy: 1.76549
-G4WT1 > Edep_Si = 1.65113
-G4WT0 > Edep_Si = 1.76549
-G4WT1 > Energy: 1.01999
-G4WT0 > Energy: 1.09138
-G4WT1 > Edep_Si = 1.01999
-G4WT0 > Edep_Si = 1.09138
-G4WT1 > Energy: 2.17212
-G4WT0 > Energy: 1.6425
-G4WT1 > Edep_Si = 2.17212
-G4WT0 > Edep_Si = 1.6425
-G4WT1 > Energy: 1.00386
-G4WT0 > Energy: 1.85659
-G4WT1 > Edep_Si = 1.00386
-G4WT0 > Edep_Si = 1.85659
-G4WT0 > Energy: 1.10499
-G4WT1 > Energy: 1.91982
-G4WT1 > Edep_Si = 1.91982
-G4WT0 > Edep_Si = 1.10499
-G4WT1 > Energy: 2.46405
-G4WT0 > Energy: 1.19358
-G4WT1 > Edep_Si = 2.46405
-G4WT0 > Edep_Si = 1.19358
-G4WT1 > Energy: 1.03845
-G4WT0 > Energy: 1.02478
-G4WT1 > Edep_Si = 1.03845
-G4WT0 > Edep_Si = 1.02478
-G4WT1 > Energy: 1.1999
-G4WT0 > Energy: 2.00402
-G4WT1 > Edep_Si = 1.1999
-G4WT0 > Edep_Si = 2.00402
-G4WT1 > Energy: 1.3685
-G4WT0 > Energy: 1.16213
-G4WT1 > Edep_Si = 1.3685
-G4WT0 > Edep_Si = 1.16213
-G4WT1 > Energy: 1.65565
-G4WT0 > Energy: 4.81144
-G4WT1 > Edep_Si = 1.65565
-G4WT0 > Edep_Si = 1.65346
-G4WT1 > Energy: 1.01802
-G4WT0 > Energy: 1.5935
-G4WT1 > Edep_Si = 1.01802
-G4WT0 > Edep_Si = 1.5935
-G4WT1 > Energy: 1.0285
-G4WT0 > Energy: 1.28564
-G4WT0 > Edep_Si = 1.28564
-G4WT1 > Edep_Si = 1.0285
-G4WT0 > Energy: 1.60453
-G4WT1 > Energy: 2.09078
-G4WT0 > Edep_Si = 1.60453
-G4WT1 > Edep_Si = 2.09078
-G4WT0 > Energy: 1.38539
-G4WT1 > Energy: 1.13137
-G4WT0 > Edep_Si = 1.38539
-G4WT1 > Edep_Si = 1.13137
-G4WT0 > Energy: 1.10854
-G4WT1 > Energy: 1.33691
-G4WT0 > Edep_Si = 1.10854
-G4WT1 > Edep_Si = 1.33691
-G4WT0 > Energy: 1.19157
-G4WT1 > Energy: 1.29096
-G4WT0 > Edep_Si = 1.19157
-G4WT1 > Edep_Si = 1.29096
-G4WT0 > Energy: 1.80987
-G4WT0 > Edep_Si = 1.80987
-G4WT1 > Energy: 2.04933
-G4WT0 > Energy: 1.30148
-G4WT1 > Edep_Si = 2.04933
-G4WT0 > Edep_Si = 1.30148
-G4WT1 > Energy: 2.05848
-G4WT0 > Energy: 1.01396
-G4WT1 > Edep_Si = 2.05848
-G4WT0 > Edep_Si = 1.01396
-G4WT1 > Energy: 1.34261
-G4WT0 > Energy: 1.0773
-G4WT0 > Edep_Si = 1.0773
-G4WT1 > Edep_Si = 1.34261
-G4WT0 > Energy: 1.55367
-G4WT1 > Energy: 1.74482
-G4WT0 > Edep_Si = 1.55367
-G4WT1 > Edep_Si = 1.74482
-G4WT0 > Energy: 2.777
-G4WT1 > Energy: 2.09808
-G4WT0 > Edep_Si = 2.777
-G4WT1 > Edep_Si = 2.09808
-G4WT0 > Energy: 2.18787
-G4WT1 > Energy: 1.94935
-G4WT0 > Edep_Si = 2.18787
-G4WT1 > Edep_Si = 1.94935
-G4WT0 > Energy: 1.30791
-G4WT0 > Edep_Si = 1.30791
-G4WT1 > Energy: 1.02433
-G4WT0 > Energy: 1.329
-G4WT1 > Edep_Si = 1.02433
-G4WT0 > Edep_Si = 1.329
-G4WT1 > Energy: 1.23199
-G4WT0 > Energy: 3.42476
-G4WT1 > Edep_Si = 1.23199
-G4WT0 > Edep_Si = 2.37399
-G4WT1 > Energy: 1.30065
-G4WT0 > Energy: 1.30946
-G4WT0 > Edep_Si = 1.30946
-G4WT1 > Edep_Si = 1.30065
-G4WT1 > Energy: 1.42358
-G4WT0 > Energy: 2.11606
-G4WT0 > Edep_Si = 2.11606
-G4WT1 > Edep_Si = 1.42358
-G4WT0 > Energy: 1.46337
-G4WT1 > Energy: 1.41377
-G4WT0 > Edep_Si = 1.46337
-G4WT1 > Edep_Si = 1.41377
-G4WT0 > Energy: 1.08769
-G4WT0 > Edep_Si = 1.08769
-G4WT1 > Energy: 1.64192
-G4WT0 > Energy: 1.25108
-G4WT1 > Edep_Si = 1.64192
-G4WT0 > Edep_Si = 1.25108
-G4WT1 > Energy: 1.23886
-G4WT0 > Energy: 1.05535
-G4WT1 > Edep_Si = 1.23886
-G4WT0 > Edep_Si = 1.05535
-G4WT1 > Energy: 1.33633
-G4WT1 > Edep_Si = 1.33633
-G4WT0 > Energy: 1.07678
-G4WT0 > Edep_Si = 1.07678
-G4WT1 > Energy: 1.63526
-G4WT1 > Edep_Si = 1.63526
-G4WT0 > Energy: 2.11901
-G4WT0 > Edep_Si = 2.11901
-G4WT1 > Energy: 1.60045
-G4WT0 > Energy: 1.31287
-G4WT1 > Edep_Si = 1.60045
-G4WT0 > Edep_Si = 1.31287
-G4WT1 > Energy: 3.45258
-G4WT0 > Energy: 4.19171
-G4WT1 > Edep_Si = 2.35327
-G4WT0 > Edep_Si = 1.7592
-G4WT1 > Energy: 1.03692
-G4WT0 > Energy: 1.05305
-G4WT0 > Edep_Si = 1.05305
-G4WT1 > Edep_Si = 1.03692
-G4WT0 > Energy: 1.70258
-G4WT1 > Energy: 3.25487
-G4WT0 > Edep_Si = 1.70258
-G4WT1 > Edep_Si = 2.76626
-G4WT0 > Energy: 1.35395
-G4WT1 > Energy: 1.12064
-G4WT1 > Edep_Si = 1.12064
-G4WT0 > Edep_Si = 1.35395
-G4WT1 > Energy: 2.94388
-G4WT0 > Energy: 1.07936
-G4WT1 > Edep_Si = 2.94388
-G4WT0 > Edep_Si = 1.07936
-G4WT0 > Energy: 1.14085
-G4WT1 > Energy: 1.6836
-G4WT0 > Edep_Si = 1.14085
-G4WT1 > Edep_Si = 1.6836
-G4WT1 > Energy: 1.22737
-G4WT0 > Energy: 1.05136
-G4WT1 > Edep_Si = 1.22737
-G4WT0 > Edep_Si = 1.05136
-G4WT1 > Energy: 1.60387
-G4WT0 > Energy: 1.12176
-G4WT1 > Edep_Si = 1.60387
-G4WT0 > Edep_Si = 1.12176
-G4WT1 > Energy: 1.40085
-G4WT0 > Energy: 1.1114
-G4WT1 > Edep_Si = 1.40085
-G4WT0 > Edep_Si = 1.1114
-G4WT1 > Energy: 2.1076
-G4WT0 > Energy: 3.96086
-G4WT1 > Edep_Si = 2.1076
-G4WT0 > Edep_Si = 2.01716
-G4WT1 > Energy: 1.26472
-G4WT0 > Energy: 1.63364
-G4WT1 > Edep_Si = 1.26472
-G4WT0 > Edep_Si = 1.63364
-G4WT1 > Energy: 1.06335
-G4WT0 > Energy: 3.24651
-G4WT0 > Edep_Si = 2.76595
-G4WT1 > Edep_Si = 1.06335
-G4WT1 > Energy: 1.13943
-G4WT0 > Energy: 1.42438
-G4WT0 > Edep_Si = 1.42438
-G4WT1 > Edep_Si = 1.13943
-G4WT0 > Energy: 1.07358
-G4WT1 > Energy: 6.93251
-G4WT0 > Edep_Si = 1.07358
-G4WT1 > Edep_Si = 6.93251
-G4WT0 > Energy: 1.29501
-G4WT1 > Energy: 1.49352
-G4WT0 > Edep_Si = 1.29501
-G4WT1 > Edep_Si = 1.49352
-G4WT0 > Energy: 1.23435
-G4WT0 > Edep_Si = 1.23435
-G4WT1 > Energy: 1.15574
-G4WT0 > Energy: 1.67108
-G4WT1 > Edep_Si = 1.15574
-G4WT0 > Edep_Si = 1.67108
-G4WT1 > Energy: 1.27318
-G4WT0 > Energy: 1.08702
-G4WT1 > Edep_Si = 1.27318
-G4WT0 > Edep_Si = 1.08702
-G4WT1 > Energy: 1.09551
-G4WT0 > Energy: 2.52328
-G4WT1 > Edep_Si = 1.09551
-G4WT0 > Edep_Si = 2.52328
-G4WT1 > Energy: 12.2644
-G4WT0 > Energy: 1.25512
-G4WT1 > Edep_Si = 0.745407
-G4WT0 > Edep_Si = 1.25512
-G4WT1 > Energy: 4.80239
-G4WT0 > Energy: 2.11615
-G4WT1 > Edep_Si = 1.64517
-G4WT0 > Edep_Si = 2.11615
-G4WT1 > Energy: 1.0899
-G4WT0 > Energy: 3.01167
-G4WT0 > Edep_Si = 3.01167
-G4WT1 > Edep_Si = 1.0899
-G4WT0 > Energy: 24.3849
-G4WT1 > Energy: 1.37377
-G4WT1 > Edep_Si = 1.37377
-G4WT0 > Edep_Si = 24.3849
-G4WT1 > Energy: 1.46191
-G4WT0 > Energy: 1.34471
-G4WT1 > Edep_Si = 1.46191
-G4WT0 > Edep_Si = 1.34471
-G4WT1 > Energy: 3.42478
-G4WT0 > Energy: 10.4022
-G4WT1 > Edep_Si = 2.48993
-G4WT0 > Edep_Si = 0.799387
-G4WT1 > Energy: 2.27715
-G4WT0 > Energy: 1.42063
-G4WT0 > Edep_Si = 1.42063
-G4WT1 > Edep_Si = 2.27715
-G4WT0 > Energy: 2.58273
-G4WT1 > Energy: 1.1078
-G4WT0 > Edep_Si = 2.58273
-G4WT1 > Edep_Si = 1.1078
-G4WT0 > Energy: 1.23195
-G4WT1 > Energy: 4.32663
-G4WT0 > Edep_Si = 1.23195
-G4WT1 > Edep_Si = 1.80366
-G4WT0 > Energy: 2.04103
-G4WT1 > Energy: 1.70004
-G4WT0 > Edep_Si = 2.04103
-G4WT1 > Edep_Si = 1.70004
-G4WT0 > Energy: 1.46001
-G4WT1 > Energy: 1.96967
-G4WT0 > Edep_Si = 1.46001
-G4WT1 > Edep_Si = 1.96967
-G4WT0 > Energy: 1.03687
-G4WT1 > Energy: 1.23093
-G4WT0 > Edep_Si = 1.03687
-G4WT1 > Edep_Si = 1.23093
-G4WT0 > Energy: 1.18849
-G4WT1 > Energy: 2.6607
-G4WT0 > Edep_Si = 1.18849
-G4WT1 > Edep_Si = 2.6607
-G4WT0 > Energy: 1.04578
-G4WT1 > Energy: 1.03676
-G4WT0 > Edep_Si = 1.04578
-G4WT0 > Energy: 1.40747
-G4WT1 > Edep_Si = 1.03676
-G4WT0 > Edep_Si = 1.40747
-G4WT1 > Energy: 5.68852
-G4WT0 > Energy: 1.83263
-G4WT1 > Edep_Si = 1.35849
-G4WT0 > Edep_Si = 1.83263
-G4WT0 > Energy: 1.21259
-G4WT1 > Energy: 45.2725
-G4WT0 > Edep_Si = 1.21259
-G4WT0 > Energy: 15.4019
-G4WT0 > Edep_Si = 0.557509
-G4WT1 > Edep_Si = 45.2725
-G4WT0 > Energy: 2.21032
-G4WT1 > Energy: 1.05314
-G4WT0 > Edep_Si = 2.21032
-G4WT1 > Edep_Si = 1.05314
-G4WT0 > Energy: 1.02408
-G4WT1 > Energy: 1.48831
-G4WT0 > Edep_Si = 1.02408
-G4WT1 > Edep_Si = 1.48831
-G4WT0 > Energy: 1.27179
-G4WT0 > Edep_Si = 1.27179
-G4WT1 > Energy: 1.53686
-G4WT1 > Edep_Si = 1.53686
-G4WT0 > Energy: 2.62849
-G4WT0 > Edep_Si = 2.62849
-G4WT1 > Energy: 1.13124
-G4WT1 > Edep_Si = 1.13124
-G4WT0 > Energy: 4.91874
-G4WT1 > Energy: 1.44831
-G4WT0 > Edep_Si = 1.58299
-G4WT1 > Edep_Si = 1.44831
-G4WT0 > Energy: 1.10877
-G4WT0 > Edep_Si = 1.10877
-G4WT1 > Energy: 2.11721
-G4WT0 > Energy: 1.40971
-G4WT1 > Edep_Si = 2.11721
-G4WT0 > Edep_Si = 1.40971
-G4WT1 > Energy: 1.69335
-G4WT0 > Energy: 1.67518
-G4WT1 > Edep_Si = 1.69335
-G4WT0 > Edep_Si = 1.67518
-G4WT1 > Energy: 1.31672
-G4WT0 > Energy: 1.38164
-G4WT1 > Edep_Si = 1.31672
-G4WT0 > Edep_Si = 1.38164
-G4WT0 > Energy: 1.77483
-G4WT1 > Energy: 1.39661
-G4WT0 > Edep_Si = 1.77483
-G4WT1 > Edep_Si = 1.39661
-G4WT0 > Energy: 1.42393
+G4WT0 > Energy: 2.25335
+G4WT0 > Edep_Si = 2.25335
+G4WT1 > Energy: 1.1401
+G4WT1 > Edep_Si = 1.1401
+G4WT0 > Energy: 1.2577
+G4WT1 > Energy: 1.94941
+G4WT0 > Edep_Si = 1.2577
+G4WT1 > Edep_Si = 1.94941
+G4WT0 > Energy: 2.22285
+G4WT1 > Energy: 2.31412
+G4WT0 > Edep_Si = 2.22285
+G4WT1 > Edep_Si = 2.31412
+G4WT0 > Energy: 1.10818
+G4WT0 > Edep_Si = 1.10818
+G4WT1 > Energy: 1.14101
+G4WT0 > Energy: 1.04757
+G4WT1 > Edep_Si = 1.14101
+G4WT0 > Edep_Si = 1.04757
+G4WT1 > Energy: 1.09167
+G4WT0 > Energy: 1.15675
+G4WT1 > Edep_Si = 1.09167
+G4WT0 > Edep_Si = 1.15675
+G4WT1 > Energy: 1.7802
+G4WT0 > Energy: 1.09083
+G4WT0 > Edep_Si = 1.09083
+G4WT1 > Edep_Si = 1.7802
+G4WT0 > Energy: 1.29366
+G4WT1 > Energy: 1.55687
+G4WT0 > Edep_Si = 1.29366
+G4WT1 > Edep_Si = 1.55687
+G4WT0 > Energy: 1.20208
+G4WT1 > Energy: 2.02099
+G4WT0 > Edep_Si = 1.20208
+G4WT1 > Edep_Si = 2.02099
+G4WT0 > Energy: 1.06703
+G4WT1 > Energy: 1.42347
+G4WT0 > Edep_Si = 1.06703
+G4WT1 > Edep_Si = 1.42347
+G4WT0 > Energy: 3.43477
+G4WT1 > Energy: 1.05491
+G4WT0 > Edep_Si = 2.39848
+G4WT1 > Edep_Si = 1.05491
+G4WT0 > Energy: 1.1602
+G4WT1 > Energy: 2.55667
+G4WT0 > Edep_Si = 1.1602
+G4WT1 > Edep_Si = 2.55667
+G4WT0 > Energy: 1.06332
+G4WT1 > Energy: 1.00238
+G4WT0 > Edep_Si = 1.06332
+G4WT1 > Edep_Si = 1.00238
+G4WT0 > Energy: 1.4256
+G4WT1 > Energy: 1.00308
+G4WT0 > Edep_Si = 1.4256
+G4WT1 > Edep_Si = 1.00308
+G4WT1 > Energy: 1.16239
+G4WT0 > Energy: 1.27689
+G4WT1 > Edep_Si = 1.16239
+G4WT0 > Edep_Si = 1.27689
+G4WT1 > Energy: 1.06977
+G4WT0 > Energy: 1.36983
+G4WT1 > Edep_Si = 1.06977
+G4WT0 > Edep_Si = 1.36983
+G4WT1 > Energy: 1.10508
+G4WT0 > Energy: 1.10013
+G4WT1 > Edep_Si = 1.10508
+G4WT0 > Edep_Si = 1.10013
+G4WT1 > Energy: 1.12859
+G4WT0 > Energy: 1.61588
+G4WT1 > Edep_Si = 1.12859
+G4WT0 > Edep_Si = 1.61588
+G4WT1 > Energy: 1.84143
+G4WT0 > Energy: 2.03864
+G4WT1 > Edep_Si = 1.84143
+G4WT0 > Edep_Si = 2.03864
+G4WT1 > Energy: 4.50593
+G4WT0 > Energy: 1.01549
+G4WT1 > Edep_Si = 1.75492
+G4WT0 > Edep_Si = 1.01549
+G4WT1 > Energy: 2.93594
+G4WT1 > Edep_Si = 2.93594
+G4WT0 > Energy: 1.00668
+G4WT0 > Edep_Si = 1.00668
+G4WT1 > Energy: 1.10365
+G4WT0 > Energy: 1.66098
+G4WT1 > Edep_Si = 1.10365
+G4WT0 > Edep_Si = 1.66098
+G4WT1 > Energy: 1.7024
+G4WT0 > Energy: 1.54663
+G4WT1 > Edep_Si = 1.7024
+G4WT0 > Edep_Si = 1.54663
+G4WT1 > Energy: 1.31179
+G4WT0 > Energy: 1.5087
+G4WT1 > Edep_Si = 1.31179
+G4WT0 > Edep_Si = 1.5087
+G4WT1 > Energy: 1.05836
+G4WT0 > Energy: 1.40279
+G4WT1 > Edep_Si = 1.05836
+G4WT0 > Edep_Si = 1.40279
+G4WT1 > Energy: 1.19411
+G4WT0 > Energy: 1.01472
+G4WT1 > Edep_Si = 1.19411
+G4WT0 > Edep_Si = 1.01472
+G4WT1 > Energy: 1.95163
+G4WT0 > Energy: 1.02118
+G4WT1 > Edep_Si = 1.95163
+G4WT0 > Edep_Si = 1.02118
+G4WT1 > Energy: 2.10307
+G4WT0 > Energy: 1.11992
+G4WT1 > Edep_Si = 2.10307
+G4WT0 > Edep_Si = 1.11992
+G4WT1 > Energy: 1.24396
+G4WT0 > Energy: 1.02603
+G4WT1 > Edep_Si = 1.24396
+G4WT0 > Edep_Si = 1.02603
+G4WT1 > Energy: 2.35478
+G4WT0 > Energy: 2.46847
+G4WT0 > Edep_Si = 2.46847
+G4WT0 > Energy: 1.28333
+G4WT0 > Edep_Si = 1.28333
+G4WT0 > Energy: 1.15975
+G4WT0 > Edep_Si = 1.15975
+G4WT0 > Energy: 1.27804
+G4WT0 > Edep_Si = 1.27804
+G4WT0 > Energy: 2.34113
+G4WT1 > Edep_Si = 2.35478
+G4WT0 > Edep_Si = 2.34113
+G4WT1 > Energy: 2.14622
+G4WT1 > Edep_Si = 2.14622
+G4WT0 > Energy: 1.20143
+G4WT0 > Edep_Si = 1.20143
+G4WT0 > Energy: 1.27279
+G4WT0 > Edep_Si = 1.27279
+G4WT1 > Energy: 1.23295
+G4WT0 > Energy: 13.0806
+G4WT1 > Edep_Si = 1.23295
+G4WT0 > Edep_Si = 13.0806
+G4WT1 > Energy: 1.47673
+G4WT0 > Energy: 1.21245
+G4WT1 > Edep_Si = 1.47673
+G4WT0 > Edep_Si = 1.21245
+G4WT0 > Energy: 1.70261
+G4WT1 > Energy: 2.25491
+G4WT0 > Edep_Si = 1.70261
+G4WT1 > Edep_Si = 2.25491
+G4WT0 > Energy: 3.32714
+G4WT1 > Energy: 1.15345
+G4WT0 > Edep_Si = 2.65336
+G4WT0 > Energy: 1.21044
+G4WT0 > Edep_Si = 1.21044
+G4WT0 > Energy: 2.68414
+G4WT0 > Edep_Si = 2.68414
+G4WT0 > Energy: 2.64778
+G4WT1 > Edep_Si = 1.15345
+G4WT0 > Edep_Si = 2.64778
+G4WT1 > Energy: 1.02616
+G4WT0 > Energy: 2.34497
+G4WT1 > Edep_Si = 1.02616
+G4WT0 > Edep_Si = 2.34497
+G4WT1 > Energy: 1.24822
+G4WT0 > Energy: 1.08269
+G4WT1 > Edep_Si = 1.24822
+G4WT0 > Edep_Si = 1.08269
+G4WT1 > Energy: 2.21272
+G4WT0 > Energy: 1.88579
+G4WT1 > Edep_Si = 2.21272
+G4WT0 > Edep_Si = 1.88579
+G4WT1 > Energy: 4.58599
+G4WT0 > Energy: 1.77262
+G4WT1 > Edep_Si = 1.69917
+G4WT0 > Edep_Si = 1.77262
+G4WT1 > Energy: 7.47376
+G4WT0 > Energy: 1.07955
+G4WT0 > Edep_Si = 1.07955
+G4WT1 > Edep_Si = 7.47376
+G4WT0 > Energy: 1.16406
+G4WT1 > Energy: 1.04514
+G4WT0 > Edep_Si = 1.16406
+G4WT1 > Edep_Si = 1.04514
+G4WT0 > Energy: 1.10982
+G4WT1 > Energy: 3.70275
+G4WT0 > Edep_Si = 1.10982
+G4WT1 > Edep_Si = 2.18856
+G4WT0 > Energy: 1.41923
+G4WT0 > Edep_Si = 1.41923
+G4WT1 > Energy: 2.83861
+G4WT0 > Energy: 1.022
+G4WT1 > Edep_Si = 2.83861
+G4WT0 > Edep_Si = 1.022
+G4WT1 > Energy: 1.11967
+G4WT1 > Edep_Si = 1.11967
+G4WT0 > Energy: 1.06334
+G4WT0 > Edep_Si = 1.06334
+G4WT1 > Energy: 4.15324
+G4WT1 > Edep_Si = 1.95973
+G4WT0 > Energy: 1.43318
+G4WT1 > Energy: 1.49761
+G4WT0 > Edep_Si = 1.43318
+G4WT1 > Edep_Si = 1.49761
+G4WT0 > Energy: 2.54263
+G4WT1 > Energy: 1.10918
+G4WT0 > Edep_Si = 2.54263
+G4WT1 > Edep_Si = 1.10918
+G4WT0 > Energy: 1.04489
+G4WT1 > Energy: 1.10089
+G4WT0 > Edep_Si = 1.04489
+G4WT1 > Edep_Si = 1.10089
+G4WT0 > Energy: 1.16197
+G4WT0 > Edep_Si = 1.16197
+G4WT0 > Energy: 1.04439
+G4WT0 > Edep_Si = 1.04439
+G4WT0 > Energy: 1.01905
+G4WT1 > Energy: 1.3306
+G4WT0 > Edep_Si = 1.01905
+G4WT1 > Edep_Si = 1.3306
+G4WT0 > Energy: 1.25187
+G4WT1 > Energy: 6.19044
+G4WT0 > Edep_Si = 1.25187
+G4WT1 > Edep_Si = 1.27949
+G4WT0 > Energy: 1.27281
+G4WT1 > Energy: 3.34989
+G4WT0 > Edep_Si = 1.27281
+G4WT1 > Edep_Si = 2.59841
+G4WT0 > Energy: 1.01291
+G4WT0 > Edep_Si = 1.01291
+G4WT1 > Energy: 1.37561
+G4WT0 > Energy: 1.11632
+G4WT1 > Edep_Si = 1.37561
+G4WT0 > Edep_Si = 1.11632
+G4WT1 > Energy: 4.04745
+G4WT0 > Energy: 5.0111
+G4WT1 > Edep_Si = 1.94686
+G4WT0 > Edep_Si = 1.59209
+G4WT1 > Energy: 1.19741
+G4WT0 > Energy: 2.22768
+G4WT1 > Edep_Si = 1.19741
+G4WT0 > Edep_Si = 2.22768
+G4WT1 > Energy: 1.04796
+G4WT0 > Energy: 1.14351
+G4WT1 > Edep_Si = 1.04796
+G4WT0 > Edep_Si = 1.14351
+G4WT1 > Energy: 1.43678
+G4WT1 > Edep_Si = 1.43678
+G4WT0 > Energy: 1.01616
+G4WT0 > Edep_Si = 1.01616
+G4WT1 > Energy: 1.15014
+G4WT0 > Energy: 1.70367
+G4WT1 > Edep_Si = 1.15014
+G4WT0 > Edep_Si = 1.70367
+G4WT1 > Energy: 1.29569
+G4WT0 > Energy: 1.46474
+G4WT1 > Edep_Si = 1.29569
+G4WT0 > Edep_Si = 1.46474
 G4WT1 > Energy: 1.10072
-G4WT0 > Edep_Si = 1.42393
+G4WT0 > Energy: 1.67052
 G4WT1 > Edep_Si = 1.10072
-G4WT0 > Energy: 1.27068
-G4WT1 > Energy: 1.05332
-G4WT0 > Edep_Si = 1.27068
-G4WT1 > Edep_Si = 1.05332
-G4WT0 > Energy: 1.1561
-G4WT1 > Energy: 2.48014
-G4WT0 > Edep_Si = 1.1561
-G4WT1 > Edep_Si = 2.48014
-G4WT0 > Energy: 1.13334
-G4WT1 > Energy: 1.30565
-G4WT0 > Edep_Si = 1.13334
-G4WT1 > Edep_Si = 1.30565
-G4WT1 > Energy: 1.95113
-G4WT0 > Energy: 4.86276
-G4WT1 > Edep_Si = 1.95113
-G4WT0 > Edep_Si = 1.61388
-G4WT1 > Energy: 1.53421
-G4WT0 > Energy: 1.07222
-G4WT1 > Edep_Si = 1.53421
-G4WT0 > Edep_Si = 1.07222
-G4WT1 > Energy: 1.00794
-G4WT0 > Energy: 1.19461
-G4WT1 > Edep_Si = 1.00794
-G4WT0 > Edep_Si = 1.19461
-G4WT0 > Energy: 1.15551
-G4WT1 > Energy: 1.40726
-G4WT0 > Edep_Si = 1.15551
-G4WT1 > Edep_Si = 1.40726
-G4WT0 > Energy: 1.0862
-G4WT1 > Energy: 3.02026
-G4WT0 > Edep_Si = 1.0862
-G4WT1 > Edep_Si = 3.02026
-G4WT0 > Energy: 4.34073
-G4WT0 > Edep_Si = 1.73203
-G4WT1 > Energy: 12.4235
-G4WT1 > Edep_Si = 0.649543
-G4WT0 > Energy: 1.29021
-G4WT1 > Energy: 3.21044
-G4WT0 > Edep_Si = 1.29021
-G4WT1 > Edep_Si = 2.83285
-G4WT0 > Energy: 1.9848
-G4WT0 > Edep_Si = 1.9848
-G4WT1 > Energy: 1.13428
-G4WT0 > Energy: 2.12023
-G4WT1 > Edep_Si = 1.13428
-G4WT0 > Edep_Si = 2.12023
-G4WT1 > Energy: 1.47468
-G4WT0 > Energy: 1.93282
-G4WT1 > Edep_Si = 1.47468
-G4WT0 > Edep_Si = 1.93282
-G4WT1 > Energy: 3.02073
-G4WT0 > Energy: 1.32892
-G4WT1 > Edep_Si = 3.02073
-G4WT0 > Edep_Si = 1.32892
-G4WT1 > Energy: 1.43175
-G4WT0 > Energy: 2.15395
-G4WT1 > Edep_Si = 1.43175
-G4WT0 > Edep_Si = 2.15395
-G4WT1 > Energy: 1.28058
-G4WT0 > Energy: 1.66988
-G4WT1 > Edep_Si = 1.28058
-G4WT0 > Edep_Si = 1.66988
-G4WT1 > Energy: 1.80247
-G4WT0 > Energy: 1.54466
-G4WT0 > Edep_Si = 1.54466
-G4WT1 > Edep_Si = 1.80247
-G4WT1 > Energy: 1.48733
-G4WT0 > Energy: 1.16364
-G4WT0 > Edep_Si = 1.16364
-G4WT1 > Edep_Si = 1.48733
-G4WT0 > Energy: 4.301
-G4WT1 > Energy: 1.03625
-G4WT1 > Edep_Si = 1.03625
-G4WT0 > Edep_Si = 1.76778
-G4WT1 > Energy: 2.0685
-G4WT0 > Energy: 2.73329
-G4WT1 > Edep_Si = 2.0685
-G4WT0 > Edep_Si = 2.73329
-G4WT1 > Energy: 1.1165
-G4WT0 > Energy: 1.93572
-G4WT1 > Edep_Si = 1.1165
-G4WT0 > Edep_Si = 1.93572
-G4WT0 > Energy: 1.3111
-G4WT1 > Energy: 1.01384
-G4WT0 > Edep_Si = 1.3111
-G4WT1 > Edep_Si = 1.01384
-G4WT0 > Energy: 1.28113
-G4WT0 > Edep_Si = 1.28113
-G4WT1 > Energy: 2.12736
-G4WT1 > Edep_Si = 2.12736
-G4WT0 > Energy: 1.02746
-G4WT0 > Edep_Si = 1.02746
-G4WT1 > Energy: 1.20934
-G4WT0 > Energy: 2.49285
-G4WT1 > Edep_Si = 1.20934
-G4WT0 > Edep_Si = 2.49285
-G4WT1 > Energy: 1.62368
-G4WT0 > Energy: 1.56897
-G4WT1 > Edep_Si = 1.62368
-G4WT0 > Edep_Si = 1.56897
-G4WT1 > Energy: 1.01041
-G4WT0 > Energy: 1.53173
-G4WT1 > Edep_Si = 1.01041
-G4WT0 > Edep_Si = 1.53173
-G4WT0 > Energy: 1.34867
-G4WT1 > Energy: 1.56212
-G4WT0 > Edep_Si = 1.34867
-G4WT1 > Edep_Si = 1.56212
-G4WT0 > Energy: 1.08917
-G4WT1 > Energy: 1.11209
-G4WT0 > Edep_Si = 1.08917
-G4WT1 > Edep_Si = 1.11209
-G4WT0 > Energy: 1.49815
-G4WT1 > Energy: 2.50816
-G4WT1 > Edep_Si = 2.50816
-G4WT0 > Edep_Si = 1.49815
-G4WT1 > Energy: 1.23894
-G4WT0 > Energy: 1.59757
-G4WT1 > Edep_Si = 1.23894
-G4WT0 > Edep_Si = 1.59757
-G4WT0 > Energy: 1.08598
-G4WT1 > Energy: 1.81237
-G4WT1 > Edep_Si = 1.81237
-G4WT0 > Edep_Si = 1.08598
-G4WT0 > Energy: 1.07963
-G4WT1 > Energy: 1.08448
-G4WT0 > Edep_Si = 1.07963
-G4WT1 > Edep_Si = 1.08448
-G4WT0 > Energy: 1.15037
-G4WT1 > Energy: 1.20208
-G4WT0 > Edep_Si = 1.15037
-G4WT1 > Edep_Si = 1.20208
-G4WT0 > Energy: 2.90211
-G4WT1 > Energy: 1.13482
-G4WT0 > Edep_Si = 2.90211
-G4WT1 > Edep_Si = 1.13482
-G4WT0 > Energy: 1.65832
-G4WT1 > Energy: 2.33531
-G4WT0 > Edep_Si = 1.65832
-G4WT1 > Edep_Si = 2.33531
-G4WT0 > Energy: 1.35493
-G4WT1 > Energy: 3.02975
-G4WT0 > Edep_Si = 1.35493
-G4WT1 > Edep_Si = 3.02975
-G4WT0 > Energy: 1.11354
-G4WT1 > Energy: 1.99692
-G4WT0 > Edep_Si = 1.11354
-G4WT1 > Edep_Si = 1.99692
-G4WT0 > Energy: 1.09624
-G4WT1 > Energy: 2.96031
-G4WT1 > Edep_Si = 2.96031
-G4WT0 > Edep_Si = 1.09624
-G4WT0 > Energy: 2.12009
-G4WT1 > Energy: 1.57581
-G4WT0 > Edep_Si = 2.12009
-G4WT1 > Edep_Si = 1.57581
-G4WT0 > Energy: 2.33628
-G4WT1 > Energy: 1.66243
-G4WT0 > Edep_Si = 2.33628
-G4WT1 > Edep_Si = 1.66243
-G4WT0 > Energy: 1.06351
-G4WT1 > Energy: 1.07786
-G4WT1 > Edep_Si = 1.07786
-G4WT0 > Edep_Si = 1.06351
-G4WT1 > Energy: 2.32828
-G4WT0 > Energy: 2.20087
-G4WT1 > Edep_Si = 2.32828
-G4WT0 > Edep_Si = 2.20087
-G4WT1 > Energy: 1.88723
-G4WT0 > Energy: 1.24342
-G4WT0 > Edep_Si = 1.24342
-G4WT1 > Edep_Si = 1.88723
-G4WT0 > Energy: 1.18957
-G4WT1 > Energy: 1.78247
-G4WT1 > Edep_Si = 1.78247
-G4WT0 > Edep_Si = 1.18957
-G4WT1 > Energy: 2.56715
-G4WT0 > Energy: 1.12142
-G4WT1 > Edep_Si = 2.56715
-G4WT0 > Edep_Si = 1.12142
-G4WT1 > Energy: 2.13507
-G4WT0 > Energy: 1.03795
-G4WT0 > Edep_Si = 1.03795
-G4WT1 > Edep_Si = 2.13507
-G4WT1 > Energy: 1.11727
-G4WT0 > Energy: 1.02896
-G4WT0 > Edep_Si = 1.02896
-G4WT1 > Edep_Si = 1.11727
-G4WT0 > Energy: 1.02131
-G4WT1 > Energy: 2.81553
-G4WT0 > Edep_Si = 1.02131
-G4WT1 > Edep_Si = 2.81553
-G4WT0 > Energy: 1.18443
-G4WT1 > Energy: 1.35463
-G4WT0 > Edep_Si = 1.18443
-G4WT1 > Edep_Si = 1.35463
-G4WT0 > Energy: 1.1612
-G4WT0 > Edep_Si = 1.1612
-G4WT1 > Energy: 6.78869
-G4WT1 > Edep_Si = 1.06885
-G4WT0 > Energy: 1.39222
-G4WT1 > Energy: 3.72579
-G4WT0 > Edep_Si = 1.39222
-G4WT1 > Edep_Si = 2.16865
-G4WT0 > Energy: 3.50241
-G4WT1 > Energy: 1.20234
-G4WT0 > Edep_Si = 2.37938
-G4WT1 > Edep_Si = 1.20234
-G4WT1 > Energy: 3.35807
-G4WT0 > Energy: 1.0086
-G4WT0 > Edep_Si = 1.0086
-G4WT1 > Edep_Si = 2.59339
-G4WT1 > Energy: 1.74375
-G4WT0 > Energy: 1.01317
-G4WT1 > Edep_Si = 1.74375
-G4WT0 > Edep_Si = 1.01317
-G4WT1 > Energy: 1.27843
-G4WT0 > Energy: 1.05007
-G4WT1 > Edep_Si = 1.27843
-G4WT0 > Edep_Si = 1.05007
-G4WT1 > Energy: 1.02951
-G4WT0 > Energy: 1.36448
-G4WT1 > Edep_Si = 1.02951
-G4WT0 > Edep_Si = 1.36448
-G4WT1 > Energy: 1.44351
-G4WT0 > Energy: 3.88173
-G4WT0 > Edep_Si = 2.04072
-G4WT1 > Edep_Si = 1.44351
-G4WT1 > Energy: 1.53358
-G4WT0 > Energy: 1.9762
-G4WT1 > Edep_Si = 1.53358
-G4WT0 > Edep_Si = 1.9762
-G4WT1 > Energy: 1.05993
-G4WT0 > Energy: 1.23816
-G4WT0 > Edep_Si = 1.23816
-G4WT1 > Edep_Si = 1.05993
-G4WT0 > Energy: 1.27185
-G4WT1 > Energy: 1.23166
-G4WT0 > Edep_Si = 1.27185
-G4WT1 > Edep_Si = 1.23166
-G4WT0 > Energy: 1.28586
-G4WT1 > Energy: 1.7181
-G4WT0 > Edep_Si = 1.28586
-G4WT1 > Edep_Si = 1.7181
-G4WT0 > Energy: 1.8288
-G4WT1 > Energy: 1.25113
-G4WT0 > Edep_Si = 1.8288
-G4WT1 > Edep_Si = 1.25113
-G4WT0 > Energy: 3.59377
-G4WT1 > Energy: 1.64364
-G4WT0 > Edep_Si = 2.26285
-G4WT1 > Edep_Si = 1.64364
-G4WT0 > Energy: 1.0491
-G4WT0 > Edep_Si = 1.0491
-G4WT1 > Energy: 1.19105
-G4WT0 > Energy: 1.03042
-G4WT1 > Edep_Si = 1.19105
-G4WT0 > Edep_Si = 1.03042
-G4WT1 > Energy: 1.18242
-G4WT0 > Energy: 1.76158
-G4WT0 > Edep_Si = 1.76158
-G4WT1 > Edep_Si = 1.18242
-G4WT1 > Energy: 1.07344
-G4WT0 > Energy: 2.85757
-G4WT0 > Edep_Si = 2.85757
-G4WT1 > Edep_Si = 1.07344
-G4WT0 > Energy: 2.50547
-G4WT1 > Energy: 1.63418
-G4WT0 > Edep_Si = 2.50547
-G4WT1 > Edep_Si = 1.63418
-G4WT1 > Energy: 1.11871
-G4WT0 > Energy: 1.95932
-G4WT0 > Edep_Si = 1.95932
-G4WT1 > Edep_Si = 1.11871
-G4WT0 > Energy: 1.615
-G4WT1 > Energy: 1.00786
-G4WT1 > Edep_Si = 1.00786
-G4WT0 > Edep_Si = 1.615
-G4WT0 > Energy: 4.16023
-G4WT1 > Energy: 1.36014
+G4WT0 > Edep_Si = 1.67052
+G4WT1 > Energy: 3.82129
+G4WT0 > Energy: 1.15981
+G4WT1 > Edep_Si = 2.07666
+G4WT0 > Edep_Si = 1.15981
+G4WT1 > Energy: 2.94726
+G4WT0 > Energy: 1.0643
+G4WT1 > Edep_Si = 2.94726
+G4WT0 > Edep_Si = 1.0643
+G4WT1 > Energy: 1.24917
+G4WT0 > Energy: 2.70299
+G4WT1 > Edep_Si = 1.24917
+G4WT0 > Edep_Si = 2.70299
+G4WT1 > Energy: 1.22684
+G4WT0 > Energy: 2.18665
+G4WT1 > Edep_Si = 1.22684
+G4WT0 > Edep_Si = 2.18665
+G4WT1 > Energy: 1.77056
+G4WT1 > Edep_Si = 1.77056
+G4WT0 > Energy: 2.61567
+G4WT0 > Edep_Si = 2.61567
+G4WT1 > Energy: 1.66498
+G4WT1 > Edep_Si = 1.66498
+G4WT0 > Energy: 1.40918
+G4WT0 > Edep_Si = 1.40918
+G4WT1 > Energy: 1.11742
+G4WT1 > Edep_Si = 1.11742
+G4WT0 > Energy: 1.41329
+G4WT0 > Edep_Si = 1.41329
+G4WT1 > Energy: 2.30529
+G4WT1 > Edep_Si = 2.30529
+G4WT0 > Energy: 1.37946
+G4WT0 > Edep_Si = 1.37946
+G4WT1 > Energy: 1.00954
+G4WT0 > Energy: 6.3935
+G4WT1 > Edep_Si = 1.00954
+G4WT0 > Edep_Si = 1.32392
+G4WT1 > Energy: 2.13756
+G4WT0 > Energy: 1.41511
+G4WT1 > Edep_Si = 2.13756
+G4WT0 > Edep_Si = 1.41511
+G4WT1 > Energy: 1.22439
+G4WT0 > Energy: 1.20906
+G4WT0 > Edep_Si = 1.20906
+G4WT0 > Energy: 1.33513
+G4WT0 > Edep_Si = 1.33513
+G4WT0 > Energy: 1.68188
+G4WT0 > Edep_Si = 1.68188
+G4WT1 > Edep_Si = 1.22439
+G4WT0 > Energy: 1.35189
+G4WT1 > Energy: 1.21
+G4WT1 > Edep_Si = 1.21
+G4WT0 > Edep_Si = 1.35189
+G4WT1 > Energy: 2.25197
+G4WT0 > Energy: 1.0174
+G4WT0 > Edep_Si = 1.0174
+G4WT1 > Edep_Si = 2.25197
+G4WT0 > Energy: 1.45327
+G4WT1 > Energy: 1.64373
+G4WT0 > Edep_Si = 1.45327
+G4WT1 > Edep_Si = 1.64373
+G4WT0 > Energy: 1.2011
+G4WT1 > Energy: 1.61547
+G4WT0 > Edep_Si = 1.2011
+G4WT1 > Edep_Si = 1.61547
+G4WT0 > Energy: 1.30993
+G4WT1 > Energy: 1.6182
+G4WT0 > Edep_Si = 1.30993
+G4WT1 > Edep_Si = 1.6182
+G4WT0 > Energy: 1.25116
+G4WT1 > Energy: 1.24302
+G4WT1 > Edep_Si = 1.24302
+G4WT0 > Edep_Si = 1.25116
+G4WT0 > Energy: 1.20072
+G4WT0 > Edep_Si = 1.20072
+G4WT0 > Energy: 3.35056
+G4WT0 > Edep_Si = 2.61188
+G4WT0 > Energy: 1.32529
+G4WT0 > Edep_Si = 1.32529
+G4WT1 > Energy: 1.07793
+G4WT0 > Energy: 3.66286
+G4WT1 > Edep_Si = 1.07793
+G4WT1 > Energy: 1.00187
+G4WT0 > Edep_Si = 2.22098
+G4WT1 > Edep_Si = 1.00187
+G4WT0 > Energy: 2.80354
+G4WT1 > Energy: 1.03269
+G4WT0 > Edep_Si = 2.80354
+G4WT1 > Edep_Si = 1.03269
+G4WT0 > Energy: 1.81175
+G4WT1 > Energy: 1.03892
+G4WT0 > Edep_Si = 1.81175
+G4WT1 > Edep_Si = 1.03892
+G4WT0 > Energy: 3.46225
+G4WT1 > Energy: 1.60405
+G4WT1 > Edep_Si = 1.60405
+G4WT0 > Edep_Si = 2.48016
+G4WT1 > Energy: 1.31969
+G4WT0 > Energy: 3.48172
+G4WT1 > Edep_Si = 1.31969
+G4WT0 > Edep_Si = 2.41978
+G4WT1 > Energy: 1.18414
+G4WT0 > Energy: 1.42945
+G4WT1 > Edep_Si = 1.18414
+G4WT0 > Edep_Si = 1.42945
+G4WT1 > Energy: 1.10579
+G4WT1 > Edep_Si = 1.10579
+G4WT0 > Energy: 1.41358
+G4WT0 > Edep_Si = 1.41358
+G4WT1 > Energy: 1.45946
+G4WT1 > Edep_Si = 1.45946
+G4WT0 > Energy: 1.08583
+G4WT0 > Edep_Si = 1.08583
+G4WT1 > Energy: 1.21414
+G4WT1 > Edep_Si = 1.21414
+G4WT0 > Energy: 3.63774
+G4WT1 > Energy: 1.0389
+G4WT0 > Edep_Si = 2.2848
+G4WT1 > Edep_Si = 1.0389
+G4WT0 > Energy: 2.93919
+G4WT0 > Edep_Si = 2.93919
+G4WT1 > Energy: 1.64505
+G4WT1 > Edep_Si = 1.64505
+G4WT0 > Energy: 1.29962
+G4WT0 > Edep_Si = 1.29962
+G4WT1 > Energy: 3.29591
+G4WT0 > Energy: 1.41542
+G4WT0 > Edep_Si = 1.41542
+G4WT0 > Energy: 2.00032
+G4WT0 > Edep_Si = 2.00032
+G4WT0 > Energy: 2.62356
+G4WT0 > Edep_Si = 2.62356
+G4WT0 > Energy: 1.59616
+G4WT0 > Edep_Si = 1.59616
+G4WT1 > Edep_Si = 2.6562
+G4WT0 > Energy: 1.32286
+G4WT1 > Energy: 1.1118
+G4WT0 > Edep_Si = 1.32286
+G4WT1 > Edep_Si = 1.1118
+G4WT0 > Energy: 1.18581
+G4WT1 > Energy: 2.99697
+G4WT0 > Edep_Si = 1.18581
+G4WT1 > Edep_Si = 2.99697
+G4WT0 > Energy: 1.68196
+G4WT0 > Edep_Si = 1.68196
+G4WT1 > Energy: 1.22084
+G4WT1 > Edep_Si = 1.22084
+G4WT0 > Energy: 7.62585
+G4WT0 > Edep_Si = 1.02681
+G4WT1 > Energy: 1.17545
+G4WT1 > Edep_Si = 1.17545
+G4WT0 > Energy: 1.24104
+G4WT0 > Edep_Si = 1.24104
+G4WT1 > Energy: 1.24633
+G4WT1 > Edep_Si = 1.24633
+G4WT0 > Energy: 4.04003
+G4WT1 > Energy: 1.37653
+G4WT0 > Edep_Si = 1.90082
+G4WT1 > Edep_Si = 1.37653
+G4WT0 > Energy: 1.03815
+G4WT1 > Energy: 1.33267
+G4WT0 > Edep_Si = 1.03815
+G4WT1 > Edep_Si = 1.33267
+G4WT0 > Energy: 1.88278
+G4WT1 > Energy: 1.08577
+G4WT0 > Edep_Si = 1.88278
+G4WT1 > Edep_Si = 1.08577
+G4WT0 > Energy: 1.09291
+G4WT1 > Energy: 1.0082
+G4WT0 > Edep_Si = 1.09291
+G4WT1 > Edep_Si = 1.0082
+G4WT0 > Energy: 2.64203
+G4WT1 > Energy: 1.17907
+G4WT0 > Edep_Si = 2.64203
+G4WT1 > Edep_Si = 1.17907
+G4WT0 > Energy: 4.42446
+G4WT1 > Energy: 1.42688
+G4WT0 > Edep_Si = 1.79755
+G4WT1 > Edep_Si = 1.42688
+G4WT0 > Energy: 1.18047
+G4WT1 > Energy: 1.41518
+G4WT0 > Edep_Si = 1.18047
+G4WT1 > Edep_Si = 1.41518
+G4WT0 > Energy: 1.05178
+G4WT0 > Edep_Si = 1.05178
+G4WT1 > Energy: 1.15679
+G4WT1 > Edep_Si = 1.15679
+G4WT0 > Energy: 3.16522
+G4WT0 > Edep_Si = 2.99169
+G4WT1 > Energy: 3.4678
+G4WT0 > Energy: 1.18575
+G4WT1 > Edep_Si = 2.47531
+G4WT0 > Edep_Si = 1.18575
+G4WT1 > Energy: 1.04129
+G4WT0 > Energy: 1.36311
+G4WT1 > Edep_Si = 1.04129
+G4WT0 > Edep_Si = 1.36311
+G4WT1 > Energy: 2.91522
+G4WT0 > Energy: 3.73672
+G4WT1 > Edep_Si = 2.91522
+G4WT0 > Edep_Si = 2.13371
+G4WT1 > Energy: 1.26877
+G4WT0 > Energy: 1.60014
+G4WT1 > Edep_Si = 1.26877
+G4WT0 > Edep_Si = 1.60014
+G4WT1 > Energy: 1.01876
+G4WT0 > Energy: 1.12177
+G4WT1 > Edep_Si = 1.01876
+G4WT0 > Edep_Si = 1.12177
+G4WT1 > Energy: 1.39979
+G4WT0 > Energy: 1.56017
+G4WT1 > Edep_Si = 1.39979
+G4WT0 > Edep_Si = 1.56017
+G4WT1 > Energy: 2.01469
+G4WT0 > Energy: 1.55672
+G4WT1 > Edep_Si = 2.01469
+G4WT0 > Edep_Si = 1.55672
+G4WT1 > Energy: 1.06536
+G4WT0 > Energy: 1.67852
+G4WT1 > Edep_Si = 1.06536
+G4WT0 > Edep_Si = 1.67852
+G4WT0 > Energy: 1.42991
+G4WT1 > Energy: 1.14711
+G4WT0 > Edep_Si = 1.42991
+G4WT1 > Edep_Si = 1.14711
+G4WT0 > Energy: 2.04435
+G4WT1 > Energy: 1.00425
+G4WT0 > Edep_Si = 2.04435
+G4WT1 > Edep_Si = 1.00425
+G4WT1 > Energy: 1.17376
+G4WT0 > Energy: 1.89316
+G4WT0 > Edep_Si = 1.89316
+G4WT1 > Edep_Si = 1.17376
+G4WT0 > Energy: 1.46905
+G4WT1 > Energy: 1.29048
+G4WT1 > Edep_Si = 1.29048
+G4WT0 > Edep_Si = 1.46905
+G4WT1 > Energy: 1.23976
+G4WT0 > Energy: 1.64822
+G4WT0 > Edep_Si = 1.64822
+G4WT1 > Edep_Si = 1.23976
+G4WT0 > Energy: 15.4576
+G4WT1 > Energy: 1.73406
+G4WT1 > Edep_Si = 1.73406
+G4WT0 > Edep_Si = 0.482381
+G4WT0 > Energy: 1.45107
+G4WT1 > Energy: 1.43459
+G4WT1 > Edep_Si = 1.43459
+G4WT0 > Edep_Si = 1.45107
+G4WT0 > Energy: 1.02991
+G4WT1 > Energy: 1.18947
+G4WT0 > Edep_Si = 1.02991
+G4WT1 > Edep_Si = 1.18947
+G4WT0 > Energy: 1.02393
+G4WT1 > Energy: 1.13683
+G4WT0 > Edep_Si = 1.02393
+G4WT1 > Edep_Si = 1.13683
+G4WT0 > Energy: 1.13458
+G4WT0 > Edep_Si = 1.13458
+G4WT1 > Energy: 2.82741
+G4WT0 > Energy: 1.41294
+G4WT1 > Edep_Si = 2.82741
+G4WT0 > Edep_Si = 1.41294
+G4WT1 > Energy: 1.30035
+G4WT0 > Energy: 3.44052
+G4WT1 > Edep_Si = 1.30035
+G4WT0 > Edep_Si = 2.5179
+G4WT1 > Energy: 3.46001
+G4WT0 > Energy: 1.05688
+G4WT1 > Edep_Si = 2.45583
+G4WT0 > Edep_Si = 1.05688
+G4WT1 > Energy: 1.16599
+G4WT0 > Energy: 1.73046
+G4WT1 > Edep_Si = 1.16599
+G4WT0 > Edep_Si = 1.73046
+G4WT1 > Energy: 2.85803
+G4WT0 > Energy: 1.27828
+G4WT1 > Edep_Si = 2.85803
+G4WT0 > Edep_Si = 1.27828
+G4WT1 > Energy: 1.20039
+G4WT0 > Energy: 1.41907
+G4WT0 > Edep_Si = 1.41907
+G4WT1 > Edep_Si = 1.20039
+G4WT0 > Energy: 1.98653
+G4WT1 > Energy: 1.11403
+G4WT0 > Edep_Si = 1.98653
+G4WT1 > Edep_Si = 1.11403
+G4WT0 > Energy: 1.17451
+G4WT1 > Energy: 1.02702
+G4WT0 > Edep_Si = 1.17451
+G4WT1 > Edep_Si = 1.02702
+G4WT0 > Energy: 1.55285
+G4WT0 > Edep_Si = 1.55285
+G4WT1 > Energy: 1.92772
+G4WT1 > Edep_Si = 1.92772
+G4WT0 > Energy: 2.11255
+G4WT0 > Edep_Si = 2.11255
+G4WT1 > Energy: 2.57873
+G4WT1 > Edep_Si = 2.57873
+G4WT0 > Energy: 1.2163
+G4WT0 > Edep_Si = 1.2163
+G4WT1 > Energy: 1.06332
+G4WT1 > Edep_Si = 1.06332
+G4WT0 > Energy: 2.02035
+G4WT1 > Energy: 1.05899
+G4WT0 > Edep_Si = 2.02035
+G4WT1 > Edep_Si = 1.05899
+G4WT0 > Energy: 1.12107
+G4WT1 > Energy: 1.23234
+G4WT0 > Edep_Si = 1.12107
+G4WT1 > Edep_Si = 1.23234
+G4WT0 > Energy: 1.30334
+G4WT1 > Energy: 6.7447
+G4WT0 > Edep_Si = 1.30334
+G4WT1 > Edep_Si = 1.24677
+G4WT0 > Energy: 2.07219
+G4WT1 > Energy: 1.17221
+G4WT0 > Edep_Si = 2.07219
+G4WT1 > Edep_Si = 1.17221
+G4WT0 > Energy: 3.51146
+G4WT1 > Energy: 1.17643
+G4WT0 > Edep_Si = 2.39466
+G4WT1 > Edep_Si = 1.17643
+G4WT0 > Energy: 2.21106
+G4WT1 > Energy: 1.87338
+G4WT0 > Edep_Si = 2.21106
+G4WT1 > Edep_Si = 1.87338
+G4WT0 > Energy: 1.27
+G4WT1 > Energy: 1.32019
+G4WT0 > Edep_Si = 1.27
+G4WT1 > Edep_Si = 1.32019
+G4WT0 > Energy: 1.48386
+G4WT1 > Energy: 1.08687
+G4WT0 > Edep_Si = 1.48386
+G4WT1 > Edep_Si = 1.08687
+G4WT0 > Energy: 1.86085
+G4WT1 > Energy: 1.02087
+G4WT1 > Edep_Si = 1.02087
 G4WT0 > Edep_Si = 1.86085
-G4WT1 > Edep_Si = 1.36014
-G4WT1 > Energy: 1.04138
-G4WT0 > Energy: 4.67944
-G4WT1 > Edep_Si = 1.04138
-G4WT0 > Edep_Si = 1.66396
-G4WT1 > Energy: 1.09337
-G4WT0 > Energy: 1.98527
-G4WT0 > Edep_Si = 1.98527
-G4WT1 > Edep_Si = 1.09337
-G4WT0 > Energy: 3.5532
-G4WT1 > Energy: 2.20048
-G4WT0 > Edep_Si = 2.34067
-G4WT1 > Edep_Si = 2.20048
-G4WT0 > Energy: 1.20124
-G4WT1 > Energy: 5.47424
-G4WT0 > Edep_Si = 1.20124
-G4WT1 > Edep_Si = 1.39454
-G4WT0 > Energy: 2.81655
-G4WT0 > Edep_Si = 2.81655
-G4WT1 > Energy: 1.37518
-G4WT0 > Energy: 1.50732
-G4WT1 > Edep_Si = 1.37518
-G4WT0 > Edep_Si = 1.50732
-G4WT1 > Energy: 1.55075
-G4WT0 > Energy: 2.55374
-G4WT1 > Edep_Si = 1.55075
-G4WT0 > Edep_Si = 2.55374
-G4WT0 > Energy: 1.03074
-G4WT1 > Energy: 2.07944
-G4WT0 > Edep_Si = 1.03074
-G4WT1 > Edep_Si = 2.07944
-G4WT0 > Energy: 1.2671
-G4WT1 > Energy: 1.12057
-G4WT0 > Edep_Si = 1.2671
-G4WT1 > Edep_Si = 1.12057
-G4WT0 > Energy: 2.35743
-G4WT1 > Energy: 4.50234
-G4WT0 > Edep_Si = 2.35743
-G4WT1 > Edep_Si = 1.67891
-G4WT0 > Energy: 1.22637
-G4WT0 > Edep_Si = 1.22637
-G4WT1 > Energy: 1.74567
-G4WT1 > Edep_Si = 1.74567
-G4WT0 > Energy: 1.8513
-G4WT0 > Edep_Si = 1.8513
-G4WT1 > Energy: 1.01697
-G4WT1 > Edep_Si = 1.01697
-G4WT0 > Energy: 1.73219
-G4WT1 > Energy: 1.77416
-G4WT0 > Edep_Si = 1.73219
-G4WT1 > Edep_Si = 1.77416
-G4WT0 > Energy: 1.06004
-G4WT1 > Energy: 1.17473
-G4WT1 > Edep_Si = 1.17473
-G4WT0 > Edep_Si = 1.06004
-G4WT0 > Energy: 1.62412
-G4WT1 > Energy: 1.4289
-G4WT0 > Edep_Si = 1.62412
-G4WT1 > Edep_Si = 1.4289
-G4WT0 > Energy: 1.1661
-G4WT1 > Energy: 1.31087
-G4WT0 > Edep_Si = 1.1661
-G4WT1 > Edep_Si = 1.31087
-G4WT0 > Energy: 1.00236
-G4WT1 > Energy: 1.21158
-G4WT1 > Edep_Si = 1.21158
-G4WT0 > Edep_Si = 1.00236
-G4WT1 > Energy: 2.50962
-G4WT0 > Energy: 3.11362
-G4WT1 > Edep_Si = 2.50962
-G4WT0 > Edep_Si = 3.11362
-G4WT0 > Energy: 19.5621
-G4WT1 > Energy: 1.70771
-G4WT1 > Edep_Si = 1.70771
-G4WT0 > Edep_Si = 0.477065
-G4WT0 > Energy: 1.13494
-G4WT1 > Energy: 1.57124
-G4WT0 > Edep_Si = 1.13494
-G4WT1 > Edep_Si = 1.57124
-G4WT0 > Energy: 1.31178
-G4WT0 > Edep_Si = 1.31178
-G4WT1 > Energy: 1.81898
-G4WT1 > Edep_Si = 1.81898
-G4WT0 > Energy: 3.09779
-G4WT0 > Edep_Si = 3.09779
-G4WT1 > Energy: 1.15335
-G4WT1 > Edep_Si = 1.15335
-G4WT0 > Energy: 3.2971
-G4WT0 > Edep_Si = 2.62884
-G4WT1 > Energy: 1.29958
-G4WT1 > Edep_Si = 1.29958
-G4WT0 > Energy: 1.1248
-G4WT0 > Edep_Si = 1.1248
-G4WT1 > Energy: 17.9571
-G4WT0 > Energy: 2.11686
-G4WT0 > Edep_Si = 2.11686
-G4WT1 > Edep_Si = 17.9571
-G4WT1 > Energy: 1.12655
-G4WT0 > Energy: 1.03877
-G4WT0 > Edep_Si = 1.03877
-G4WT1 > Edep_Si = 1.12655
-G4WT0 > Energy: 1.35427
-G4WT1 > Energy: 1.64884
-G4WT0 > Edep_Si = 1.35427
-G4WT1 > Edep_Si = 1.64884
-G4WT1 > Energy: 3.8046
-G4WT0 > Energy: 1.7509
-G4WT1 > Edep_Si = 2.05339
-G4WT0 > Edep_Si = 1.7509
-G4WT1 > Energy: 2.15358
-G4WT0 > Energy: 1.67913
-G4WT0 > Edep_Si = 1.67913
-G4WT1 > Edep_Si = 2.15358
-G4WT1 > Energy: 2.92783
-G4WT0 > Energy: 1.30386
-G4WT1 > Edep_Si = 2.92783
-G4WT0 > Edep_Si = 1.30386
-G4WT1 > Energy: 3.94532
-G4WT0 > Energy: 1.28463
-G4WT1 > Edep_Si = 2.04701
-G4WT0 > Edep_Si = 1.28463
-G4WT1 > Energy: 5.51517
-G4WT0 > Energy: 1.03668
-G4WT1 > Edep_Si = 1.40144
-G4WT0 > Edep_Si = 1.03668
-G4WT1 > Energy: 2.07574
-G4WT0 > Energy: 1.11315
-G4WT1 > Edep_Si = 2.07574
-G4WT0 > Edep_Si = 1.11315
-G4WT1 > Energy: 1.42736
-G4WT0 > Energy: 1.13063
-G4WT1 > Edep_Si = 1.42736
-G4WT0 > Edep_Si = 1.13063
-G4WT1 > Energy: 1.44902
-G4WT0 > Energy: 1.3427
-G4WT0 > Edep_Si = 1.3427
-G4WT1 > Edep_Si = 1.44902
-G4WT0 > Energy: 1.29808
-G4WT1 > Energy: 1.2512
-G4WT0 > Edep_Si = 1.29808
-G4WT1 > Edep_Si = 1.2512
-G4WT0 > Energy: 1.73574
-G4WT1 > Energy: 1.02095
-G4WT0 > Edep_Si = 1.73574
-G4WT1 > Edep_Si = 1.02095
-G4WT0 > Energy: 2.0237
-G4WT1 > Energy: 1.98569
-G4WT0 > Edep_Si = 2.0237
-G4WT1 > Edep_Si = 1.98569
-G4WT0 > Energy: 2.36204
-G4WT0 > Edep_Si = 2.36204
-G4WT1 > Energy: 1.74536
-G4WT0 > Energy: 1.26348
-G4WT1 > Edep_Si = 1.74536
-G4WT0 > Edep_Si = 1.26348
-G4WT1 > Energy: 1.33762
-G4WT0 > Energy: 1.54973
-G4WT1 > Edep_Si = 1.33762
-G4WT0 > Edep_Si = 1.54973
-G4WT1 > Energy: 1.99228
-G4WT0 > Energy: 1.16332
-G4WT1 > Edep_Si = 1.99228
-G4WT0 > Edep_Si = 1.16332
-G4WT1 > Energy: 1.03549
-G4WT0 > Energy: 1.60334
-G4WT1 > Edep_Si = 1.03549
-G4WT0 > Edep_Si = 1.60334
-G4WT1 > Energy: 1.46299
-G4WT0 > Energy: 1.0336
-G4WT1 > Edep_Si = 1.46299
-G4WT0 > Edep_Si = 1.0336
-G4WT1 > Energy: 1.02643
-G4WT1 > Edep_Si = 1.02643
-G4WT0 > Energy: 1.75371
-G4WT0 > Edep_Si = 1.75371
-G4WT1 > Energy: 1.38575
-G4WT0 > Energy: 1.19106
-G4WT1 > Edep_Si = 1.38575
-G4WT0 > Edep_Si = 1.19106
-G4WT1 > Energy: 1.0622
-G4WT0 > Energy: 3.88798
-G4WT1 > Edep_Si = 1.0622
-G4WT0 > Edep_Si = 2.02865
-G4WT1 > Energy: 1.35333
-G4WT0 > Energy: 2.04479
-G4WT1 > Edep_Si = 1.35333
-G4WT0 > Edep_Si = 2.04479
-G4WT1 > Energy: 1.30935
-G4WT0 > Energy: 1.03247
-G4WT0 > Edep_Si = 1.03247
-G4WT1 > Edep_Si = 1.30935
-G4WT0 > Energy: 1.83209
-G4WT1 > Energy: 1.08774
-G4WT0 > Edep_Si = 1.83209
-G4WT1 > Edep_Si = 1.08774
-G4WT0 > Energy: 1.24045
-G4WT1 > Energy: 1.4818
-G4WT0 > Edep_Si = 1.24045
-G4WT1 > Edep_Si = 1.4818
-G4WT0 > Energy: 1.94752
-G4WT1 > Energy: 2.30754
-G4WT0 > Edep_Si = 1.94752
-G4WT1 > Edep_Si = 2.30754
-G4WT0 > Energy: 1.33129
-G4WT1 > Energy: 1.04496
-G4WT0 > Edep_Si = 1.33129
-G4WT1 > Edep_Si = 1.04496
-G4WT0 > Energy: 3.15439
-G4WT1 > Energy: 1.23801
-G4WT1 > Edep_Si = 1.23801
-G4WT0 > Edep_Si = 3.02675
-G4WT1 > Energy: 1.32942
-G4WT0 > Energy: 2.05332
-G4WT0 > Edep_Si = 2.05332
-G4WT1 > Edep_Si = 1.32942
-G4WT1 > Energy: 1.66262
-G4WT0 > Energy: 1.38005
-G4WT1 > Edep_Si = 1.66262
-G4WT0 > Edep_Si = 1.38005
-G4WT1 > Energy: 1.70339
-G4WT1 > Edep_Si = 1.70339
-G4WT0 > Energy: 1.15236
-G4WT1 > Energy: 1.1412
-G4WT0 > Edep_Si = 1.15236
-G4WT1 > Edep_Si = 1.1412
-G4WT0 > Energy: 1.0481
-G4WT0 > Edep_Si = 1.0481
-G4WT1 > Energy: 1.07262
-G4WT1 > Edep_Si = 1.07262
-G4WT0 > Energy: 5.15209
-G4WT0 > Edep_Si = 1.44907
-G4WT1 > Energy: 1.02269
-G4WT1 > Edep_Si = 1.02269
-G4WT0 > Energy: 1.28459
-G4WT0 > Edep_Si = 1.28459
-G4WT1 > Energy: 1.17785
-G4WT0 > Energy: 4.49013
-G4WT1 > Edep_Si = 1.17785
-G4WT0 > Edep_Si = 1.74093
-G4WT1 > Energy: 4.42091
-G4WT0 > Energy: 3.51018
-G4WT1 > Edep_Si = 1.68952
-G4WT0 > Edep_Si = 2.34166
-G4WT1 > Energy: 1.04657
-G4WT0 > Energy: 1.73122
-G4WT0 > Edep_Si = 1.73122
-G4WT1 > Edep_Si = 1.04657
-G4WT0 > Energy: 2.95857
-G4WT1 > Energy: 1.24772
-G4WT0 > Edep_Si = 2.95857
-G4WT1 > Edep_Si = 1.24772
-G4WT0 > Energy: 1.98188
-G4WT0 > Edep_Si = 1.98188
-G4WT1 > Energy: 2.18042
-G4WT1 > Edep_Si = 2.18042
-G4WT0 > Energy: 1.22588
-G4WT0 > Edep_Si = 1.22588
-G4WT1 > Energy: 1.59049
-G4WT1 > Edep_Si = 1.59049
-G4WT0 > Energy: 1.35934
-G4WT1 > Energy: 1.04366
-G4WT0 > Edep_Si = 1.35934
-G4WT0 > Energy: 1.59063
-G4WT1 > Edep_Si = 1.04366
-G4WT0 > Edep_Si = 1.59063
-G4WT1 > Energy: 1.77582
-G4WT1 > Edep_Si = 1.77582
-G4WT0 > Energy: 1.55241
-G4WT0 > Edep_Si = 1.55241
-G4WT1 > Energy: 1.27707
-G4WT0 > Energy: 1.20269
-G4WT1 > Edep_Si = 1.27707
-G4WT0 > Edep_Si = 1.20269
-G4WT1 > Energy: 1.30353
-G4WT0 > Energy: 1.04025
-G4WT1 > Edep_Si = 1.30353
-G4WT0 > Edep_Si = 1.04025
-G4WT1 > Energy: 1.66817
-G4WT0 > Energy: 2.03865
-G4WT1 > Edep_Si = 1.66817
-G4WT0 > Edep_Si = 2.03865
-G4WT1 > Energy: 1.10582
-G4WT0 > Energy: 1.19054
-G4WT1 > Edep_Si = 1.10582
-G4WT0 > Edep_Si = 1.19054
-G4WT0 > Energy: 1.48023
-G4WT1 > Energy: 3.17828
-G4WT0 > Edep_Si = 1.48023
-G4WT1 > Edep_Si = 2.90813
-G4WT0 > Energy: 1.28156
-G4WT1 > Energy: 1.06463
-G4WT1 > Edep_Si = 1.06463
-G4WT0 > Edep_Si = 1.28156
-G4WT0 > Energy: 1.72501
-G4WT1 > Energy: 1.31723
-G4WT0 > Edep_Si = 1.72501
-G4WT1 > Edep_Si = 1.31723
-G4WT1 > Energy: 1.25723
-G4WT0 > Energy: 1.03857
-G4WT0 > Edep_Si = 1.03857
-G4WT1 > Edep_Si = 1.25723
-G4WT1 > Energy: 1.14814
-G4WT0 > Energy: 1.71098
-G4WT1 > Edep_Si = 1.14814
-G4WT0 > Edep_Si = 1.71098
-G4WT1 > Energy: 2.75088
-G4WT0 > Energy: 1.30282
-G4WT0 > Edep_Si = 1.30282
-G4WT1 > Edep_Si = 2.75088
-G4WT1 > Energy: 1.32894
-G4WT0 > Energy: 1.03248
-G4WT1 > Edep_Si = 1.32894
-G4WT0 > Edep_Si = 1.03248
-G4WT1 > Energy: 1.0477
-G4WT0 > Energy: 27.8101
-G4WT1 > Edep_Si = 1.0477
-G4WT1 > Energy: 1.76992
-G4WT0 > Edep_Si = 27.8101
-G4WT1 > Edep_Si = 1.76992
-G4WT0 > Energy: 1.43694
-G4WT1 > Energy: 1.15564
-G4WT0 > Edep_Si = 1.43694
-G4WT1 > Edep_Si = 1.15564
-G4WT0 > Energy: 1.20671
-G4WT1 > Energy: 1.27437
-G4WT0 > Edep_Si = 1.20671
-G4WT1 > Edep_Si = 1.27437
-G4WT0 > Energy: 2.321
-G4WT1 > Energy: 1.37661
-G4WT0 > Edep_Si = 2.321
-G4WT1 > Edep_Si = 1.37661
-G4WT0 > Energy: 4.86055
-G4WT1 > Energy: 1.56868
-G4WT0 > Edep_Si = 1.57474
-G4WT1 > Edep_Si = 1.56868
-G4WT0 > Energy: 26.5267
-G4WT1 > Energy: 1.36129
-G4WT1 > Edep_Si = 1.36129
-G4WT1 > Energy: 1.2138
-G4WT0 > Edep_Si = 26.5267
-G4WT1 > Edep_Si = 1.2138
-G4WT0 > Energy: 4.65554
-G4WT1 > Energy: 3.26249
-G4WT1 > Edep_Si = 2.71159
-G4WT0 > Edep_Si = 4.65554
-G4WT1 > Energy: 1.19564
-G4WT0 > Energy: 1.71093
-G4WT0 > Edep_Si = 1.71093
-G4WT1 > Edep_Si = 1.19564
-G4WT0 > Energy: 1.21056
-G4WT1 > Energy: 1.35754
-G4WT0 > Edep_Si = 1.21056
-G4WT1 > Edep_Si = 1.35754
-G4WT0 > Energy: 8.85976
-G4WT1 > Energy: 2.34414
-G4WT0 > Edep_Si = 0.952105
-G4WT1 > Edep_Si = 2.34414
-G4WT0 > Energy: 1.27485
-G4WT1 > Energy: 2.57857
-G4WT0 > Edep_Si = 1.27485
-G4WT1 > Edep_Si = 2.57857
-G4WT1 > Energy: 1.1779
-G4WT0 > Energy: 1.42609
-G4WT0 > Edep_Si = 1.42609
-G4WT1 > Edep_Si = 1.1779
-G4WT0 > Energy: 1.01742
-G4WT1 > Energy: 1.10199
-G4WT1 > Edep_Si = 1.10199
-G4WT0 > Edep_Si = 1.01742
-G4WT0 > Energy: 1.9233
-G4WT1 > Energy: 1.41465
-G4WT0 > Edep_Si = 1.9233
-G4WT1 > Edep_Si = 1.41465
-G4WT0 > Energy: 2.19911
-G4WT1 > Energy: 1.80972
-G4WT0 > Edep_Si = 2.19911
-G4WT1 > Edep_Si = 1.80972
-G4WT0 > Energy: 1.24018
-G4WT1 > Energy: 1.8912
-G4WT0 > Edep_Si = 1.24018
-G4WT1 > Edep_Si = 1.8912
-G4WT0 > Energy: 1.41055
-G4WT1 > Energy: 1.56263
-G4WT0 > Edep_Si = 1.41055
-G4WT1 > Edep_Si = 1.56263
-G4WT0 > Energy: 1.30881
-G4WT1 > Energy: 1.86992
-G4WT0 > Edep_Si = 1.30881
-G4WT1 > Edep_Si = 1.86992
-G4WT0 > Energy: 1.04003
-G4WT1 > Energy: 1.12717
-G4WT0 > Edep_Si = 1.04003
-G4WT1 > Edep_Si = 1.12717
-G4WT1 > Energy: 1.02647
-G4WT0 > Energy: 1.90424
-G4WT0 > Edep_Si = 1.90424
-G4WT1 > Edep_Si = 1.02647
-G4WT1 > Energy: 1.62391
-G4WT0 > Energy: 3.19465
-G4WT1 > Edep_Si = 1.62391
-G4WT0 > Edep_Si = 2.84318
-G4WT1 > Energy: 1.00913
-G4WT0 > Energy: 5.15389
-G4WT1 > Edep_Si = 1.00913
-G4WT0 > Edep_Si = 1.5332
-G4WT1 > Energy: 2.66028
-G4WT0 > Energy: 1.57333
-G4WT1 > Edep_Si = 2.66028
-G4WT0 > Edep_Si = 1.57333
-G4WT1 > Energy: 1.46739
-G4WT0 > Energy: 1.40256
-G4WT0 > Edep_Si = 1.40256
-G4WT1 > Edep_Si = 1.46739
-G4WT0 > Energy: 1.10489
-G4WT1 > Energy: 1.18606
-G4WT0 > Edep_Si = 1.10489
-G4WT1 > Edep_Si = 1.18606
-G4WT0 > Energy: 1.00129
-G4WT1 > Energy: 1.38253
-G4WT0 > Edep_Si = 1.00129
-G4WT1 > Edep_Si = 1.38253
-G4WT0 > Energy: 1.027
-G4WT1 > Energy: 2.86883
-G4WT0 > Edep_Si = 1.027
-G4WT1 > Edep_Si = 2.86883
-G4WT1 > Energy: 1.08966
-G4WT0 > Energy: 1.34273
-G4WT0 > Edep_Si = 1.34273
-G4WT1 > Edep_Si = 1.08966
-G4WT0 > Energy: 1.96886
-G4WT1 > Energy: 1.13037
-G4WT1 > Edep_Si = 1.13037
-G4WT0 > Edep_Si = 1.96886
-G4WT0 > Energy: 1.00884
-G4WT1 > Energy: 1.42172
-G4WT0 > Edep_Si = 1.00884
-G4WT1 > Edep_Si = 1.42172
-G4WT0 > Energy: 2.24732
-G4WT1 > Energy: 1.25984
-G4WT0 > Edep_Si = 2.24732
-G4WT1 > Edep_Si = 1.25984
-G4WT1 > Energy: 1.35262
-G4WT0 > Energy: 1.54284
-G4WT0 > Edep_Si = 1.54284
-G4WT1 > Edep_Si = 1.35262
-G4WT0 > Energy: 1.2875
-G4WT1 > Energy: 1.06948
-G4WT0 > Edep_Si = 1.2875
-G4WT1 > Edep_Si = 1.06948
-G4WT0 > Energy: 1.59552
-G4WT1 > Energy: 1.16689
-G4WT1 > Edep_Si = 1.16689
-G4WT0 > Edep_Si = 1.59552
-G4WT0 > Energy: 1.07471
-G4WT1 > Energy: 1.31227
-G4WT0 > Edep_Si = 1.07471
-G4WT1 > Edep_Si = 1.31227
-G4WT0 > Energy: 1.24242
-G4WT1 > Energy: 2.34327
-G4WT1 > Edep_Si = 2.34327
-G4WT0 > Edep_Si = 1.24242
-G4WT1 > Energy: 1.21545
-G4WT0 > Energy: 1.66374
-G4WT1 > Edep_Si = 1.21545
-G4WT0 > Edep_Si = 1.66374
-G4WT1 > Energy: 1.16405
-G4WT0 > Energy: 2.03961
-G4WT1 > Edep_Si = 1.16405
-G4WT0 > Edep_Si = 2.03961
-G4WT1 > Energy: 1.36813
-G4WT0 > Energy: 1.33173
-G4WT1 > Edep_Si = 1.36813
-G4WT0 > Edep_Si = 1.33173
-G4WT1 > Energy: 1.61619
-G4WT1 > Edep_Si = 1.61619
-G4WT0 > Energy: 1.66281
-G4WT0 > Edep_Si = 1.66281
-G4WT1 > Energy: 2.44886
-G4WT0 > Energy: 3.10691
-G4WT1 > Edep_Si = 2.44886
-G4WT0 > Edep_Si = 3.10691
-G4WT1 > Energy: 1.60495
-G4WT1 > Edep_Si = 1.60495
-G4WT0 > Energy: 1.09996
-G4WT0 > Edep_Si = 1.09996
-G4WT1 > Energy: 1.29218
-G4WT1 > Edep_Si = 1.29218
-G4WT0 > Energy: 2.25344
-G4WT1 > Energy: 1.1048
-G4WT0 > Edep_Si = 2.25344
-G4WT0 > Energy: 2.84663
-G4WT1 > Edep_Si = 1.1048
-G4WT0 > Edep_Si = 2.84663
-G4WT1 > Energy: 2.58084
-G4WT1 > Edep_Si = 2.58084
-G4WT0 > Energy: 2.35324
-G4WT0 > Edep_Si = 2.35324
-G4WT1 > Energy: 1.41672
-G4WT1 > Edep_Si = 1.41672
-G4WT0 > Energy: 1.28256
-G4WT0 > Edep_Si = 1.28256
-G4WT1 > Energy: 1.53092
-G4WT0 > Energy: 1.29855
-G4WT1 > Edep_Si = 1.53092
-G4WT0 > Edep_Si = 1.29855
-G4WT0 > Energy: 4.5132
-G4WT1 > Energy: 1.2835
-G4WT1 > Edep_Si = 1.2835
-G4WT0 > Edep_Si = 1.79098
-G4WT0 > Energy: 2.01613
-G4WT1 > Energy: 5.75853
-G4WT0 > Edep_Si = 2.01613
-G4WT1 > Edep_Si = 1.34513
-G4WT0 > Energy: 3.54724
-G4WT1 > Energy: 1.19954
-G4WT1 > Edep_Si = 1.19954
-G4WT0 > Edep_Si = 2.24252
-G4WT1 > Energy: 3.77607
-G4WT0 > Energy: 1.53314
-G4WT1 > Edep_Si = 2.17256
-G4WT0 > Edep_Si = 1.53314
-G4WT1 > Energy: 1.20237
-G4WT0 > Energy: 1.29376
-G4WT1 > Edep_Si = 1.20237
-G4WT0 > Edep_Si = 1.29376
-G4WT1 > Energy: 4.91571
-G4WT0 > Energy: 1.1401
-G4WT1 > Edep_Si = 1.56377
-G4WT0 > Edep_Si = 1.1401
-G4WT1 > Energy: 2.40774
-G4WT0 > Energy: 1.51787
-G4WT1 > Edep_Si = 2.40774
-G4WT0 > Edep_Si = 1.51787
-G4WT1 > Energy: 1.60598
-G4WT0 > Energy: 1.87777
-G4WT1 > Edep_Si = 1.60598
-G4WT0 > Edep_Si = 1.87777
-G4WT1 > Energy: 3.21282
-G4WT0 > Energy: 1.07867
-G4WT0 > Edep_Si = 1.07867
-G4WT1 > Edep_Si = 2.83231
-G4WT1 > Energy: 1.20684
-G4WT0 > Energy: 2.11714
-G4WT1 > Edep_Si = 1.20684
-G4WT0 > Edep_Si = 2.11714
-G4WT0 > Energy: 2.69976
-G4WT1 > Energy: 1.0076
-G4WT0 > Edep_Si = 2.69976
-G4WT1 > Edep_Si = 1.0076
-G4WT1 > Energy: 1.62669
-G4WT0 > Energy: 1.15568
-G4WT1 > Edep_Si = 1.62669
-G4WT0 > Edep_Si = 1.15568
-G4WT1 > Energy: 1.25016
-G4WT0 > Energy: 2.30262
-G4WT1 > Edep_Si = 1.25016
-G4WT0 > Edep_Si = 2.30262
-G4WT1 > Energy: 1.03085
-G4WT0 > Energy: 1.92264
-G4WT0 > Edep_Si = 1.92264
-G4WT1 > Edep_Si = 1.03085
-G4WT1 > Energy: 1.65746
-G4WT0 > Energy: 1.31174
-G4WT0 > Edep_Si = 1.31174
-G4WT1 > Edep_Si = 1.65746
-G4WT0 > Energy: 1.52328
-G4WT1 > Energy: 1.07269
-G4WT0 > Edep_Si = 1.52328
-G4WT1 > Edep_Si = 1.07269
-G4WT1 > Energy: 1.15366
-G4WT0 > Energy: 1.31184
-G4WT1 > Edep_Si = 1.15366
-G4WT0 > Edep_Si = 1.31184
-G4WT0 > Energy: 1.93606
-G4WT1 > Energy: 1.27267
-G4WT0 > Edep_Si = 1.93606
-G4WT1 > Edep_Si = 1.27267
-G4WT0 > Energy: 1.07466
-G4WT1 > Energy: 1.19564
-G4WT0 > Edep_Si = 1.07466
-G4WT1 > Edep_Si = 1.19564
-G4WT0 > Energy: 1.08657
-G4WT1 > Energy: 2.96689
-G4WT0 > Edep_Si = 1.08657
-G4WT1 > Edep_Si = 2.96689
-G4WT0 > Energy: 1.47233
-G4WT1 > Energy: 1.533
-G4WT0 > Edep_Si = 1.47233
-G4WT1 > Edep_Si = 1.533
-G4WT1 > Energy: 1.27317
-G4WT0 > Energy: 1.42091
-G4WT1 > Edep_Si = 1.27317
-G4WT0 > Edep_Si = 1.42091
-G4WT1 > Energy: 8.35095
-G4WT0 > Energy: 1.60297
-G4WT0 > Edep_Si = 1.60297
-G4WT1 > Edep_Si = 0.920922
-G4WT0 > Energy: 1.16344
-G4WT1 > Energy: 6.45179
-G4WT0 > Edep_Si = 1.16344
-G4WT1 > Edep_Si = 6.45179
-G4WT0 > Energy: 2.03514
-G4WT1 > Energy: 2.34644
-G4WT0 > Edep_Si = 2.03514
-G4WT1 > Edep_Si = 2.34644
-G4WT0 > Energy: 11.3001
-G4WT1 > Energy: 1.7125
-G4WT0 > Edep_Si = 0.657349
-G4WT1 > Edep_Si = 1.7125
-G4WT0 > Energy: 1.11379
-G4WT1 > Energy: 1.11242
-G4WT0 > Edep_Si = 1.11379
-G4WT1 > Edep_Si = 1.11242
-G4WT1 > Energy: 2.52318
-G4WT0 > Energy: 1.96333
-G4WT0 > Edep_Si = 1.96333
-G4WT1 > Edep_Si = 2.52318
-G4WT1 > Energy: 1.0603
-G4WT0 > Energy: 1.00727
-G4WT1 > Edep_Si = 1.0603
-G4WT0 > Edep_Si = 1.00727
-G4WT1 > Energy: 1.19152
-G4WT0 > Energy: 1.04646
-G4WT1 > Edep_Si = 1.19152
-G4WT0 > Edep_Si = 1.04646
-G4WT0 > Energy: 1.05809
-G4WT1 > Energy: 3.00148
-G4WT0 > Edep_Si = 1.05809
-G4WT1 > Edep_Si = 3.00148
-G4WT0 > Energy: 1.23981
-G4WT1 > Energy: 1.00611
-G4WT0 > Edep_Si = 1.23981
-G4WT1 > Edep_Si = 1.00611
-G4WT0 > Energy: 1.44303
-G4WT1 > Energy: 2.28293
-G4WT0 > Edep_Si = 1.44303
-G4WT1 > Edep_Si = 2.28293
-G4WT0 > Energy: 1.12431
-G4WT1 > Energy: 1.33469
-G4WT0 > Edep_Si = 1.12431
-G4WT1 > Edep_Si = 1.33469
-G4WT0 > Energy: 1.01552
-G4WT1 > Energy: 2.41293
-G4WT0 > Edep_Si = 1.01552
-G4WT1 > Edep_Si = 2.41293
-G4WT0 > Energy: 1.19306
-G4WT1 > Energy: 1.75966
-G4WT0 > Edep_Si = 1.19306
-G4WT1 > Edep_Si = 1.75966
-G4WT0 > Energy: 1.33252
-G4WT1 > Energy: 1.2818
-G4WT0 > Edep_Si = 1.33252
-G4WT1 > Edep_Si = 1.2818
-G4WT0 > Energy: 2.29499
-G4WT1 > Energy: 3.9098
-G4WT0 > Edep_Si = 2.29499
-G4WT1 > Edep_Si = 2.05977
-G4WT0 > Energy: 1.19892
-G4WT1 > Energy: 1.6801
-G4WT0 > Edep_Si = 1.19892
-G4WT1 > Edep_Si = 1.6801
-G4WT0 > Energy: 1.15169
-G4WT1 > Energy: 4.46746
-G4WT0 > Edep_Si = 1.15169
-G4WT1 > Edep_Si = 1.70733
-G4WT0 > Energy: 1.02292
-G4WT1 > Energy: 1.19816
-G4WT1 > Edep_Si = 1.19816
-G4WT0 > Edep_Si = 1.02292
-G4WT0 > Energy: 1.39651
-G4WT1 > Energy: 3.23452
-G4WT0 > Edep_Si = 1.39651
-G4WT1 > Edep_Si = 2.82154
-G4WT0 > Energy: 1.4485
-G4WT1 > Energy: 1.05134
-G4WT0 > Edep_Si = 1.4485
-G4WT1 > Edep_Si = 1.05134
-G4WT0 > Energy: 1.09834
-G4WT1 > Energy: 8.65346
-G4WT0 > Edep_Si = 1.09834
-G4WT1 > Edep_Si = 0.979853
-G4WT0 > Energy: 1.00478
-G4WT1 > Energy: 2.15127
-G4WT0 > Edep_Si = 1.00478
-G4WT1 > Edep_Si = 2.15127
-G4WT0 > Energy: 1.04877
-G4WT1 > Energy: 1.72417
-G4WT0 > Edep_Si = 1.04877
-G4WT1 > Edep_Si = 1.72417
-G4WT1 > Energy: 1.00592
-G4WT0 > Energy: 1.09945
-G4WT0 > Edep_Si = 1.09945
-G4WT1 > Edep_Si = 1.00592
-G4WT1 > Energy: 1.07636
-G4WT0 > Energy: 11.8173
-G4WT1 > Edep_Si = 1.07636
-G4WT0 > Edep_Si = 11.8173
-G4WT1 > Energy: 1.10642
-G4WT1 > Edep_Si = 1.10642
-G4WT0 > Energy: 1.72973
-G4WT0 > Edep_Si = 1.72973
-G4WT1 > Energy: 1.52915
-G4WT1 > Edep_Si = 1.52915
-G4WT0 > Energy: 1.33171
-G4WT0 > Edep_Si = 1.33171
-G4WT1 > Energy: 1.11423
-G4WT1 > Edep_Si = 1.11423
-G4WT0 > Energy: 1.55841
-G4WT0 > Edep_Si = 1.55841
-G4WT1 > Energy: 1.30054
-G4WT0 > Energy: 1.17575
-G4WT1 > Edep_Si = 1.30054
-G4WT0 > Edep_Si = 1.17575
-G4WT1 > Energy: 1.27356
-G4WT1 > Edep_Si = 1.27356
-G4WT0 > Energy: 1.35974
-G4WT0 > Edep_Si = 1.35974
-G4WT1 > Energy: 1.47871
-G4WT1 > Edep_Si = 1.47871
-G4WT0 > Energy: 1.03633
-G4WT0 > Edep_Si = 1.03633
-G4WT1 > Energy: 3.75386
-G4WT1 > Edep_Si = 2.17217
-G4WT0 > Energy: 3.24577
-G4WT0 > Edep_Si = 2.76427
-G4WT1 > Energy: 1.05502
-G4WT1 > Edep_Si = 1.05502
-G4WT0 > Energy: 2.40638
-G4WT0 > Edep_Si = 2.40638
-G4WT1 > Energy: 1.18216
-G4WT0 > Energy: 1.12769
-G4WT1 > Edep_Si = 1.18216
-G4WT0 > Edep_Si = 1.12769
-G4WT1 > Energy: 2.73841
-G4WT1 > Edep_Si = 2.73841
-G4WT0 > Energy: 2.8449
-G4WT1 > Energy: 4.03163
-G4WT0 > Edep_Si = 2.8449
-G4WT1 > Edep_Si = 2.01298
-G4WT0 > Energy: 1.26162
-G4WT0 > Edep_Si = 1.26162
-G4WT1 > Energy: 1.02858
-G4WT0 > Energy: 1.08979
-G4WT1 > Edep_Si = 1.02858
-G4WT0 > Edep_Si = 1.08979
-G4WT1 > Energy: 4.81425
-G4WT0 > Energy: 1.19209
-G4WT0 > Edep_Si = 1.19209
-G4WT1 > Edep_Si = 1.61494
-G4WT1 > Energy: 1.03648
-G4WT0 > Energy: 1.24754
-G4WT0 > Edep_Si = 1.24754
-G4WT1 > Edep_Si = 1.03648
-G4WT0 > Energy: 1.38343
-G4WT1 > Energy: 1.60032
-G4WT0 > Edep_Si = 1.38343
-G4WT1 > Edep_Si = 1.60032
-G4WT0 > Energy: 1.02852
-G4WT1 > Energy: 1.07953
-G4WT0 > Edep_Si = 1.02852
-G4WT1 > Edep_Si = 1.07953
-G4WT0 > Energy: 1.13539
-G4WT1 > Energy: 1.41475
-G4WT0 > Edep_Si = 1.13539
-G4WT1 > Edep_Si = 1.41475
-G4WT0 > Energy: 4.87012
-G4WT1 > Energy: 1.4473
-G4WT0 > Edep_Si = 1.5514
-G4WT1 > Edep_Si = 1.4473
-G4WT0 > Energy: 1.32042
-G4WT1 > Energy: 2.0243
-G4WT0 > Edep_Si = 1.32042
-G4WT1 > Edep_Si = 2.0243
-G4WT0 > Energy: 1.21873
-G4WT1 > Energy: 4.89395
-G4WT0 > Edep_Si = 1.21873
-G4WT1 > Edep_Si = 1.65038
-G4WT0 > Energy: 1.026
-G4WT0 > Edep_Si = 1.026
-G4WT1 > Energy: 1.09502
-G4WT1 > Edep_Si = 1.09502
-G4WT0 > Energy: 1.25911
-G4WT1 > Energy: 1.44167
-G4WT0 > Edep_Si = 1.25911
-G4WT1 > Edep_Si = 1.44167
-G4WT0 > Energy: 1.01181
-G4WT1 > Energy: 1.36981
-G4WT0 > Edep_Si = 1.01181
-G4WT1 > Edep_Si = 1.36981
-G4WT0 > Energy: 1.4807
-G4WT0 > Edep_Si = 1.4807
-G4WT1 > Energy: 1.69361
-G4WT0 > Energy: 1.86755
-G4WT1 > Edep_Si = 1.69361
-G4WT0 > Edep_Si = 1.86755
-G4WT1 > Energy: 1.14809
-G4WT0 > Energy: 1.01365
-G4WT1 > Edep_Si = 1.14809
-G4WT0 > Edep_Si = 1.01365
-G4WT1 > Energy: 1.17804
-G4WT0 > Energy: 1.12102
-G4WT0 > Edep_Si = 1.12102
-G4WT1 > Edep_Si = 1.17804
-G4WT1 > Energy: 1.14331
-G4WT0 > Energy: 1.6747
-G4WT1 > Edep_Si = 1.14331
-G4WT0 > Edep_Si = 1.6747
-G4WT1 > Energy: 1.54779
-G4WT1 > Edep_Si = 1.54779
-G4WT0 > Energy: 1.70545
-G4WT0 > Edep_Si = 1.70545
-G4WT1 > Energy: 1.01258
-G4WT1 > Edep_Si = 1.01258
-G4WT0 > Energy: 1.58858
-G4WT0 > Edep_Si = 1.58858
-G4WT1 > Energy: 1.7961
-G4WT0 > Energy: 5.62247
-G4WT1 > Edep_Si = 1.7961
-G4WT0 > Edep_Si = 1.41426
-G4WT1 > Energy: 1.52003
-G4WT1 > Edep_Si = 1.52003
-G4WT0 > Energy: 1.59379
-G4WT0 > Edep_Si = 1.59379
-G4WT1 > Energy: 1.72559
-G4WT1 > Edep_Si = 1.72559
-G4WT0 > Energy: 2.68497
-G4WT0 > Edep_Si = 2.68497
-G4WT1 > Energy: 1.49546
-G4WT0 > Energy: 1.01516
-G4WT1 > Edep_Si = 1.49546
-G4WT0 > Edep_Si = 1.01516
-G4WT1 > Energy: 1.18869
-G4WT1 > Edep_Si = 1.18869
-G4WT0 > Energy: 4.66456
-G4WT1 > Energy: 1.03248
-G4WT0 > Edep_Si = 1.70244
-G4WT1 > Edep_Si = 1.03248
-G4WT0 > Energy: 1.69732
-G4WT1 > Energy: 1.00451
-G4WT0 > Edep_Si = 1.69732
-G4WT1 > Edep_Si = 1.00451
-G4WT0 > Energy: 8.96049
-G4WT0 > Edep_Si = 0.908172
-G4WT1 > Energy: 4.12928
-G4WT1 > Edep_Si = 1.9448
-G4WT0 > Energy: 1.90845
-G4WT0 > Edep_Si = 1.90845
-G4WT1 > Energy: 1.02884
-G4WT0 > Energy: 1.98134
-G4WT1 > Edep_Si = 1.02884
-G4WT0 > Edep_Si = 1.98134
-G4WT1 > Energy: 2.87716
-G4WT0 > Energy: 1.01306
-G4WT1 > Edep_Si = 2.87716
-G4WT0 > Edep_Si = 1.01306
-G4WT1 > Energy: 1.04405
-G4WT0 > Energy: 1.33522
-G4WT1 > Edep_Si = 1.04405
-G4WT0 > Edep_Si = 1.33522
-G4WT1 > Energy: 2.60335
-G4WT0 > Energy: 4.15749
-G4WT1 > Edep_Si = 2.60335
-G4WT0 > Edep_Si = 1.8834
-G4WT1 > Energy: 1.23854
-G4WT0 > Energy: 1.29551
-G4WT1 > Edep_Si = 1.23854
-G4WT0 > Edep_Si = 1.29551
-G4WT1 > Energy: 1.51124
-G4WT1 > Edep_Si = 1.51124
-G4WT0 > Energy: 3.03122
-G4WT1 > Energy: 1.11014
-G4WT0 > Edep_Si = 3.03122
-G4WT1 > Edep_Si = 1.11014
-G4WT0 > Energy: 1.18069
-G4WT1 > Energy: 1.22107
-G4WT0 > Edep_Si = 1.18069
-G4WT1 > Edep_Si = 1.22107
-G4WT0 > Energy: 2.43874
-G4WT0 > Edep_Si = 2.43874
-G4WT1 > Energy: 1.54131
-G4WT0 > Energy: 2.15475
-G4WT1 > Edep_Si = 1.54131
-G4WT0 > Edep_Si = 2.15475
-G4WT0 > Energy: 1.5667
-G4WT1 > Energy: 1.11717
-G4WT1 > Edep_Si = 1.11717
-G4WT0 > Edep_Si = 1.5667
-G4WT1 > Energy: 2.53272
-G4WT0 > Energy: 1.00257
-G4WT1 > Edep_Si = 2.53272
-G4WT0 > Edep_Si = 1.00257
-G4WT1 > Energy: 1.33244
-G4WT0 > Energy: 1.18998
-G4WT1 > Edep_Si = 1.33244
-G4WT0 > Edep_Si = 1.18998
-G4WT1 > Energy: 1.0208
-G4WT0 > Energy: 1.52332
-G4WT0 > Edep_Si = 1.52332
-G4WT1 > Edep_Si = 1.0208
-G4WT0 > Energy: 1.62549
-G4WT1 > Energy: 1.14944
-G4WT1 > Edep_Si = 1.14944
-G4WT0 > Edep_Si = 1.62549
-G4WT1 > Energy: 2.56247
-G4WT0 > Energy: 1.03622
-G4WT1 > Edep_Si = 2.56247
-G4WT0 > Edep_Si = 1.03622
-G4WT1 > Energy: 1.0448
-G4WT1 > Edep_Si = 1.0448
-G4WT0 > Energy: 2.05747
-G4WT0 > Edep_Si = 2.05747
-G4WT1 > Energy: 1.53187
-G4WT1 > Edep_Si = 1.53187
-G4WT0 > Energy: 3.40197
-G4WT0 > Edep_Si = 2.59216
-G4WT1 > Energy: 1.37099
-G4WT1 > Edep_Si = 1.37099
-G4WT0 > Energy: 1.03235
-G4WT1 > Energy: 1.201
-G4WT0 > Edep_Si = 1.03235
-G4WT1 > Edep_Si = 1.201
-G4WT0 > Energy: 1.33878
-G4WT1 > Energy: 1.51144
-G4WT0 > Edep_Si = 1.33878
-G4WT1 > Edep_Si = 1.51144
-G4WT0 > Energy: 3.16899
-G4WT1 > Energy: 1.00151
-G4WT0 > Edep_Si = 3.05043
-G4WT1 > Edep_Si = 1.00151
-G4WT0 > Energy: 3.15218
-G4WT0 > Edep_Si = 3.08993
-G4WT1 > Energy: 1.6408
-G4WT1 > Edep_Si = 1.6408
-G4WT0 > Energy: 2.25518
-G4WT1 > Energy: 1.4745
-G4WT0 > Edep_Si = 2.25518
-G4WT1 > Edep_Si = 1.4745
-G4WT0 > Energy: 3.51893
-G4WT1 > Energy: 1.08708
-G4WT1 > Edep_Si = 1.08708
-G4WT0 > Edep_Si = 2.34609
-G4WT0 > Energy: 1.08633
-G4WT1 > Energy: 1.57593
-G4WT0 > Edep_Si = 1.08633
-G4WT1 > Edep_Si = 1.57593
-G4WT0 > Energy: 1.18977
-G4WT1 > Energy: 9.78264
-G4WT0 > Edep_Si = 1.18977
-G4WT0 > Energy: 2.19511
-G4WT1 > Edep_Si = 9.78264
-G4WT0 > Edep_Si = 2.19511
-G4WT1 > Energy: 1.27391
-G4WT0 > Energy: 1.94832
-G4WT1 > Edep_Si = 1.27391
-G4WT0 > Edep_Si = 1.94832
-G4WT1 > Energy: 3.85467
-G4WT0 > Energy: 1.08682
-G4WT1 > Edep_Si = 2.0189
-G4WT0 > Edep_Si = 1.08682
-G4WT1 > Energy: 1.99543
-G4WT0 > Energy: 3.02794
-G4WT1 > Edep_Si = 1.99543
-G4WT0 > Edep_Si = 3.02794
-G4WT1 > Energy: 1.16195
-G4WT0 > Energy: 1.13624
-G4WT1 > Edep_Si = 1.16195
-G4WT0 > Edep_Si = 1.13624
-G4WT1 > Energy: 1.22638
-G4WT0 > Energy: 1.1866
-G4WT1 > Edep_Si = 1.22638
-G4WT0 > Edep_Si = 1.1866
-G4WT1 > Energy: 1.69831
-G4WT0 > Energy: 1.0771
-G4WT1 > Edep_Si = 1.69831
-G4WT0 > Edep_Si = 1.0771
-G4WT1 > Energy: 1.91675
-G4WT1 > Edep_Si = 1.91675
-G4WT0 > Energy: 9.63121
-G4WT1 > Energy: 1.2957
-G4WT0 > Edep_Si = 9.63121
-G4WT1 > Edep_Si = 1.2957
-G4WT0 > Energy: 1.15787
-G4WT0 > Edep_Si = 1.15787
-G4WT1 > Energy: 1.37487
-G4WT1 > Edep_Si = 1.37487
-G4WT0 > Energy: 1.01613
-G4WT0 > Edep_Si = 1.01613
-G4WT1 > Energy: 2.2469
-G4WT0 > Energy: 1.14315
-G4WT1 > Edep_Si = 2.2469
-G4WT0 > Edep_Si = 1.14315
-G4WT1 > Energy: 1.3625
-G4WT0 > Energy: 2.17409
-G4WT1 > Edep_Si = 1.3625
-G4WT0 > Edep_Si = 2.17409
-G4WT1 > Energy: 1.42536
-G4WT0 > Energy: 2.29272
-G4WT1 > Edep_Si = 1.42536
-G4WT0 > Edep_Si = 2.29272
-G4WT1 > Energy: 1.15595
-G4WT0 > Energy: 1.64865
-G4WT1 > Edep_Si = 1.15595
-G4WT0 > Edep_Si = 1.64865
-G4WT0 > Energy: 4.61599
-G4WT1 > Energy: 1.42016
-G4WT1 > Edep_Si = 1.42016
-G4WT0 > Edep_Si = 1.68866
-G4WT1 > Energy: 1.018
-G4WT0 > Energy: 1.05796
-G4WT1 > Edep_Si = 1.018
-G4WT0 > Edep_Si = 1.05796
-G4WT1 > Energy: 1.19134
-G4WT1 > Edep_Si = 1.19134
-G4WT0 > Energy: 1.18146
-G4WT0 > Edep_Si = 1.18146
-G4WT1 > Energy: 1.19284
-G4WT1 > Edep_Si = 1.19284
-G4WT0 > Energy: 1.34958
-G4WT0 > Edep_Si = 1.34958
-G4WT1 > Energy: 1.10062
-G4WT0 > Energy: 1.01211
-G4WT1 > Edep_Si = 1.10062
-G4WT0 > Edep_Si = 1.01211
-G4WT1 > Energy: 2.24859
-G4WT0 > Energy: 1.1263
-G4WT0 > Edep_Si = 1.1263
-G4WT1 > Edep_Si = 2.24859
-G4WT0 > Energy: 1.58313
-G4WT1 > Energy: 1.42642
-G4WT1 > Edep_Si = 1.42642
-G4WT0 > Edep_Si = 1.58313
-G4WT0 > Energy: 1.04635
-G4WT1 > Energy: 1.06554
-G4WT1 > Edep_Si = 1.06554
-G4WT0 > Edep_Si = 1.04635
-G4WT1 > Energy: 1.44558
-G4WT0 > Energy: 1.55197
-G4WT1 > Edep_Si = 1.44558
-G4WT0 > Edep_Si = 1.55197
+G4WT1 > Energy: 2.37096
+G4WT0 > Energy: 1.54188
+G4WT1 > Edep_Si = 2.37096
+G4WT0 > Edep_Si = 1.54188
+G4WT1 > Energy: 1.20885
+G4WT0 > Energy: 1.01816
+G4WT1 > Edep_Si = 1.20885
+G4WT0 > Edep_Si = 1.01816
+G4WT1 > Energy: 1.62655
+G4WT1 > Edep_Si = 1.62655
+G4WT0 > Energy: 1.67802
+G4WT0 > Edep_Si = 1.67802
+G4WT1 > Energy: 1.70693
+G4WT1 > Edep_Si = 1.70693
+G4WT0 > Energy: 1.42455
+G4WT1 > Energy: 1.3308
+G4WT0 > Edep_Si = 1.42455
+G4WT1 > Edep_Si = 1.3308
+G4WT0 > Energy: 2.07884
+G4WT1 > Energy: 1.0525
+G4WT1 > Edep_Si = 1.0525
+G4WT0 > Edep_Si = 2.07884
+G4WT1 > Energy: 1.07755
+G4WT0 > Energy: 2.84887
+G4WT1 > Edep_Si = 1.07755
+G4WT0 > Edep_Si = 2.84887
+G4WT1 > Energy: 1.96898
+G4WT0 > Energy: 10.8402
+G4WT1 > Edep_Si = 1.96898
+G4WT0 > Edep_Si = 0.706557
+G4WT1 > Energy: 3.02453
+G4WT1 > Edep_Si = 3.02453
+G4WT0 > Energy: 1.12542
+G4WT1 > Energy: 5.32136
+G4WT0 > Edep_Si = 1.12542
+G4WT1 > Edep_Si = 5.32136
+G4WT0 > Energy: 1.97693
+G4WT0 > Edep_Si = 1.97693
+G4WT1 > Energy: 1.06903
+G4WT1 > Edep_Si = 1.06903
+G4WT0 > Energy: 1.05703
+G4WT1 > Energy: 1.14081
+G4WT0 > Edep_Si = 1.05703
+G4WT1 > Edep_Si = 1.14081
+G4WT0 > Energy: 2.64742
+G4WT1 > Energy: 1.59616
+G4WT0 > Edep_Si = 2.64742
+G4WT1 > Edep_Si = 1.59616
+G4WT1 > Energy: 1.14943
+G4WT0 > Energy: 1.24031
+G4WT1 > Edep_Si = 1.14943
+G4WT0 > Edep_Si = 1.24031
+G4WT1 > Energy: 2.54594
+G4WT0 > Energy: 1.73621
+G4WT1 > Edep_Si = 2.54594
+G4WT0 > Edep_Si = 1.73621
+G4WT1 > Energy: 2.42157
+G4WT0 > Energy: 2.55801
+G4WT1 > Edep_Si = 2.42157
+G4WT0 > Edep_Si = 2.55801
+G4WT1 > Energy: 2.37857
+G4WT0 > Energy: 1.69118
+G4WT0 > Edep_Si = 1.69118
+G4WT1 > Edep_Si = 2.37857
+G4WT0 > Energy: 2.98592
+G4WT1 > Energy: 1.65865
+G4WT0 > Edep_Si = 2.98592
+G4WT1 > Edep_Si = 1.65865
+G4WT0 > Energy: 2.88192
+G4WT1 > Energy: 1.93851
+G4WT0 > Edep_Si = 2.88192
+G4WT1 > Edep_Si = 1.93851
+G4WT0 > Energy: 2.36382
+G4WT1 > Energy: 8.64811
+G4WT0 > Edep_Si = 2.36382
+G4WT1 > Edep_Si = 0.999403
+G4WT0 > Energy: 1.24221
+G4WT1 > Energy: 1.31997
+G4WT0 > Edep_Si = 1.24221
+G4WT1 > Edep_Si = 1.31997
+G4WT0 > Energy: 1.05717
+G4WT1 > Energy: 3.78555
+G4WT0 > Edep_Si = 1.05717
+G4WT1 > Edep_Si = 2.14101
+G4WT0 > Energy: 1.26868
+G4WT1 > Energy: 8.40432
+G4WT0 > Edep_Si = 1.26868
+G4WT0 > Energy: 2.07024
+G4WT1 > Edep_Si = 8.40432
+G4WT0 > Edep_Si = 2.07024
+G4WT1 > Energy: 1.94229
+G4WT0 > Energy: 1.09378
+G4WT1 > Edep_Si = 1.94229
+G4WT0 > Edep_Si = 1.09378
+G4WT1 > Energy: 1.03158
+G4WT1 > Edep_Si = 1.03158
+G4WT0 > Energy: 1.70136
+G4WT0 > Edep_Si = 1.70136
+G4WT1 > Energy: 1.26223
+G4WT1 > Edep_Si = 1.26223
+G4WT0 > Energy: 1.44708
+G4WT1 > Energy: 2.08504
+G4WT0 > Edep_Si = 1.44708
+G4WT1 > Edep_Si = 2.08504
+G4WT0 > Energy: 1.24583
+G4WT1 > Energy: 2.05578
+G4WT0 > Edep_Si = 1.24583
+G4WT1 > Edep_Si = 2.05578
+G4WT0 > Energy: 2.25807
+G4WT0 > Edep_Si = 2.25807
+G4WT1 > Energy: 1.04585
+G4WT1 > Edep_Si = 1.04585
+G4WT0 > Energy: 1.04664
+G4WT0 > Edep_Si = 1.04664
+G4WT1 > Energy: 1.39898
+G4WT1 > Edep_Si = 1.39898
+G4WT0 > Energy: 1.31165
+G4WT0 > Edep_Si = 1.31165
+G4WT1 > Energy: 1.47085
+G4WT0 > Energy: 1.28033
+G4WT1 > Edep_Si = 1.47085
+G4WT0 > Edep_Si = 1.28033
+G4WT1 > Energy: 1.23522
+G4WT0 > Energy: 4.50307
+G4WT1 > Edep_Si = 1.23522
+G4WT0 > Edep_Si = 4.50307
+G4WT1 > Energy: 1.17503
+G4WT0 > Energy: 1.10072
+G4WT1 > Edep_Si = 1.17503
+G4WT0 > Edep_Si = 1.10072
+G4WT1 > Energy: 2.5207
+G4WT0 > Energy: 2.14288
+G4WT1 > Edep_Si = 2.5207
+G4WT0 > Edep_Si = 2.14288
+G4WT1 > Energy: 1.02191
+G4WT0 > Energy: 1.71833
+G4WT1 > Edep_Si = 1.02191
+G4WT0 > Edep_Si = 1.71833
+G4WT1 > Energy: 1.11766
+G4WT1 > Edep_Si = 1.11766
+G4WT0 > Energy: 1.84028
+G4WT1 > Energy: 2.79105
+G4WT0 > Edep_Si = 1.84028
+G4WT1 > Edep_Si = 2.79105
+G4WT0 > Energy: 1.65853
+G4WT1 > Energy: 4.09611
+G4WT0 > Edep_Si = 1.65853
+G4WT1 > Edep_Si = 1.90023
+G4WT0 > Energy: 4.54624
+G4WT1 > Energy: 2.52684
+G4WT0 > Edep_Si = 1.64889
+G4WT1 > Edep_Si = 2.52684
+G4WT0 > Energy: 1.03879
+G4WT1 > Energy: 1.20571
+G4WT0 > Edep_Si = 1.03879
+G4WT1 > Edep_Si = 1.20571
+G4WT0 > Energy: 1.1579
+G4WT1 > Energy: 1.0556
+G4WT0 > Edep_Si = 1.1579
+G4WT1 > Edep_Si = 1.0556
+G4WT0 > Energy: 1.17626
+G4WT1 > Energy: 1.43117
+G4WT0 > Edep_Si = 1.17626
+G4WT1 > Edep_Si = 1.43117
+G4WT0 > Energy: 1.52665
+G4WT0 > Edep_Si = 1.52665
+G4WT1 > Energy: 1.24275
+G4WT1 > Edep_Si = 1.24275
+G4WT0 > Energy: 2.05591
+G4WT1 > Energy: 1.25467
+G4WT0 > Edep_Si = 2.05591
+G4WT1 > Edep_Si = 1.25467
+G4WT1 > Energy: 1.6605
+G4WT0 > Energy: 1.77645
+G4WT1 > Edep_Si = 1.6605
+G4WT0 > Edep_Si = 1.77645
+G4WT1 > Energy: 5.17127
+G4WT0 > Energy: 1.2054
+G4WT1 > Edep_Si = 1.44939
+G4WT0 > Edep_Si = 1.2054
+G4WT1 > Energy: 2.27452
+G4WT0 > Energy: 1.09321
+G4WT1 > Edep_Si = 2.27452
+G4WT0 > Edep_Si = 1.09321
+G4WT1 > Energy: 2.49389
+G4WT0 > Energy: 1.38554
+G4WT1 > Edep_Si = 2.49389
+G4WT0 > Edep_Si = 1.38554
+G4WT1 > Energy: 4.42131
+G4WT1 > Edep_Si = 1.69331
+G4WT0 > Energy: 2.80194
+G4WT0 > Edep_Si = 2.80194
+G4WT1 > Energy: 1.52188
+G4WT1 > Edep_Si = 1.52188
+G4WT0 > Energy: 1.73145
+G4WT0 > Edep_Si = 1.73145
+G4WT1 > Energy: 1.39932
+G4WT1 > Edep_Si = 1.39932
+G4WT0 > Energy: 1.47178
+G4WT0 > Edep_Si = 1.47178
+G4WT1 > Energy: 1.00557
+G4WT1 > Edep_Si = 1.00557
+G4WT0 > Energy: 1.01484
+G4WT0 > Edep_Si = 1.01484
+G4WT1 > Energy: 1.48175
+G4WT1 > Edep_Si = 1.48175
+G4WT0 > Energy: 3.43172
+G4WT0 > Edep_Si = 2.50936
+G4WT1 > Energy: 1.53836
+G4WT1 > Edep_Si = 1.53836
+G4WT0 > Energy: 2.10708
+G4WT0 > Edep_Si = 2.10708
+G4WT1 > Energy: 1.01571
+G4WT1 > Edep_Si = 1.01571
+G4WT0 > Energy: 1.09937
+G4WT1 > Energy: 1.02071
+G4WT0 > Edep_Si = 1.09937
+G4WT1 > Edep_Si = 1.02071
+G4WT0 > Energy: 1.49202
+G4WT1 > Energy: 1.0014
+G4WT0 > Edep_Si = 1.49202
+G4WT1 > Edep_Si = 1.0014
+G4WT0 > Energy: 1.1609
+G4WT0 > Edep_Si = 1.1609
+G4WT1 > Energy: 1.30722
+G4WT1 > Edep_Si = 1.30722
+G4WT0 > Energy: 2.74708
+G4WT0 > Edep_Si = 2.74708
+G4WT1 > Energy: 1.78851
+G4WT1 > Edep_Si = 1.78851
+G4WT0 > Energy: 1.32085
+G4WT0 > Edep_Si = 1.32085
+G4WT1 > Energy: 1.17916
+G4WT0 > Energy: 1.26982
+G4WT1 > Edep_Si = 1.17916
+G4WT0 > Edep_Si = 1.26982
+G4WT1 > Energy: 1.16424
+G4WT0 > Energy: 1.63956
+G4WT1 > Edep_Si = 1.16424
+G4WT0 > Edep_Si = 1.63956
+G4WT1 > Energy: 1.6503
+G4WT0 > Energy: 1.43936
+G4WT1 > Edep_Si = 1.6503
+G4WT0 > Edep_Si = 1.43936
+G4WT1 > Energy: 1.35684
+G4WT0 > Energy: 1.70057
+G4WT1 > Edep_Si = 1.35684
+G4WT0 > Edep_Si = 1.70057
+G4WT1 > Energy: 1.4393
+G4WT1 > Edep_Si = 1.4393
+G4WT0 > Energy: 2.68717
+G4WT1 > Energy: 1.11038
+G4WT1 > Edep_Si = 1.11038
+G4WT0 > Edep_Si = 2.68717
+G4WT1 > Energy: 4.13715
+G4WT0 > Energy: 1.74348
+G4WT1 > Edep_Si = 1.90436
+G4WT0 > Edep_Si = 1.74348
+G4WT1 > Energy: 2.24191
+G4WT0 > Energy: 2.04571
+G4WT0 > Edep_Si = 2.04571
+G4WT1 > Edep_Si = 2.24191
+G4WT1 > Energy: 4.78742
+G4WT0 > Energy: 1.14601
+G4WT1 > Edep_Si = 1.62864
+G4WT0 > Edep_Si = 1.14601
+G4WT1 > Energy: 5.23248
+G4WT0 > Energy: 1.74661
+G4WT1 > Edep_Si = 1.48184
+G4WT0 > Edep_Si = 1.74661
+G4WT1 > Energy: 1.16944
+G4WT1 > Edep_Si = 1.16944
+G4WT0 > Energy: 2.43671
+G4WT1 > Energy: 1.63522
+G4WT0 > Edep_Si = 2.43671
+G4WT1 > Edep_Si = 1.63522
+G4WT0 > Energy: 1.1011
+G4WT1 > Energy: 1.233
+G4WT0 > Edep_Si = 1.1011
+G4WT1 > Edep_Si = 1.233
+G4WT0 > Energy: 2.59178
+G4WT1 > Energy: 1.20982
+G4WT1 > Edep_Si = 1.20982
+G4WT0 > Edep_Si = 2.59178
+G4WT1 > Energy: 5.34096
+G4WT0 > Energy: 1.09028
+G4WT1 > Edep_Si = 1.4578
+G4WT0 > Edep_Si = 1.09028
+G4WT1 > Energy: 6.56991
+G4WT1 > Edep_Si = 1.18172
+G4WT0 > Energy: 1.56248
+G4WT0 > Edep_Si = 1.56248
+G4WT1 > Energy: 1.32857
+G4WT1 > Edep_Si = 1.32857
+G4WT0 > Energy: 2.00159
+G4WT1 > Energy: 1.50027
+G4WT0 > Edep_Si = 2.00159
+G4WT1 > Edep_Si = 1.50027
+G4WT0 > Energy: 1.29683
+G4WT1 > Energy: 3.04201
+G4WT0 > Edep_Si = 1.29683
+G4WT1 > Edep_Si = 3.04201
+G4WT0 > Energy: 1.17624
+G4WT1 > Energy: 1.47889
+G4WT0 > Edep_Si = 1.17624
+G4WT1 > Edep_Si = 1.47889
+G4WT0 > Energy: 1.30458
+G4WT1 > Energy: 7.42897
+G4WT1 > Edep_Si = 1.02447
+G4WT0 > Edep_Si = 1.30458
+G4WT1 > Energy: 9.63152
+G4WT0 > Energy: 1.20763
+G4WT1 > Edep_Si = 0.792346
+G4WT0 > Edep_Si = 1.20763
+G4WT1 > Energy: 1.50391
+G4WT0 > Energy: 1.26121
+G4WT1 > Edep_Si = 1.50391
+G4WT0 > Edep_Si = 1.26121
+G4WT1 > Energy: 2.57017
+G4WT0 > Energy: 1.03988
+G4WT1 > Edep_Si = 2.57017
+G4WT0 > Edep_Si = 1.03988
+G4WT1 > Energy: 1.94368
+G4WT0 > Energy: 2.1849
+G4WT1 > Edep_Si = 1.94368
+G4WT0 > Edep_Si = 2.1849
+G4WT1 > Energy: 1.86826
+G4WT1 > Edep_Si = 1.86826
+G4WT0 > Energy: 1.1503
+G4WT0 > Edep_Si = 1.1503
+G4WT1 > Energy: 1.39264
+G4WT1 > Edep_Si = 1.39264
+G4WT0 > Energy: 1.49753
+G4WT0 > Edep_Si = 1.49753
+G4WT1 > Energy: 4.18962
+G4WT1 > Edep_Si = 1.85976
+G4WT0 > Energy: 1.64086
+G4WT0 > Edep_Si = 1.64086
+G4WT1 > Energy: 1.49236
+G4WT1 > Edep_Si = 1.49236
+G4WT0 > Energy: 1.36363
+G4WT0 > Edep_Si = 1.36363
+G4WT1 > Energy: 1.07764
+G4WT0 > Energy: 2.14682
+G4WT1 > Edep_Si = 1.07764
+G4WT0 > Edep_Si = 2.14682
+G4WT1 > Energy: 1.23273
+G4WT0 > Energy: 1.35679
+G4WT1 > Edep_Si = 1.23273
+G4WT0 > Edep_Si = 1.35679
+G4WT1 > Energy: 1.06034
+G4WT0 > Energy: 1.18551
+G4WT1 > Edep_Si = 1.06034
+G4WT0 > Edep_Si = 1.18551
+G4WT0 > Energy: 1.81109
+G4WT1 > Energy: 1.03766
+G4WT0 > Edep_Si = 1.81109
+G4WT1 > Edep_Si = 1.03766
+G4WT0 > Energy: 1.22359
+G4WT1 > Energy: 1.21702
+G4WT0 > Edep_Si = 1.22359
+G4WT1 > Edep_Si = 1.21702
+G4WT0 > Energy: 2.97387
+G4WT0 > Edep_Si = 2.97387
+G4WT1 > Energy: 7.93466
+G4WT0 > Energy: 2.79038
+G4WT1 > Edep_Si = 7.93466
+G4WT0 > Edep_Si = 2.79038
+G4WT1 > Energy: 1.41043
+G4WT0 > Energy: 1.17955
+G4WT1 > Edep_Si = 1.41043
+G4WT0 > Edep_Si = 1.17955
+G4WT1 > Energy: 1.53173
+G4WT0 > Energy: 2.0672
+G4WT1 > Edep_Si = 1.53173
+G4WT0 > Edep_Si = 2.0672
+G4WT1 > Energy: 2.0782
+G4WT1 > Edep_Si = 2.0782
+G4WT0 > Energy: 2.02699
+G4WT0 > Edep_Si = 2.02699
+G4WT1 > Energy: 1.33512
+G4WT1 > Edep_Si = 1.33512
+G4WT0 > Energy: 1.14487
+G4WT1 > Energy: 1.53165
+G4WT0 > Edep_Si = 1.14487
+G4WT1 > Edep_Si = 1.53165
+G4WT0 > Energy: 1.10228
+G4WT1 > Energy: 1.38234
+G4WT0 > Edep_Si = 1.10228
+G4WT1 > Edep_Si = 1.38234
+G4WT0 > Energy: 1.07999
+G4WT0 > Edep_Si = 1.07999
+G4WT1 > Energy: 1.40913
+G4WT1 > Edep_Si = 1.40913
+G4WT0 > Energy: 1.04655
+G4WT0 > Edep_Si = 1.04655
+G4WT1 > Energy: 1.15329
+G4WT1 > Edep_Si = 1.15329
+G4WT1 > Energy: 8.68422
+G4WT1 > Edep_Si = 0.997405
+G4WT1 > Energy: 5.77283
+G4WT1 > Edep_Si = 1.28712
+G4WT1 > Energy: 1.12727
+G4WT1 > Edep_Si = 1.12727
+G4WT1 > Energy: 1.31005
+G4WT1 > Edep_Si = 1.31005
+G4WT1 > Energy: 1.46758
+G4WT1 > Edep_Si = 1.46758
+G4WT1 > Energy: 1.41724
+G4WT1 > Edep_Si = 1.41724
+G4WT1 > Energy: 2.02029
+G4WT1 > Edep_Si = 2.02029
+G4WT1 > Energy: 1.94983
+G4WT1 > Edep_Si = 1.94983
+Graphics systems deleted.
+Visualization Manager deleting...
