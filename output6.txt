@@ -1,0 +1,2742 @@
+
+**************************************************************
+ Geant4 version Name: geant4-10-06-patch-02 [MT]   (29-May-2020)
+  << in Multi-threaded mode >> 
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+<<< Reference Physics List QBBC 
+Seed:1602747413
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Current available graphics systems are:
+ASCIITree (ATree)
+DAWNFILE (DAWNFILE)
+G4HepRep (HepRepXML)
+G4HepRepFile (HepRepFile)
+RayTracer (RayTracer)
+VRML1FILE (VRML1FILE)
+VRML2FILE (VRML2FILE)
+gMocrenFile (gMocrenFile)
+OpenGLImmediateQt (OGLIQt, OGLI)
+OpenGLStoredQt (OGLSQt, OGL, OGLS)
+OpenGLImmediateXm (OGLIXm, OGLIQt_FALLBACK)
+OpenGLStoredXm (OGLSXm, OGLSQt_FALLBACK)
+OpenGLImmediateX (OGLIX, OGLIQt_FALLBACK, OGLIXm_FALLBACK)
+OpenGLStoredX (OGLSX, OGLSQt_FALLBACK, OGLSXm_FALLBACK)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByAttribute
+  drawByCharge
+  drawByOriginVolume
+  drawByParticleID
+  drawByEncounteredVolume
+
+Registered filter factories:
+  attributeFilter
+  chargeFilter
+  originVolumeFilter
+  particleFilter
+  encounteredVolumeFilter
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+Checking overlaps for volume Tracker1 (G4Box) ... OK! 
+Checking overlaps for volume Tracker2 (G4Box) ... OK! 
+Checking overlaps for volume Al Tracker1 (G4Box) ... OK! 
+Checking overlaps for volume AlTracker2 (G4Box) ... OK! 
+### Adding tracking cuts for neutron  TimeCut(ns)= 10000  KinEnergyCut(MeV)= 0
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 100 TeV in 61 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 7 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina : Emin=    0 eV  Emax=  100 TeV
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 100 TeV, 18 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+     BetheHeitlerLPM : Emin=    0 eV  Emax=  100 TeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 100 keV, 7 bins/decade, spline: 0
+      LambdaPrime table from 100 keV to 100 TeV in 63 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  100 TeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      RangeFactor= 0.04, stepLimType: 1, latDisp: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+
+eIoni:  for e-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+CoulombScat:  for e-, integral:1  SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for e+  SubType= 10
+      RangeFactor= 0.04, stepLimType: 1, latDisp: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+
+eIoni:  for e+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+annihil:  for e+, integral:1  SubType=5 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for e+, integral:1  SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for proton  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+hIoni:  for proton  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for proton  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV
+
+hPairProd:  for proton  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for proton, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for GenericIon  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+
+ionIoni:  for GenericIon  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.02
+      Stopping Power data for 17 ion/material pairs
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+msc:  for alpha  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+ionIoni:  for alpha  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV
+          BetheBloch : Emin=7.9452 MeV Emax=  100 TeV
+
+msc:  for anti_proton  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+hIoni:  for anti_proton  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for anti_proton  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV
+
+hPairProd:  for anti_proton  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for anti_proton, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon+  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+hIoni:  for kaon+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV
+
+hPairProd:  for kaon+  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for kaon+, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon-  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+hIoni:  for kaon-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV
+
+hPairProd:  for kaon-  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for kaon-, integral:1  SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu+  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0, polarAngLim(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+muIoni:  for mu+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV
+          BetheBloch : Emin=  200 keV Emax=    1 GeV
+        MuBetheBloch : Emin=    1 GeV Emax=  100 TeV
+
+muBrems:  for mu+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV
+
+muPairProd:  for mu+  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for mu+, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu-  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0, polarAngLim(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+muIoni:  for mu-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV
+          BetheBloch : Emin=  200 keV Emax=    1 GeV
+        MuBetheBloch : Emin=    1 GeV Emax=  100 TeV
+
+muBrems:  for mu-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV
+
+muPairProd:  for mu-  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for mu-, integral:1  SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi+  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+hIoni:  for pi+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV
+
+hPairProd:  for pi+  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for pi+, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi-  SubType= 10
+      RangeFactor= 0.2, stepLimType: 0, latDisp: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+
+hIoni:  for pi-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV
+
+hPairProd:  for pi-  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+---------------------------------------------------
+                           Hadronic Processes for neutron
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+
+  Process: neutronInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 1 GeV ---> 6 GeV
+        Model:            Binary Cascade: 0 eV  ---> 1.5 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+
+  Process: nKiller
+
+---------------------------------------------------
+                           Hadronic Processes for GenericIon
+
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 100 TeV
+
+  Process: ionElastic
+        Model:          NNDiffuseElastic: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 100 TeV
+
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:     G4ParticleInelasticXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 100 TeV
+
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:     G4ParticleInelasticXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for anti_He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_neutron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_proton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 100 TeV
+
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:     G4ParticleInelasticXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for e+
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for e-
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for gamma
+
+  Process: photonNuclear
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            PhotoNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: kaon+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: kaon-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for lambda
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: lambdaInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for mu+
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for mu-
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+  Process: muMinusCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for pi+
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: pi+Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for pi-
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: pi-Inelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: protonInelastic
+        Model:                      FTFP: 3 GeV ---> 100 TeV
+        Model:            BertiniCascade: 1 GeV ---> 6 GeV
+        Model:            Binary Cascade: 0 eV  ---> 1.5 GeV
+     Cr_sctns:     G4ParticleInelasticXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 100 TeV
+
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:     G4ParticleInelasticXS: 0 eV  ---> 100 TeV
+
+================================================================
+G4WT1 > Seed:1602747421
+G4WT0 > Seed:1602747421
+=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy (MeV)            0.1
+Pre-compound excitation high energy (MeV)           30
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy (keV)                         0.01
+Min energy per nucleon for multifragmentation (MeV) 2e+05
+Limit excitation energy for Fermi BreakUp (MeV)     20
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      0
+Time limit for long lived isomeres (ns)             1000
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Electron internal conversion ID                     0
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+Upload data before 1st event for                Z < 9
+=======================================================================
+G4VisManager: Using G4TrajectoryDrawByCharge as fallback trajectory model.
+See commands in /vis/modeling/trajectories/ for other options.
+G4WT1 > Energy: 1.41983
+G4WT0 > Energy: 1.53801
+G4WT1 > Edep_Si = 86.7875
+G4WT0 > Edep_Si = 88.3601
+G4WT1 > Energy: 1.02114
+G4WT0 > Energy: 1.13409
+G4WT1 > Edep_Si = 89.7092
+G4WT1 > Energy: 2.99966
+G4WT0 > Edep_Si = 88.5883
+G4WT1 > Edep_Si = 85.7686
+G4WT0 > Energy: 1.06926
+G4WT1 > Energy: 2.00399
+G4WT0 > Edep_Si = 85.8066
+G4WT1 > Edep_Si = 85.0033
+G4WT0 > Energy: 1.31658
+G4WT1 > Energy: 2.34828
+G4WT0 > Edep_Si = 90.0544
+G4WT0 > Energy: 1.18096
+G4WT0 > Edep_Si = 83.3626
+G4WT1 > Edep_Si = 85.609
+G4WT0 > Energy: 1.12026
+G4WT1 > Energy: 1.28282
+G4WT0 > Edep_Si = 86.5088
+G4WT1 > Edep_Si = 85.4428
+G4WT0 > Energy: 1.12527
+G4WT1 > Energy: 2.98721
+G4WT0 > Edep_Si = 85.95
+G4WT1 > Edep_Si = 83.7117
+G4WT0 > Energy: 1.02955
+G4WT1 > Energy: 1.01018
+G4WT0 > Edep_Si = 85.1353
+G4WT1 > Edep_Si = 87.4389
+G4WT0 > Energy: 3.27116
+G4WT1 > Energy: 3.24982
+G4WT0 > Edep_Si = 87.6061
+G4WT0 > Energy: 1.09571
+G4WT0 > Edep_Si = 84.9203
+G4WT0 > Energy: 13.2575
+G4WT0 > Edep_Si = 88.06
+G4WT0 > Energy: 1.34077
+G4WT0 > Edep_Si = 85.5531
+G4WT0 > Energy: 1.20631
+G4WT0 > Edep_Si = 87.904
+G4WT0 > Energy: 2.42072
+G4WT0 > Edep_Si = 85.5682
+G4WT0 > Energy: 1.14821
+G4WT0 > Edep_Si = 85.056
+G4WT0 > Energy: 2.17721
+G4WT0 > Edep_Si = 86.0051
+G4WT0 > Energy: 1.43174
+G4WT0 > Edep_Si = 87.4985
+G4WT0 > Energy: 1.90379
+G4WT0 > Edep_Si = 85.89
+G4WT0 > Energy: 1.72233
+G4WT0 > Edep_Si = 86.9317
+G4WT0 > Energy: 4.21607
+G4WT0 > Edep_Si = 85.8248
+G4WT0 > Energy: 9.02062
+G4WT0 > Edep_Si = 84.6104
+G4WT0 > Energy: 1.14947
+G4WT0 > Edep_Si = 87.3235
+G4WT0 > Energy: 1.48627
+G4WT0 > Edep_Si = 88.7934
+G4WT0 > Energy: 1.36175
+G4WT0 > Edep_Si = 83.9347
+G4WT0 > Energy: 1.07204
+G4WT0 > Edep_Si = 87.3746
+G4WT0 > Energy: 1.07971
+G4WT0 > Edep_Si = 84.7811
+G4WT0 > Energy: 1.8884
+G4WT0 > Edep_Si = 85.6302
+G4WT0 > Energy: 1.00869
+G4WT0 > Edep_Si = 121.872
+G4WT0 > Energy: 1.12263
+G4WT0 > Edep_Si = 87.9796
+G4WT0 > Energy: 1.56549
+G4WT1 > Edep_Si = 164.879
+G4WT1 > Energy: 1.26893
+G4WT1 > Edep_Si = 89.5715
+G4WT1 > Energy: 1.51371
+G4WT1 > Edep_Si = 87.4896
+G4WT1 > Energy: 1.61316
+G4WT1 > Edep_Si = 88.8624
+G4WT1 > Energy: 1.61961
+G4WT1 > Edep_Si = 87.9734
+G4WT1 > Energy: 2.05808
+G4WT1 > Edep_Si = 86.0855
+G4WT1 > Energy: 1.08019
+G4WT1 > Edep_Si = 86.3349
+G4WT1 > Energy: 1.08352
+G4WT1 > Edep_Si = 86.2446
+G4WT1 > Energy: 2.281
+G4WT1 > Edep_Si = 87.7588
+G4WT1 > Energy: 1.35022
+G4WT1 > Edep_Si = 86.4751
+G4WT1 > Energy: 1.08759
+G4WT1 > Edep_Si = 87.0885
+G4WT1 > Energy: 1.58915
+G4WT0 > Edep_Si = 131.689
+G4WT0 > Energy: 7.35648
+G4WT0 > Edep_Si = 87.0663
+G4WT0 > Energy: 4.36386
+G4WT0 > Edep_Si = 87.6274
+G4WT0 > Energy: 1.19057
+G4WT0 > Edep_Si = 84.5403
+G4WT0 > Energy: 1.49914
+G4WT1 > Edep_Si = 128.504
+G4WT1 > Energy: 1.27022
+G4WT0 > Edep_Si = 86.2023
+G4WT1 > Edep_Si = 83.5722
+G4WT0 > Energy: 9.83094
+G4WT1 > Energy: 1.04231
+G4WT0 > Edep_Si = 82.9645
+G4WT0 > Energy: 1.22794
+G4WT0 > Edep_Si = 85.1119
+G4WT0 > Energy: 1.09055
+G4WT0 > Edep_Si = 71.0715
+G4WT0 > Energy: 2.24941
+G4WT0 > Edep_Si = 83.0811
+G4WT0 > Energy: 1.98539
+G4WT0 > Edep_Si = 83.9858
+G4WT0 > Energy: 1.41969
+G4WT0 > Edep_Si = 87.816
+G4WT0 > Energy: 1.26305
+G4WT0 > Edep_Si = 88.4974
+G4WT0 > Energy: 1.63455
+G4WT0 > Edep_Si = 87.5945
+G4WT0 > Energy: 1.31563
+G4WT0 > Edep_Si = 83.9988
+G4WT0 > Energy: 1.04053
+G4WT0 > Edep_Si = 87.7796
+G4WT0 > Energy: 2.98128
+G4WT0 > Edep_Si = 84.7206
+G4WT0 > Energy: 1.1353
+G4WT0 > Edep_Si = 43.6737
+G4WT0 > Energy: 1.41765
+G4WT0 > Edep_Si = 83.5476
+G4WT0 > Energy: 7.30363
+G4WT0 > Edep_Si = 88.4137
+G4WT0 > Energy: 1.04993
+G4WT0 > Edep_Si = 87.4402
+G4WT0 > Energy: 3.95771
+G4WT0 > Edep_Si = 84.6003
+G4WT0 > Energy: 6.84223
+G4WT0 > Edep_Si = 87.2106
+G4WT0 > Energy: 1.31945
+G4WT0 > Edep_Si = 88.8283
+G4WT0 > Energy: 2.59946
+G4WT0 > Edep_Si = 106.734
+G4WT0 > Energy: 1.10484
+G4WT1 > Edep_Si = 129.95
+G4WT1 > Energy: 5.27394
+G4WT1 > Edep_Si = 84.9271
+G4WT1 > Energy: 3.71801
+G4WT1 > Edep_Si = 88.0521
+G4WT1 > Energy: 2.54282
+G4WT1 > Edep_Si = 88.4357
+G4WT1 > Energy: 3.82608
+G4WT1 > Edep_Si = 86.3427
+G4WT1 > Energy: 2.44644
+G4WT1 > Edep_Si = 84.1576
+G4WT1 > Energy: 1.69992
+G4WT1 > Edep_Si = 84.6998
+G4WT1 > Energy: 1.16688
+G4WT0 > Edep_Si = 127.948
+G4WT0 > Energy: 2.02624
+G4WT1 > Edep_Si = 152.364
+G4WT1 > Energy: 2.70242
+G4WT1 > Edep_Si = 83.6486
+G4WT1 > Energy: 1.77893
+G4WT1 > Edep_Si = 82.667
+G4WT1 > Energy: 1.13849
+G4WT0 > Edep_Si = 143.871
+G4WT0 > Energy: 1.79756
+G4WT0 > Edep_Si = 86.905
+G4WT0 > Energy: 1.09211
+G4WT0 > Edep_Si = 87.0794
+G4WT0 > Energy: 3.67444
+G4WT0 > Edep_Si = 88.3743
+G4WT1 > Edep_Si = 157.317
+G4WT0 > Energy: 1.00471
+G4WT1 > Energy: 1.38212
+G4WT0 > Edep_Si = 83.1389
+G4WT1 > Edep_Si = 86.9062
+G4WT0 > Energy: 1.31343
+G4WT1 > Energy: 2.1848
+G4WT0 > Edep_Si = 85.545
+G4WT0 > Energy: 9.379
+G4WT1 > Edep_Si = 86.6528
+G4WT0 > Edep_Si = 84.1789
+G4WT1 > Energy: 1.77193
+G4WT0 > Energy: 1.87071
+G4WT1 > Edep_Si = 84.5469
+G4WT0 > Edep_Si = 89.1371
+G4WT1 > Energy: 1.3365
+G4WT0 > Energy: 1.07297
+G4WT1 > Edep_Si = 84.932
+G4WT0 > Edep_Si = 85.3325
+G4WT1 > Energy: 4.6548
+G4WT0 > Energy: 1.27991
+G4WT0 > Edep_Si = 85.3835
+G4WT1 > Edep_Si = 85.6797
+G4WT0 > Energy: 2.36711
+G4WT1 > Energy: 1.10399
+G4WT0 > Edep_Si = 87.4826
+G4WT1 > Edep_Si = 84.074
+G4WT0 > Energy: 1.00286
+G4WT1 > Energy: 1.49856
+G4WT0 > Edep_Si = 88.4936
+G4WT1 > Edep_Si = 86.9971
+G4WT0 > Energy: 1.26684
+G4WT1 > Energy: 1.02842
+G4WT0 > Edep_Si = 84.0189
+G4WT1 > Edep_Si = 89.7997
+G4WT0 > Energy: 1.11907
+G4WT1 > Energy: 2.01848
+G4WT0 > Edep_Si = 84.123
+G4WT0 > Energy: 3.55875
+G4WT1 > Edep_Si = 84.2949
+G4WT0 > Edep_Si = 88.0406
+G4WT1 > Energy: 1.28958
+G4WT0 > Energy: 1.04502
+G4WT0 > Edep_Si = 107.14
+G4WT0 > Energy: 1.39808
+G4WT0 > Edep_Si = 85.6871
+G4WT0 > Energy: 1.32095
+G4WT0 > Edep_Si = 86.2591
+G4WT0 > Energy: 1.25827
+G4WT0 > Edep_Si = 88.832
+G4WT0 > Energy: 1.05332
+G4WT0 > Edep_Si = 87.0835
+G4WT0 > Energy: 2.48564
+G4WT0 > Edep_Si = 84.6952
+G4WT0 > Energy: 1.2629
+G4WT0 > Edep_Si = 84.3259
+G4WT0 > Energy: 2.28668
+G4WT0 > Edep_Si = 85.9186
+G4WT0 > Energy: 1.2527
+G4WT0 > Edep_Si = 88.0281
+G4WT0 > Energy: 1.38254
+G4WT0 > Edep_Si = 85.256
+G4WT0 > Energy: 2.40458
+G4WT0 > Edep_Si = 86.9193
+G4WT0 > Energy: 3.51476
+G4WT0 > Edep_Si = 84.6868
+G4WT0 > Energy: 1.81221
+G4WT0 > Edep_Si = 86.0747
+G4WT1 > Edep_Si = 157.934
+G4WT0 > Energy: 1.228
+G4WT1 > Energy: 1.64964
+G4WT0 > Edep_Si = 89.1563
+G4WT1 > Edep_Si = 85.4661
+G4WT0 > Energy: 2.27567
+G4WT1 > Energy: 1.99825
+G4WT0 > Edep_Si = 120.268
+G4WT0 > Energy: 7.11526
+G4WT0 > Edep_Si = 85.556
+G4WT0 > Energy: 1.23696
+G4WT0 > Edep_Si = 87.0008
+G4WT0 > Energy: 6.50245
+G4WT1 > Edep_Si = 180.106
+G4WT0 > Edep_Si = 88.5231
+G4WT1 > Energy: 1.01491
+G4WT0 > Energy: 1.48849
+G4WT1 > Edep_Si = 86.4868
+G4WT0 > Edep_Si = 85.0539
+G4WT1 > Energy: 2.40024
+G4WT0 > Energy: 1.15354
+G4WT1 > Edep_Si = 87.4317
+G4WT1 > Energy: 1.95068
+G4WT0 > Edep_Si = 117.439
+G4WT0 > Energy: 1.61783
+G4WT0 > Edep_Si = 86.3909
+G4WT0 > Energy: 1.10265
+G4WT0 > Edep_Si = 86.156
+G4WT0 > Energy: 1.80754
+G4WT1 > Edep_Si = 118.873
+G4WT1 > Energy: 1.56554
+G4WT1 > Edep_Si = 86.0175
+G4WT1 > Energy: 1.26517
+G4WT1 > Edep_Si = 82.5379
+G4WT1 > Energy: 1.11683
+G4WT1 > Edep_Si = 86.3681
+G4WT1 > Energy: 1.239
+G4WT1 > Edep_Si = 85.7982
+G4WT1 > Energy: 1.22506
+G4WT0 > Edep_Si = 110.044
+G4WT0 > Energy: 1.04758
+G4WT1 > Edep_Si = 87.9771
+G4WT1 > Energy: 3.92846
+G4WT0 > Edep_Si = 88.8465
+G4WT0 > Energy: 1.01604
+G4WT1 > Edep_Si = 84.3296
+G4WT0 > Edep_Si = 83.2084
+G4WT1 > Energy: 1.32469
+G4WT0 > Energy: 1.94237
+G4WT0 > Edep_Si = 98.3174
+G4WT0 > Energy: 1.15369
+G4WT0 > Edep_Si = 86.7643
+G4WT0 > Energy: 1.67031
+G4WT1 > Edep_Si = 197.075
+G4WT1 > Energy: 1.04707
+G4WT1 > Edep_Si = 87.2458
+G4WT1 > Energy: 1.16508
+G4WT1 > Edep_Si = 86.861
+G4WT1 > Energy: 1.17187
+G4WT1 > Edep_Si = 86.7467
+G4WT1 > Energy: 1.0922
+G4WT0 > Edep_Si = 201.597
+G4WT0 > Energy: 1.03657
+G4WT0 > Edep_Si = 86.0919
+G4WT0 > Energy: 1.37237
+G4WT0 > Edep_Si = 86.1945
+G4WT0 > Energy: 1.37367
+G4WT0 > Edep_Si = 83.8117
+G4WT0 > Energy: 6.93705
+G4WT0 > Edep_Si = 83.6397
+G4WT0 > Energy: 3.31024
+G4WT1 > Edep_Si = 149.421
+G4WT1 > Energy: 1.08261
+G4WT1 > Edep_Si = 88.0978
+G4WT1 > Energy: 1.23618
+G4WT1 > Edep_Si = 138.983
+G4WT1 > Energy: 1.23368
+G4WT0 > Edep_Si = 119.888
+G4WT1 > Edep_Si = 88.1716
+G4WT1 > Energy: 1.28639
+G4WT0 > Energy: 1.5371
+G4WT1 > Edep_Si = 84.6895
+G4WT0 > Edep_Si = 82.9902
+G4WT1 > Energy: 3.86226
+G4WT0 > Energy: 1.11619
+G4WT1 > Edep_Si = 86.6328
+G4WT0 > Edep_Si = 89.3873
+G4WT1 > Energy: 1.59473
+G4WT0 > Energy: 1.55204
+G4WT1 > Edep_Si = 84.9328
+G4WT0 > Edep_Si = 84.8415
+G4WT1 > Energy: 1.00221
+G4WT0 > Energy: 7.14601
+G4WT0 > Edep_Si = 84.4121
+G4WT0 > Energy: 1.5741
+G4WT0 > Edep_Si = 86.238
+G4WT0 > Energy: 1.23239
+G4WT0 > Edep_Si = 86.4938
+G4WT0 > Energy: 2.88783
+G4WT1 > Edep_Si = 130.484
+G4WT1 > Energy: 2.4704
+G4WT1 > Edep_Si = 85.2723
+G4WT1 > Energy: 1.57285
+G4WT1 > Edep_Si = 88.2546
+G4WT1 > Energy: 11.074
+G4WT0 > Edep_Si = 100.509
+G4WT1 > Edep_Si = 85.627
+G4WT0 > Energy: 1.62194
+G4WT1 > Energy: 2.11657
+G4WT1 > Edep_Si = 87.6111
+G4WT1 > Energy: 1.09972
+G4WT1 > Edep_Si = 88.405
+G4WT1 > Energy: 1.34662
+G4WT1 > Edep_Si = 89.4139
+G4WT1 > Energy: 1.1003
+G4WT1 > Edep_Si = 86.0225
+G4WT1 > Energy: 1.41238
+G4WT1 > Edep_Si = 154.801
+G4WT1 > Energy: 1.4427
+G4WT0 > Edep_Si = 164.771
+G4WT0 > Energy: 3.4629
+G4WT0 > Edep_Si = 86.717
+G4WT0 > Energy: 2.05473
+G4WT1 > Edep_Si = 153.497
+G4WT1 > Energy: 1.42513
+G4WT1 > Edep_Si = 84.8643
+G4WT1 > Energy: 1.0068
+G4WT1 > Edep_Si = 89.3621
+G4WT1 > Energy: 1.07754
+G4WT1 > Edep_Si = 85.8504
+G4WT0 > Edep_Si = 138.04
+G4WT1 > Energy: 1.09725
+G4WT0 > Energy: 4.07717
+G4WT1 > Edep_Si = 89.0775
+G4WT1 > Energy: 5.76864
+G4WT0 > Edep_Si = 85.7575
+G4WT0 > Energy: 1.14462
+G4WT1 > Edep_Si = 89.9821
+G4WT1 > Energy: 1.35751
+G4WT1 > Edep_Si = 84.1696
+G4WT1 > Energy: 1.56974
+G4WT1 > Edep_Si = 86.3168
+G4WT1 > Energy: 1.28913
+G4WT1 > Edep_Si = 88.223
+G4WT1 > Energy: 1.05687
+G4WT1 > Edep_Si = 87.5829
+G4WT1 > Energy: 2.78862
+G4WT0 > Edep_Si = 141.255
+G4WT0 > Energy: 1.16287
+G4WT0 > Edep_Si = 109.218
+G4WT0 > Energy: 1.71357
+G4WT1 > Edep_Si = 122.474
+G4WT1 > Energy: 1.56692
+G4WT0 > Edep_Si = 85.9381
+G4WT0 > Energy: 1.69839
+G4WT0 > Edep_Si = 84.8441
+G4WT0 > Energy: 1.11583
+G4WT0 > Edep_Si = 85.4234
+G4WT0 > Energy: 1.34605
+G4WT0 > Edep_Si = 85.3685
+G4WT0 > Energy: 1.10824
+G4WT0 > Edep_Si = 84.5603
+G4WT0 > Energy: 1.03463
+G4WT0 > Edep_Si = 85.0655
+G4WT0 > Energy: 1.82854
+G4WT0 > Edep_Si = 85.5456
+G4WT0 > Energy: 1.33928
+G4WT0 > Edep_Si = 83.9295
+G4WT0 > Energy: 2.03651
+G4WT0 > Edep_Si = 87.7035
+G4WT0 > Energy: 5.08039
+G4WT1 > Edep_Si = 126.263
+G4WT0 > Edep_Si = 84.8779
+G4WT1 > Energy: 1.14395
+G4WT0 > Energy: 1.00727
+G4WT1 > Edep_Si = 85.8248
+G4WT0 > Edep_Si = 84.1613
+G4WT1 > Energy: 1.15053
+G4WT0 > Energy: 1.65045
+G4WT1 > Edep_Si = 87.7821
+G4WT0 > Edep_Si = 87.0016
+G4WT1 > Energy: 1.27664
+G4WT0 > Energy: 1.11974
+G4WT1 > Edep_Si = 85.5277
+G4WT0 > Edep_Si = 83.178
+G4WT1 > Energy: 5.16172
+G4WT0 > Energy: 1.76328
+G4WT0 > Edep_Si = 85.7239
+G4WT0 > Energy: 1.62646
+G4WT0 > Edep_Si = 87.1925
+G4WT0 > Energy: 1.06671
+G4WT0 > Edep_Si = 89.1659
+G4WT0 > Energy: 2.72787
+G4WT0 > Edep_Si = 83.755
+G4WT0 > Energy: 1.29349
+G4WT1 > Edep_Si = 154.984
+G4WT1 > Energy: 1.19481
+G4WT1 > Edep_Si = 86.4857
+G4WT1 > Energy: 1.26063
+G4WT0 > Edep_Si = 66.7231
+G4WT1 > Edep_Si = 87.1887
+G4WT0 > Energy: 1.00912
+G4WT1 > Energy: 4.74293
+G4WT0 > Edep_Si = 86.2169
+G4WT0 > Energy: 1.81048
+G4WT0 > Edep_Si = 85.6999
+G4WT0 > Energy: 1.21036
+G4WT0 > Edep_Si = 87.6235
+G4WT0 > Energy: 1.00494
+G4WT0 > Edep_Si = 86.0356
+G4WT0 > Energy: 1.43556
+G4WT0 > Edep_Si = 86.1327
+G4WT0 > Energy: 1.45439
+G4WT0 > Edep_Si = 86.4382
+G4WT0 > Energy: 5.59474
+G4WT0 > Edep_Si = 86.4816
+G4WT0 > Energy: 1.04651
+G4WT0 > Edep_Si = 106.253
+G4WT0 > Energy: 1.86561
+G4WT0 > Edep_Si = 87.2185
+G4WT0 > Energy: 1.33381
+G4WT0 > Edep_Si = 84.2663
+G4WT0 > Energy: 1.10826
+G4WT0 > Edep_Si = 86.5707
+G4WT0 > Energy: 1.3544
+G4WT0 > Edep_Si = 85.086
+G4WT0 > Energy: 1.18031
+G4WT0 > Edep_Si = 82.25
+G4WT0 > Energy: 1.53189
+G4WT1 > Edep_Si = 115.75
+G4WT1 > Energy: 1.69914
+G4WT0 > Edep_Si = 85.8411
+G4WT0 > Energy: 1.20233
+G4WT0 > Edep_Si = 87.3969
+G4WT0 > Energy: 1.37664
+G4WT0 > Edep_Si = 53.6952
+G4WT0 > Energy: 1.12117
+G4WT0 > Edep_Si = 84.129
+G4WT0 > Energy: 2.51467
+G4WT0 > Edep_Si = 85.7781
+G4WT0 > Energy: 1.43013
+G4WT0 > Edep_Si = 87.4216
+G4WT0 > Energy: 1.06121
+G4WT0 > Edep_Si = 89.7742
+G4WT0 > Energy: 2.74022
+G4WT0 > Edep_Si = 88.2841
+G4WT0 > Energy: 1.80964
+G4WT0 > Edep_Si = 85.3621
+G4WT0 > Energy: 2.12838
+G4WT0 > Edep_Si = 86.5306
+G4WT0 > Energy: 1.16415
+G4WT0 > Edep_Si = 85.516
+G4WT0 > Energy: 1.65031
+G4WT0 > Edep_Si = 83.4541
+G4WT0 > Energy: 3.40416
+G4WT1 > Edep_Si = 149.407
+G4WT1 > Energy: 1.62208
+G4WT1 > Edep_Si = 86.6265
+G4WT1 > Energy: 1.0823
+G4WT1 > Edep_Si = 89.1506
+G4WT1 > Energy: 3.98467
+G4WT1 > Edep_Si = 89.4726
+G4WT1 > Energy: 1.0898
+G4WT0 > Edep_Si = 103.859
+G4WT0 > Energy: 1.65847
+G4WT1 > Edep_Si = 85.7348
+G4WT1 > Energy: 1.53036
+G4WT0 > Edep_Si = 86.2053
+G4WT0 > Energy: 2.83546
+G4WT1 > Edep_Si = 85.7809
+G4WT1 > Energy: 3.06533
+G4WT0 > Edep_Si = 85.5405
+G4WT1 > Edep_Si = 87.8057
+G4WT0 > Energy: 1.1326
+G4WT1 > Energy: 1.126
+G4WT0 > Edep_Si = 83.2067
+G4WT1 > Edep_Si = 85.2564
+G4WT0 > Energy: 1.45249
+G4WT1 > Energy: 5.34076
+G4WT0 > Edep_Si = 87.7687
+G4WT1 > Edep_Si = 83.2762
+G4WT0 > Energy: 1.96605
+G4WT1 > Energy: 1.09567
+G4WT0 > Edep_Si = 87.1477
+G4WT1 > Edep_Si = 84.2901
+G4WT0 > Energy: 1.32056
+G4WT1 > Energy: 1.16789
+G4WT1 > Edep_Si = 87.7821
+G4WT1 > Energy: 9.77942
+G4WT1 > Edep_Si = 84.8555
+G4WT1 > Energy: 3.97891
+G4WT1 > Edep_Si = 86.1602
+G4WT1 > Energy: 1.25275
+G4WT1 > Edep_Si = 85.3354
+G4WT1 > Energy: 1.11567
+G4WT1 > Edep_Si = 86.1223
+G4WT1 > Energy: 1.15195
+G4WT1 > Edep_Si = 82.9413
+G4WT1 > Energy: 4.5222
+G4WT1 > Edep_Si = 83.6441
+G4WT1 > Energy: 1.75322
+G4WT0 > Edep_Si = 156.485
+G4WT0 > Energy: 2.44405
+G4WT0 > Edep_Si = 85.9816
+G4WT0 > Energy: 1.04889
+G4WT0 > Edep_Si = 87.6777
+G4WT1 > Edep_Si = 130.298
+G4WT0 > Energy: 1.25495
+G4WT1 > Energy: 2.51311
+G4WT0 > Edep_Si = 86.7643
+G4WT1 > Edep_Si = 85.9408
+G4WT0 > Energy: 1.16982
+G4WT1 > Energy: 1.50873
+G4WT0 > Edep_Si = 84.5523
+G4WT1 > Edep_Si = 84.7709
+G4WT0 > Energy: 1.26993
+G4WT1 > Energy: 1.02729
+G4WT0 > Edep_Si = 89.7015
+G4WT0 > Energy: 1.03684
+G4WT0 > Edep_Si = 85.6868
+G4WT0 > Energy: 1.25497
+G4WT0 > Edep_Si = 86.4046
+G4WT0 > Energy: 1.55249
+G4WT1 > Edep_Si = 108.962
+G4WT1 > Energy: 1.23945
+G4WT1 > Edep_Si = 87.5131
+G4WT1 > Energy: 1.68717
+G4WT1 > Edep_Si = 85.332
+G4WT1 > Energy: 5.37841
+G4WT1 > Edep_Si = 84.4994
+G4WT1 > Energy: 1.4129
+G4WT1 > Edep_Si = 88.4701
+G4WT1 > Energy: 1.48937
+G4WT1 > Edep_Si = 90.4219
+G4WT1 > Energy: 1.49057
+G4WT1 > Edep_Si = 85.8666
+G4WT1 > Energy: 8.11825
+G4WT0 > Edep_Si = 95.1439
+G4WT0 > Energy: 2.48282
+G4WT0 > Edep_Si = 85.568
+G4WT0 > Energy: 1.95511
+G4WT0 > Edep_Si = 85.5229
+G4WT0 > Energy: 3.03593
+G4WT0 > Edep_Si = 83.179
+G4WT0 > Energy: 1.22315
+G4WT1 > Edep_Si = 183.354
+G4WT1 > Energy: 1.3656
+G4WT1 > Edep_Si = 87.6808
+G4WT1 > Energy: 1.06648
+G4WT1 > Edep_Si = 88.4327
+G4WT1 > Energy: 4.2491
+G4WT1 > Edep_Si = 83.7369
+G4WT1 > Energy: 2.89859
+G4WT1 > Edep_Si = 86.9728
+G4WT0 > Edep_Si = 35.8515
+G4WT1 > Energy: 1.15402
+G4WT0 > Energy: 1.29093
+G4WT1 > Edep_Si = 85.8408
+G4WT1 > Energy: 1.6522
+G4WT0 > Edep_Si = 89.237
+G4WT0 > Energy: 1.1447
+G4WT1 > Edep_Si = 87.1256
+G4WT1 > Energy: 1.23314
+G4WT0 > Edep_Si = 87.2184
+G4WT1 > Edep_Si = 84.6604
+G4WT0 > Energy: 1.41402
+G4WT1 > Energy: 1.14889
+G4WT0 > Edep_Si = 85.5889
+G4WT1 > Edep_Si = 84.5702
+G4WT0 > Energy: 1.27952
+G4WT1 > Energy: 1.64542
+G4WT1 > Edep_Si = 88.2608
+G4WT1 > Energy: 2.48839
+G4WT1 > Edep_Si = 84.6465
+G4WT1 > Energy: 2.32986
+G4WT1 > Edep_Si = 85.16
+G4WT1 > Energy: 1.00303
+G4WT1 > Edep_Si = 85.5849
+G4WT1 > Energy: 1.12291
+G4WT0 > Edep_Si = 80.3534
+G4WT1 > Edep_Si = 85.6331
+G4WT0 > Energy: 1.76443
+G4WT1 > Energy: 1.93523
+G4WT0 > Edep_Si = 86.6544
+G4WT0 > Energy: 1.13633
+G4WT1 > Edep_Si = 84.8698
+G4WT0 > Edep_Si = 85.7455
+G4WT1 > Energy: 1.3977
+G4WT0 > Energy: 1.02941
+G4WT1 > Edep_Si = 85.7475
+G4WT1 > Energy: 1.08097
+G4WT0 > Edep_Si = 86.2773
+G4WT1 > Edep_Si = 87.6587
+G4WT0 > Energy: 1.55978
+G4WT1 > Energy: 2.43453
+G4WT1 > Edep_Si = 87.418
+G4WT1 > Energy: 1.83506
+G4WT1 > Edep_Si = 87.495
+G4WT1 > Energy: 6.90487
+G4WT0 > Edep_Si = 119.676
+G4WT0 > Energy: 1.2161
+G4WT0 > Edep_Si = 85.6099
+G4WT0 > Energy: 2.33449
+G4WT0 > Edep_Si = 88.279
+G4WT0 > Energy: 1.27843
+G4WT0 > Edep_Si = 87.1516
+G4WT0 > Energy: 6.50947
+G4WT1 > Edep_Si = 149.012
+G4WT1 > Energy: 2.22156
+G4WT0 > Edep_Si = 59.9651
+G4WT0 > Energy: 1.20576
+G4WT0 > Edep_Si = 85.3394
+G4WT0 > Energy: 2.14905
+G4WT0 > Edep_Si = 85.8574
+G4WT0 > Energy: 1.55443
+G4WT1 > Edep_Si = 122.862
+G4WT1 > Energy: 4.49756
+G4WT1 > Edep_Si = 83.6881
+G4WT1 > Energy: 1.0906
+G4WT1 > Edep_Si = 83.5311
+G4WT1 > Energy: 1.77689
+G4WT1 > Edep_Si = 83.6123
+G4WT1 > Energy: 1.18619
+G4WT1 > Edep_Si = 84.5003
+G4WT1 > Energy: 1.4708
+G4WT0 > Edep_Si = 150.033
+G4WT0 > Energy: 2.25423
+G4WT0 > Edep_Si = 88.147
+G4WT0 > Energy: 2.24908
+G4WT0 > Edep_Si = 85.1728
+G4WT0 > Energy: 1.31388
+G4WT0 > Edep_Si = 87.5857
+G4WT0 > Energy: 2.139
+G4WT1 > Edep_Si = 88.89
+G4WT1 > Energy: 1.55885
+G4WT0 > Edep_Si = 41.6334
+G4WT0 > Energy: 1.25114
+G4WT0 > Edep_Si = 82.82
+G4WT0 > Energy: 2.7288
+G4WT0 > Edep_Si = 83.2493
+G4WT0 > Energy: 1.21546
+G4WT0 > Edep_Si = 86.8522
+G4WT0 > Energy: 1.11251
+G4WT0 > Edep_Si = 85.2077
+G4WT0 > Energy: 1.86304
+G4WT0 > Edep_Si = 84.9899
+G4WT0 > Energy: 5.90515
+G4WT0 > Edep_Si = 84.5357
+G4WT0 > Energy: 1.42052
+G4WT0 > Edep_Si = 87.9846
+G4WT0 > Energy: 1.93345
+G4WT0 > Edep_Si = 85.3005
+G4WT1 > Edep_Si = 156.127
+G4WT0 > Energy: 1.04989
+G4WT1 > Energy: 1.82329
+G4WT0 > Edep_Si = 85.424
+G4WT1 > Edep_Si = 83.9658
+G4WT0 > Energy: 2.10504
+G4WT1 > Energy: 2.69324
+G4WT0 > Edep_Si = 86.5972
+G4WT1 > Edep_Si = 87.3004
+G4WT0 > Energy: 1.61089
+G4WT1 > Energy: 2.89618
+G4WT0 > Edep_Si = 86.484
+G4WT1 > Edep_Si = 87.1121
+G4WT0 > Energy: 2.99855
+G4WT1 > Energy: 2.12411
+G4WT0 > Edep_Si = 86.7625
+G4WT1 > Edep_Si = 87.3471
+G4WT0 > Energy: 2.6304
+G4WT1 > Energy: 2.22199
+G4WT0 > Edep_Si = 84.2985
+G4WT1 > Edep_Si = 85.9672
+G4WT0 > Energy: 1.11621
+G4WT1 > Energy: 1.64465
+G4WT0 > Edep_Si = 85.6088
+G4WT0 > Energy: 1.01953
+G4WT0 > Edep_Si = 85.9301
+G4WT0 > Energy: 1.01833
+G4WT0 > Edep_Si = 88.3657
+G4WT0 > Energy: 1.34142
+G4WT1 > Edep_Si = 70.2701
+G4WT1 > Energy: 2.47546
+G4WT1 > Edep_Si = 84.7406
+G4WT0 > Edep_Si = 95.7628
+G4WT1 > Energy: 3.69697
+G4WT0 > Energy: 1.10274
+G4WT1 > Edep_Si = 83.4466
+G4WT0 > Edep_Si = 84.7168
+G4WT1 > Energy: 2.2352
+G4WT0 > Energy: 1.6607
+G4WT0 > Edep_Si = 86.8698
+G4WT0 > Energy: 1.21867
+G4WT0 > Edep_Si = 88.8455
+G4WT0 > Energy: 1.29827
+G4WT0 > Edep_Si = 85.8447
+G4WT0 > Energy: 1.38289
+G4WT0 > Edep_Si = 86.8491
+G4WT0 > Energy: 1.04239
+G4WT1 > Edep_Si = 112.678
+G4WT1 > Energy: 1.13673
+G4WT0 > Edep_Si = 88.3952
+G4WT0 > Energy: 3.30158
+G4WT0 > Edep_Si = 84.5604
+G4WT0 > Energy: 1.05099
+G4WT0 > Edep_Si = 85.3139
+G4WT0 > Energy: 3.21953
+G4WT0 > Edep_Si = 86.0263
+G4WT0 > Energy: 4.31676
+G4WT0 > Edep_Si = 144.238
+G4WT0 > Energy: 1.55748
+G4WT0 > Edep_Si = 86.4031
+G4WT0 > Energy: 1.64268
+G4WT1 > Edep_Si = 127.724
+G4WT0 > Edep_Si = 88.3539
+G4WT0 > Energy: 1.06498
+G4WT1 > Energy: 2.79016
+G4WT1 > Edep_Si = 82.9111
+G4WT1 > Energy: 2.57873
+G4WT1 > Edep_Si = 86.9977
+G4WT1 > Energy: 1.74333
+G4WT1 > Edep_Si = 85.6816
+G4WT1 > Energy: 1.27249
+G4WT1 > Edep_Si = 86.4514
+G4WT1 > Energy: 1.02472
+G4WT0 > Edep_Si = 71.6075
+G4WT0 > Energy: 1.53755
+G4WT1 > Edep_Si = 100.66
+G4WT0 > Edep_Si = 90.6369
+G4WT1 > Energy: 1.09353
+G4WT0 > Energy: 1.01805
+G4WT1 > Edep_Si = 85.8927
+G4WT1 > Energy: 1.21906
+G4WT0 > Edep_Si = 89.8662
+G4WT0 > Energy: 2.38843
+G4WT0 > Edep_Si = 87.2773
+G4WT0 > Energy: 2.96394
+G4WT0 > Edep_Si = 88.2361
+G4WT0 > Energy: 1.00452
+G4WT0 > Edep_Si = 88.1759
+G4WT0 > Energy: 1.15056
+G4WT0 > Edep_Si = 84.3493
+G4WT0 > Energy: 1.78868
+G4WT0 > Edep_Si = 87.5454
+G4WT0 > Energy: 1.63301
+G4WT0 > Edep_Si = 85.298
+G4WT1 > Edep_Si = 112.586
+G4WT0 > Energy: 3.65892
+G4WT1 > Energy: 4.4688
+G4WT0 > Edep_Si = 82.5027
+G4WT1 > Edep_Si = 84.56
+G4WT0 > Energy: 6.00412
+G4WT1 > Energy: 1.11915
+G4WT0 > Edep_Si = 89.3321
+G4WT0 > Energy: 1.05618
+G4WT0 > Edep_Si = 87.6952
+G4WT0 > Energy: 1.39927
+G4WT0 > Edep_Si = 83.42
+G4WT0 > Energy: 1.46008
+G4WT0 > Edep_Si = 88.581
+G4WT1 > Edep_Si = 143.165
+G4WT0 > Energy: 1.04916
+G4WT1 > Energy: 1.07013
+G4WT1 > Edep_Si = 86.1921
+G4WT1 > Energy: 1.02977
+G4WT1 > Edep_Si = 87.3488
+G4WT1 > Energy: 1.62463
+G4WT1 > Edep_Si = 84.8042
+G4WT1 > Energy: 6.31776
+G4WT0 > Edep_Si = 96.5671
+G4WT1 > Edep_Si = 84.9279
+G4WT0 > Energy: 1.49936
+G4WT1 > Energy: 1.56589
+G4WT1 > Edep_Si = 86.2838
+G4WT1 > Energy: 1.17774
+G4WT0 > Edep_Si = 64.7974
+G4WT0 > Energy: 1.85292
+G4WT0 > Edep_Si = 88.2859
+G4WT1 > Edep_Si = 97.9596
+G4WT0 > Energy: 1.07135
+G4WT1 > Energy: 2.0394
+G4WT0 > Edep_Si = 88.0127
+G4WT1 > Edep_Si = 85.7511
+G4WT0 > Energy: 1.13801
+G4WT1 > Energy: 3.28387
+G4WT0 > Edep_Si = 86.2961
+G4WT0 > Energy: 1.39347
+G4WT0 > Edep_Si = 86.2339
+G4WT0 > Energy: 1.01037
+G4WT1 > Edep_Si = 146.589
+G4WT1 > Energy: 1.4756
+G4WT0 > Edep_Si = 113.377
+G4WT1 > Edep_Si = 87.2502
+G4WT0 > Energy: 1.1146
+G4WT1 > Energy: 1.4701
+G4WT0 > Edep_Si = 85.7095
+G4WT0 > Energy: 1.48847
+G4WT0 > Edep_Si = 87.5795
+G4WT0 > Energy: 1.03359
+G4WT0 > Edep_Si = 85.987
+G4WT0 > Energy: 4.65388
+G4WT0 > Edep_Si = 128.576
+G4WT0 > Energy: 1.92329
+G4WT0 > Edep_Si = 86.4834
+G4WT0 > Energy: 1.05138
+G4WT0 > Edep_Si = 88.3011
+G4WT0 > Energy: 8.79972
+G4WT0 > Edep_Si = 85.3811
+G4WT1 > Edep_Si = 156.429
+G4WT0 > Energy: 1.6195
+G4WT1 > Energy: 1.32569
+G4WT0 > Edep_Si = 86.4291
+G4WT1 > Edep_Si = 85.4978
+G4WT0 > Energy: 3.16724
+G4WT1 > Energy: 1.07751
+G4WT0 > Edep_Si = 84.5315
+G4WT1 > Edep_Si = 83.8264
+G4WT0 > Energy: 1.96839
+G4WT1 > Energy: 1.04924
+G4WT1 > Edep_Si = 81.9159
+G4WT1 > Energy: 1.66012
+G4WT1 > Edep_Si = 86.1355
+G4WT1 > Energy: 1.49311
+G4WT1 > Edep_Si = 87.8132
+G4WT1 > Energy: 1.51911
+G4WT1 > Edep_Si = 85.7334
+G4WT1 > Energy: 1.62142
+G4WT1 > Edep_Si = 87.5385
+G4WT1 > Energy: 2.34181
+G4WT1 > Edep_Si = 87.4288
+G4WT1 > Energy: 1.10369
+G4WT1 > Edep_Si = 82.6644
+G4WT0 > Edep_Si = 157.208
+G4WT1 > Energy: 4.56111
+G4WT0 > Energy: 2.44367
+G4WT1 > Edep_Si = 86.6198
+G4WT0 > Edep_Si = 84.9848
+G4WT1 > Energy: 1.16204
+G4WT0 > Energy: 1.44285
+G4WT0 > Edep_Si = 87.5337
+G4WT1 > Edep_Si = 86.782
+G4WT0 > Energy: 1.90644
+G4WT1 > Energy: 2.3217
+G4WT1 > Edep_Si = 86.0104
+G4WT1 > Energy: 2.096
+G4WT1 > Edep_Si = 99.8693
+G4WT0 > Edep_Si = 148.248
+G4WT1 > Energy: 1.00145
+G4WT0 > Energy: 1.23732
+G4WT0 > Edep_Si = 86.903
+G4WT0 > Energy: 2.14638
+G4WT0 > Edep_Si = 87.2178
+G4WT0 > Energy: 2.13456
+G4WT0 > Edep_Si = 87.2147
+G4WT0 > Energy: 1.20979
+G4WT0 > Edep_Si = 82.5008
+G4WT0 > Energy: 1.32262
+G4WT1 > Edep_Si = 176.99
+G4WT0 > Edep_Si = 83.6742
+G4WT1 > Energy: 11.242
+G4WT0 > Energy: 1.25921
+G4WT1 > Edep_Si = 88.6636
+G4WT0 > Edep_Si = 83.4565
+G4WT1 > Energy: 1.01343
+G4WT0 > Energy: 3.0308
+G4WT0 > Edep_Si = 83.1121
+G4WT0 > Energy: 1.22623
+G4WT0 > Edep_Si = 85.1568
+G4WT0 > Energy: 1.19759
+G4WT0 > Edep_Si = 84.5415
+G4WT0 > Energy: 2.33915
+G4WT0 > Edep_Si = 83.5233
+G4WT0 > Energy: 1.25843
+G4WT0 > Edep_Si = 87.5602
+G4WT0 > Energy: 2.00767
+G4WT1 > Edep_Si = 137.766
+G4WT1 > Energy: 1.217
+G4WT1 > Edep_Si = 83.7342
+G4WT1 > Energy: 1.13323
+G4WT1 > Edep_Si = 85.6192
+G4WT1 > Energy: 1.12976
+G4WT1 > Edep_Si = 87.5465
+G4WT1 > Energy: 1.40513
+G4WT0 > Edep_Si = 117.763
+G4WT0 > Energy: 1.21394
+G4WT0 > Edep_Si = 85.9315
+G4WT0 > Energy: 1.5942
+G4WT0 > Edep_Si = 86.559
+G4WT0 > Energy: 2.64731
+G4WT0 > Edep_Si = 80.4852
+G4WT0 > Energy: 1.41629
+G4WT0 > Edep_Si = 87.0241
+G4WT0 > Energy: 1.70572
+G4WT0 > Edep_Si = 83.718
+G4WT1 > Edep_Si = 96.6059
+G4WT0 > Energy: 1.52784
+G4WT1 > Energy: 1.19129
+G4WT0 > Edep_Si = 88.6286
+G4WT1 > Edep_Si = 88.1512
+G4WT0 > Energy: 1.2152
+G4WT1 > Energy: 1.95149
+G4WT0 > Edep_Si = 84.7086
+G4WT0 > Energy: 2.12547
+G4WT0 > Edep_Si = 85.4243
+G4WT0 > Energy: 3.66084
+G4WT0 > Edep_Si = 85.3877
+G4WT0 > Energy: 1.0625
+G4WT0 > Edep_Si = 84.7164
+G4WT0 > Energy: 1.70675
+G4WT1 > Edep_Si = 35.1263
+G4WT1 > Energy: 1.43644
+G4WT0 > Edep_Si = 88.287
+G4WT0 > Energy: 4.6824
+G4WT0 > Edep_Si = 82.9895
+G4WT0 > Energy: 1.83786
+G4WT0 > Edep_Si = 86.6979
+G4WT0 > Energy: 1.45393
+G4WT0 > Edep_Si = 88.5176
+G4WT0 > Energy: 1.74163
+G4WT0 > Edep_Si = 87.3864
+G4WT0 > Energy: 1.44884
+G4WT0 > Edep_Si = 88.3065
+G4WT0 > Energy: 1.8238
+G4WT0 > Edep_Si = 82.622
+G4WT0 > Energy: 1.25744
+G4WT0 > Edep_Si = 86.0069
+G4WT0 > Energy: 1.36015
+G4WT0 > Edep_Si = 86.2411
+G4WT0 > Energy: 1.01502
+G4WT1 > Edep_Si = 126.949
+G4WT0 > Edep_Si = 86.3905
+G4WT0 > Energy: 1.03871
+G4WT1 > Energy: 1.20454
+G4WT1 > Edep_Si = 85.3862
+G4WT0 > Edep_Si = 86.5562
+G4WT1 > Energy: 1.06967
+G4WT0 > Energy: 3.28033
+G4WT0 > Edep_Si = 87.1553
+G4WT0 > Energy: 2.1009
+G4WT0 > Edep_Si = 87.3408
+G4WT0 > Energy: 2.28013
+G4WT0 > Edep_Si = 86.2797
+G4WT0 > Energy: 1.16807
+G4WT0 > Edep_Si = 91.1632
+G4WT0 > Energy: 1.20398
+G4WT1 > Edep_Si = 45.6555
+G4WT1 > Energy: 1.83399
+G4WT1 > Edep_Si = 88.027
+G4WT1 > Energy: 1.12476
+G4WT1 > Edep_Si = 84.7281
+G4WT1 > Energy: 2.53973
+G4WT1 > Edep_Si = 87.6659
+G4WT1 > Energy: 1.14166
+G4WT1 > Edep_Si = 104.99
+G4WT1 > Energy: 1.59279
+G4WT0 > Edep_Si = 97.3575
+G4WT1 > Edep_Si = 84.5233
+G4WT1 > Energy: 1.18245
+G4WT0 > Energy: 1.18265
+G4WT0 > Edep_Si = 85.8805
+G4WT0 > Energy: 4.73899
+G4WT1 > Edep_Si = 111.164
+G4WT1 > Energy: 1.0958
+G4WT1 > Edep_Si = 83.7712
+G4WT0 > Edep_Si = 78.8995
+G4WT1 > Energy: 1.69857
+G4WT0 > Energy: 1.08916
+G4WT1 > Edep_Si = 89.6664
+G4WT0 > Edep_Si = 83.2218
+G4WT1 > Energy: 2.02197
+G4WT0 > Energy: 1.23643
+G4WT1 > Edep_Si = 88.2178
+G4WT0 > Edep_Si = 86.1933
+G4WT1 > Energy: 1.04095
+G4WT0 > Energy: 1.14117
+G4WT1 > Edep_Si = 86.3629
+G4WT0 > Edep_Si = 86.4961
+G4WT1 > Energy: 1.04528
+G4WT0 > Energy: 1.18213
+G4WT1 > Edep_Si = 87.0967
+G4WT0 > Edep_Si = 85.829
+G4WT1 > Energy: 1.06736
+G4WT0 > Energy: 1.55989
+G4WT1 > Edep_Si = 90.4509
+G4WT0 > Edep_Si = 84.2907
+G4WT1 > Energy: 4.49225
+G4WT0 > Energy: 1.44562
+G4WT1 > Edep_Si = 86.8865
+G4WT0 > Edep_Si = 89.3688
+G4WT1 > Energy: 1.23646
+G4WT0 > Energy: 1.00665
+G4WT1 > Edep_Si = 85.741
+G4WT1 > Energy: 1.32866
+G4WT1 > Edep_Si = 87.2066
+G4WT1 > Energy: 1.03675
+G4WT1 > Edep_Si = 84.4566
+G4WT1 > Energy: 1.1846
+G4WT1 > Edep_Si = 88.1715
+G4WT1 > Energy: 1.59097
+G4WT1 > Edep_Si = 85.4346
+G4WT1 > Energy: 1.07594
+G4WT1 > Edep_Si = 85.9796
+G4WT1 > Energy: 1.01419
+G4WT0 > Edep_Si = 157.13
+G4WT0 > Energy: 3.05094
+G4WT0 > Edep_Si = 88.6265
+G4WT0 > Energy: 4.28039
+G4WT0 > Edep_Si = 87.2448
+G4WT0 > Energy: 3.20417
+G4WT1 > Edep_Si = 198.723
+G4WT1 > Energy: 1.32287
+G4WT1 > Edep_Si = 84.5539
+G4WT1 > Energy: 1.24381
+G4WT1 > Edep_Si = 89.2129
+G4WT1 > Energy: 1.07385
+G4WT0 > Edep_Si = 93.7159
+G4WT0 > Energy: 1.23958
+G4WT0 > Edep_Si = 83.8145
+G4WT0 > Energy: 1.79919
+G4WT1 > Edep_Si = 66.3711
+G4WT1 > Energy: 1.32938
+G4WT1 > Edep_Si = 87.0328
+G4WT1 > Energy: 1.03555
+G4WT1 > Edep_Si = 85.1475
+G4WT1 > Energy: 1.01039
+G4WT1 > Edep_Si = 85.2805
+G4WT1 > Energy: 1.34929
+G4WT1 > Edep_Si = 87.0142
+G4WT1 > Energy: 1.15442
+G4WT1 > Edep_Si = 86.6437
+G4WT1 > Energy: 1.52888
+G4WT1 > Edep_Si = 93.9168
+G4WT1 > Energy: 1.32828
+G4WT0 > Edep_Si = 53.6892
+G4WT0 > Energy: 1.06307
+G4WT0 > Edep_Si = 83.116
+G4WT0 > Energy: 1.59918
+G4WT0 > Edep_Si = 83.1711
+G4WT0 > Energy: 2.41584
+G4WT0 > Edep_Si = 82.6822
+G4WT0 > Energy: 4.15984
+G4WT0 > Edep_Si = 89.9172
+G4WT0 > Energy: 12.9264
+G4WT1 > Edep_Si = 115.422
+G4WT1 > Energy: 1.11053
+G4WT1 > Edep_Si = 86.5273
+G4WT1 > Energy: 2.22926
+G4WT1 > Edep_Si = 86.9021
+G4WT0 > Edep_Si = 103.311
+G4WT1 > Energy: 2.41602
+G4WT0 > Energy: 1.12342
+G4WT1 > Edep_Si = 84.269
+G4WT0 > Edep_Si = 86.6804
+G4WT1 > Energy: 1.05142
+G4WT0 > Energy: 1.0346
+G4WT1 > Edep_Si = 87.1498
+G4WT0 > Edep_Si = 84.1649
+G4WT0 > Energy: 1.28842
+G4WT1 > Energy: 1.18067
+G4WT0 > Edep_Si = 84.9805
+G4WT1 > Edep_Si = 86.2378
+G4WT0 > Energy: 1.13916
+G4WT1 > Energy: 1.14348
+G4WT1 > Edep_Si = 49.8655
+G4WT1 > Energy: 1.64736
+G4WT1 > Edep_Si = 85.7902
+G4WT1 > Energy: 1.12
+G4WT1 > Edep_Si = 83.6733
+G4WT1 > Energy: 1.03764
+G4WT1 > Edep_Si = 82.6318
+G4WT1 > Energy: 26.5894
+G4WT1 > Edep_Si = 85.0137
+G4WT0 > Edep_Si = 122.212
+G4WT1 > Energy: 1.19718
+G4WT0 > Energy: 1.27939
+G4WT1 > Edep_Si = 85.2908
+G4WT0 > Edep_Si = 87.0241
+G4WT1 > Energy: 1.46176
+G4WT0 > Energy: 2.51116
+G4WT1 > Edep_Si = 87.7508
+G4WT0 > Edep_Si = 82.7692
+G4WT1 > Energy: 1.25801
+G4WT0 > Energy: 1.14943
+G4WT1 > Edep_Si = 87.6658
+G4WT0 > Edep_Si = 90.008
+G4WT1 > Energy: 1.05254
+G4WT0 > Energy: 1.15674
+G4WT1 > Edep_Si = 85.9557
+G4WT0 > Edep_Si = 88.1293
+G4WT1 > Energy: 1.09553
+G4WT0 > Energy: 1.21884
+G4WT1 > Edep_Si = 86.9662
+G4WT0 > Edep_Si = 87.5888
+G4WT1 > Energy: 1.3736
+G4WT0 > Energy: 1.03814
+G4WT0 > Edep_Si = 88.6268
+G4WT0 > Energy: 1.42972
+G4WT0 > Edep_Si = 85.7013
+G4WT0 > Energy: 4.98958
+G4WT1 > Edep_Si = 154.106
+G4WT1 > Energy: 2.76703
+G4WT0 > Edep_Si = 78.7192
+G4WT1 > Edep_Si = 87.6331
+G4WT0 > Energy: 1.0026
+G4WT1 > Energy: 1.17424
+G4WT1 > Edep_Si = 84.6432
+G4WT1 > Energy: 4.71228
+G4WT1 > Edep_Si = 86.9943
+G4WT1 > Energy: 1.06396
+G4WT1 > Edep_Si = 84.0605
+G4WT1 > Energy: 1.12721
+G4WT1 > Edep_Si = 84.6366
+G4WT1 > Energy: 11.5032
+G4WT1 > Edep_Si = 88.0615
+G4WT1 > Energy: 1.57044
+G4WT1 > Edep_Si = 62.7264
+G4WT1 > Energy: 2.92223
+G4WT1 > Edep_Si = 84.7374
+G4WT1 > Energy: 1.1906
+G4WT1 > Edep_Si = 88.8323
+G4WT1 > Energy: 1.74777
+G4WT0 > Edep_Si = 115.445
+G4WT0 > Energy: 1.1753
+G4WT1 > Edep_Si = 84.8618
+G4WT1 > Energy: 1.45542
+G4WT0 > Edep_Si = 85.9918
+G4WT0 > Energy: 1.09719
+G4WT1 > Edep_Si = 84.6524
+G4WT1 > Energy: 2.03202
+G4WT0 > Edep_Si = 85.6807
+G4WT0 > Energy: 1.39095
+G4WT1 > Edep_Si = 84.8548
+G4WT1 > Energy: 1.47615
+G4WT0 > Edep_Si = 86.1091
+G4WT0 > Energy: 1.02965
+G4WT1 > Edep_Si = 86.7573
+G4WT1 > Energy: 6.81894
+G4WT0 > Edep_Si = 85.1211
+G4WT0 > Energy: 1.09908
+G4WT1 > Edep_Si = 87.5835
+G4WT0 > Edep_Si = 82.1518
+G4WT1 > Energy: 1.08042
+G4WT0 > Energy: 1.75464
+G4WT1 > Edep_Si = 85.7469
+G4WT0 > Edep_Si = 84.925
+G4WT1 > Energy: 31.5451
+G4WT0 > Energy: 1.05465
+G4WT0 > Edep_Si = 115.061
+G4WT0 > Energy: 6.4931
+G4WT0 > Edep_Si = 86.4328
+G4WT0 > Energy: 1.73007
+G4WT0 > Edep_Si = 83.8413
+G4WT0 > Energy: 1.0689
+G4WT1 > Edep_Si = 49.4598
+G4WT0 > Edep_Si = 85.2878
+G4WT1 > Energy: 1.48647
+G4WT0 > Energy: 1.9526
+G4WT1 > Edep_Si = 85.7694
+G4WT0 > Edep_Si = 86.4597
+G4WT1 > Energy: 1.30159
+G4WT0 > Energy: 1.55011
+G4WT0 > Edep_Si = 84.9914
+G4WT0 > Energy: 1.62428
+G4WT0 > Edep_Si = 87.2763
+G4WT0 > Energy: 2.25665
+G4WT0 > Edep_Si = 87.6425
+G4WT0 > Energy: 12.1195
+G4WT1 > Edep_Si = 131.986
+G4WT1 > Energy: 4.96512
+G4WT0 > Edep_Si = 122.14
+G4WT0 > Energy: 2.38593
+G4WT1 > Edep_Si = 85.8297
+G4WT1 > Energy: 1.30246
+G4WT0 > Edep_Si = 85.8889
+G4WT0 > Energy: 1.34557
+G4WT0 > Edep_Si = 84.308
+G4WT0 > Energy: 1.32308
+G4WT0 > Edep_Si = 85.052
+G4WT0 > Energy: 1.04452
+G4WT0 > Edep_Si = 86.2575
+G4WT0 > Energy: 1.34553
+G4WT0 > Edep_Si = 85.2062
+G4WT0 > Energy: 2.71353
+G4WT0 > Edep_Si = 86.1345
+G4WT0 > Energy: 1.02221
+G4WT1 > Edep_Si = 113.303
+G4WT0 > Edep_Si = 87.211
+G4WT1 > Energy: 1.01916
+G4WT0 > Energy: 11.4152
+G4WT1 > Edep_Si = 88.5721
+G4WT0 > Edep_Si = 87.0183
+G4WT1 > Energy: 1.06772
+G4WT0 > Energy: 1.18394
+G4WT1 > Edep_Si = 90.0135
+G4WT0 > Edep_Si = 88.0974
+G4WT1 > Energy: 12.2001
+G4WT0 > Energy: 1.44493
+G4WT1 > Edep_Si = 84.6799
+G4WT0 > Edep_Si = 86.5521
+G4WT1 > Energy: 1.41053
+G4WT0 > Energy: 3.37945
+G4WT0 > Edep_Si = 85.3677
+G4WT0 > Energy: 1.30578
+G4WT0 > Edep_Si = 84.3494
+G4WT0 > Energy: 5.63569
+G4WT1 > Edep_Si = 124.774
+G4WT1 > Energy: 1.48607
+G4WT0 > Edep_Si = 97.8456
+G4WT0 > Energy: 1.57881
+G4WT0 > Edep_Si = 87.5462
+G4WT0 > Energy: 6.9198
+G4WT0 > Edep_Si = 85.4488
+G4WT0 > Energy: 2.00962
+G4WT0 > Edep_Si = 87.3797
+G4WT0 > Energy: 1.04388
+G4WT0 > Edep_Si = 83.233
+G4WT0 > Energy: 1.08144
+G4WT0 > Edep_Si = 87.2263
+G4WT0 > Energy: 2.45909
+G4WT0 > Edep_Si = 88.0594
+G4WT0 > Energy: 1.36803
+G4WT0 > Edep_Si = 87.6735
+G4WT1 > Edep_Si = 63.4637
+G4WT0 > Energy: 1.36719
+G4WT1 > Energy: 1.07645
+G4WT1 > Edep_Si = 84.8471
+G4WT1 > Energy: 1.60591
+G4WT1 > Edep_Si = 83.9984
+G4WT1 > Energy: 3.85915
+G4WT1 > Edep_Si = 83.9185
+G4WT1 > Energy: 1.24673
+G4WT1 > Edep_Si = 86.4209
+G4WT1 > Energy: 2.09614
+G4WT1 > Edep_Si = 86.3625
+G4WT1 > Energy: 1.421
+G4WT1 > Edep_Si = 85.9031
+G4WT1 > Energy: 2.4955
+G4WT0 > Edep_Si = 74.925
+G4WT0 > Energy: 3.4595
+G4WT0 > Edep_Si = 89.353
+G4WT0 > Energy: 1.35122
+G4WT0 > Edep_Si = 85.2873
+G4WT0 > Energy: 1.53317
+G4WT0 > Edep_Si = 84.8628
+G4WT0 > Energy: 1.06555
+G4WT1 > Edep_Si = 145.617
+G4WT1 > Energy: 1.57985
+G4WT1 > Edep_Si = 86.3427
+G4WT1 > Energy: 1.32117
+G4WT1 > Edep_Si = 85.7847
+G4WT1 > Energy: 1.52518
+G4WT1 > Edep_Si = 87.7882
+G4WT1 > Energy: 1.65023
+G4WT1 > Edep_Si = 86.6731
+G4WT1 > Energy: 1.28776
+G4WT1 > Edep_Si = 86.0693
+G4WT1 > Energy: 1.21909
+G4WT0 > Edep_Si = 144.642
+G4WT1 > Edep_Si = 87.0587
+G4WT0 > Energy: 1.07872
+G4WT1 > Energy: 3.40505
+G4WT0 > Edep_Si = 86.4715
+G4WT1 > Edep_Si = 86.0116
+G4WT0 > Energy: 1.13518
+G4WT1 > Energy: 1.13359
+G4WT1 > Edep_Si = 86.6481
+G4WT1 > Energy: 2.65467
+G4WT0 > Edep_Si = 77.9636
+G4WT0 > Energy: 1.93087
+G4WT0 > Edep_Si = 89.1168
+G4WT0 > Energy: 1.09344
+G4WT0 > Edep_Si = 85.4722
+G4WT0 > Energy: 1.78565
+G4WT0 > Edep_Si = 84.1009
+G4WT0 > Energy: 2.47381
+G4WT0 > Edep_Si = 86.8706
+G4WT0 > Energy: 1.34784
+G4WT1 > Edep_Si = 15.2763
+G4WT0 > Edep_Si = 87.1462
+G4WT1 > Energy: 1.38161
+G4WT0 > Energy: 1.29595
+G4WT1 > Edep_Si = 84.4732
+G4WT1 > Energy: 1.05209
+G4WT1 > Edep_Si = 86.0128
+G4WT1 > Energy: 1.1487
+G4WT1 > Edep_Si = 14.3072
+G4WT1 > Energy: 1.03374
+G4WT0 > Edep_Si = 119.338
+G4WT1 > Edep_Si = 86.1542
+G4WT0 > Energy: 1.49179
+G4WT1 > Energy: 1.85516
+G4WT1 > Edep_Si = 83.804
+G4WT1 > Energy: 1.06729
+G4WT1 > Edep_Si = 88.8943
+G4WT1 > Energy: 1.21988
+G4WT1 > Edep_Si = 89.6334
+G4WT1 > Energy: 1.98947
+G4WT1 > Edep_Si = 86.1122
+G4WT1 > Energy: 1.14787
+G4WT1 > Edep_Si = 86.1263
+G4WT1 > Energy: 1.21152
+G4WT1 > Edep_Si = 84.5188
+G4WT1 > Energy: 3.7802
+G4WT1 > Edep_Si = 87.0041
+G4WT1 > Energy: 1.21936
+G4WT1 > Edep_Si = 161.218
+G4WT1 > Energy: 1.00171
+G4WT0 > Edep_Si = 152.087
+G4WT0 > Energy: 3.28417
+G4WT0 > Edep_Si = 86.7595
+G4WT0 > Energy: 1.15467
+G4WT0 > Edep_Si = 86.1314
+G4WT0 > Energy: 1.724
+G4WT0 > Edep_Si = 88.4933
+G4WT0 > Energy: 1.66778
+G4WT0 > Edep_Si = 84.6729
+G4WT0 > Energy: 2.07112
+G4WT0 > Edep_Si = 85.7497
+G4WT0 > Energy: 1.36942
+G4WT1 > Edep_Si = 137.635
+G4WT1 > Energy: 1.77059
+G4WT1 > Edep_Si = 87.1952
+G4WT1 > Energy: 1.51582
+G4WT1 > Edep_Si = 84.5568
+G4WT1 > Energy: 2.04845
+G4WT1 > Edep_Si = 87.4203
+G4WT1 > Energy: 2.97609
+G4WT1 > Edep_Si = 84.8576
+G4WT1 > Energy: 5.50502
+G4WT1 > Edep_Si = 87.3514
+G4WT1 > Energy: 3.93697
+G4WT0 > Edep_Si = 99.371
+G4WT1 > Edep_Si = 85.8555
+G4WT0 > Energy: 2.29954
+G4WT1 > Energy: 1.20612
+G4WT0 > Edep_Si = 86.6195
+G4WT1 > Edep_Si = 85.4143
+G4WT1 > Energy: 1.75709
+G4WT0 > Energy: 1.19601
+G4WT1 > Edep_Si = 88.4845
+G4WT0 > Edep_Si = 86.0283
+G4WT1 > Energy: 1.31637
+G4WT0 > Energy: 2.10006
+G4WT0 > Edep_Si = 86.1171
+G4WT0 > Energy: 1.80752
+G4WT0 > Edep_Si = 83.5843
+G4WT0 > Energy: 2.29026
+G4WT0 > Edep_Si = 84.7715
+G4WT0 > Energy: 3.57503
+G4WT0 > Edep_Si = 85.0909
+G4WT0 > Energy: 1.11305
+G4WT0 > Edep_Si = 86.2768
+G4WT0 > Energy: 1.53223
+G4WT1 > Edep_Si = 122.216
+G4WT1 > Energy: 1.0253
+G4WT0 > Edep_Si = 94.5659
+G4WT1 > Edep_Si = 83.8015
+G4WT0 > Energy: 1.1677
+G4WT1 > Energy: 1.24605
+G4WT0 > Edep_Si = 86.7522
+G4WT1 > Edep_Si = 89.8655
+G4WT0 > Energy: 1.4139
+G4WT1 > Energy: 1.15851
+G4WT0 > Edep_Si = 85.028
+G4WT1 > Edep_Si = 86.0191
+G4WT0 > Energy: 1.18981
+G4WT1 > Energy: 1.64045
+G4WT1 > Edep_Si = 86.8075
+G4WT0 > Edep_Si = 89.7116
+G4WT1 > Energy: 1.43796
+G4WT0 > Energy: 1.15633
+G4WT1 > Edep_Si = 88.9368
+G4WT0 > Edep_Si = 90.2021
+G4WT1 > Energy: 1.20627
+G4WT0 > Energy: 1.15532
+G4WT0 > Edep_Si = 86.3205
+G4WT0 > Energy: 1.0785
+G4WT0 > Edep_Si = 87.0723
+G4WT0 > Energy: 2.97947
+G4WT0 > Edep_Si = 86.6305
+G4WT0 > Energy: 1.0081
+G4WT0 > Edep_Si = 86.6369
+G4WT0 > Energy: 1.06334
+G4WT1 > Edep_Si = 141.873
+G4WT1 > Energy: 1.02819
+G4WT0 > Edep_Si = 32.3744
+G4WT0 > Energy: 5.04474
+G4WT0 > Edep_Si = 85.5257
+G4WT0 > Energy: 1.54264
+G4WT0 > Edep_Si = 116.439
+G4WT0 > Energy: 1.74527
+G4WT0 > Edep_Si = 86.4619
+G4WT0 > Energy: 1.46449
+G4WT0 > Edep_Si = 86.6279
+G4WT0 > Energy: 2.59582
+G4WT1 > Edep_Si = 114.482
+G4WT0 > Edep_Si = 90.5253
+G4WT1 > Energy: 1.10785
+G4WT0 > Energy: 1.22037
+G4WT1 > Edep_Si = 88.8008
+G4WT0 > Edep_Si = 87.1151
+G4WT1 > Energy: 2.55529
+G4WT0 > Energy: 1.50505
+G4WT1 > Edep_Si = 84.5792
+G4WT0 > Edep_Si = 87.5493
+G4WT1 > Energy: 1.20315
+G4WT0 > Energy: 1.64546
+G4WT1 > Edep_Si = 82.6927
+G4WT0 > Edep_Si = 87.1923
+G4WT1 > Energy: 2.07924
+G4WT0 > Energy: 2.45472
+G4WT1 > Edep_Si = 86.419
+G4WT0 > Edep_Si = 86.3206
+G4WT1 > Energy: 1.08232
+G4WT0 > Energy: 1.31141
+G4WT1 > Edep_Si = 81.713
+G4WT0 > Edep_Si = 83.458
+G4WT1 > Energy: 1.14168
+G4WT0 > Energy: 1.3652
+G4WT1 > Edep_Si = 88.5735
+G4WT0 > Edep_Si = 85.9873
+G4WT1 > Energy: 3.61714
+G4WT0 > Energy: 1.23684
+G4WT1 > Edep_Si = 86.1105
+G4WT0 > Edep_Si = 86.9798
+G4WT1 > Energy: 1.02165
+G4WT0 > Energy: 1.35897
+G4WT0 > Edep_Si = 85.5933
+G4WT0 > Energy: 1.25346
+G4WT0 > Edep_Si = 85.5103
+G4WT0 > Energy: 1.7696
+G4WT0 > Edep_Si = 85.535
+G4WT0 > Energy: 1.03903
+G4WT0 > Edep_Si = 85.031
+G4WT0 > Energy: 4.79104
+G4WT1 > Edep_Si = 96.4049
+G4WT1 > Energy: 1.0991
+G4WT1 > Edep_Si = 86.018
+G4WT1 > Energy: 2.14066
+G4WT1 > Edep_Si = 85.067
+G4WT0 > Edep_Si = 52.4069
+G4WT1 > Energy: 2.28891
+G4WT0 > Energy: 1.35231
+G4WT1 > Edep_Si = 84.2254
+G4WT0 > Edep_Si = 83.8139
+G4WT1 > Energy: 1.13672
+G4WT0 > Energy: 1.02628
+G4WT1 > Edep_Si = 86.3694
+G4WT1 > Energy: 2.70997
+G4WT1 > Edep_Si = 85.337
+G4WT1 > Energy: 4.08644
+G4WT1 > Edep_Si = 89.4932
+G4WT1 > Energy: 1.0137
+G4WT1 > Edep_Si = 84.9327
+G4WT0 > Edep_Si = 89.1338
+G4WT1 > Energy: 1.01407
+G4WT0 > Energy: 1.15558
+G4WT1 > Edep_Si = 85.0445
+G4WT0 > Edep_Si = 84.9017
+G4WT1 > Energy: 6.35401
+G4WT0 > Energy: 1.86348
+G4WT1 > Edep_Si = 87.7101
+G4WT0 > Edep_Si = 86.6588
+G4WT1 > Energy: 1.94574
+G4WT0 > Energy: 1.41456
+G4WT1 > Edep_Si = 85.303
+G4WT1 > Energy: 1.32887
+G4WT1 > Edep_Si = 85.7444
+G4WT1 > Energy: 1.00066
+G4WT1 > Edep_Si = 85.0028
+G4WT1 > Energy: 1.14437
+G4WT1 > Edep_Si = 85.4649
+G4WT1 > Energy: 1.06306
+G4WT0 > Edep_Si = 29.458
+G4WT0 > Energy: 1.38017
+G4WT0 > Edep_Si = 85.8302
+G4WT0 > Energy: 1.03144
+G4WT1 > Edep_Si = 99.5608
+G4WT1 > Energy: 1.00096
+G4WT1 > Edep_Si = 84.5684
+G4WT1 > Energy: 2.63115
+G4WT1 > Edep_Si = 85.9784
+G4WT1 > Energy: 1.14596
+G4WT1 > Edep_Si = 87.5284
+G4WT1 > Energy: 1.15027
+G4WT1 > Edep_Si = 86.261
+G4WT0 > Edep_Si = 109.682
+G4WT1 > Energy: 2.00295
+G4WT0 > Energy: 1.01936
+G4WT1 > Edep_Si = 88.06
+G4WT1 > Energy: 1.95943
+G4WT0 > Edep_Si = 85.0523
+G4WT0 > Energy: 1.89938
+G4WT0 > Edep_Si = 87.3394
+G4WT0 > Energy: 1.16196
+G4WT0 > Edep_Si = 84.924
+G4WT0 > Energy: 1.41382
+G4WT0 > Edep_Si = 85.5396
+G4WT0 > Energy: 1.02317
+G4WT0 > Edep_Si = 88.9577
+G4WT0 > Energy: 2.28627
+G4WT0 > Edep_Si = 84.1266
+G4WT0 > Energy: 1.2356
+G4WT1 > Edep_Si = 171.757
+G4WT1 > Energy: 1.05335
+G4WT1 > Edep_Si = 86.4885
+G4WT1 > Energy: 1.4881
+G4WT0 > Edep_Si = 123.04
+G4WT0 > Energy: 1.99314
+G4WT0 > Edep_Si = 86.4035
+G4WT1 > Edep_Si = 69.8071
+G4WT0 > Energy: 5.05764
+G4WT1 > Energy: 2.6035
+G4WT1 > Edep_Si = 85.6624
+G4WT1 > Energy: 1.19247
+G4WT0 > Edep_Si = 44.2934
+G4WT0 > Energy: 1.69631
+G4WT0 > Edep_Si = 84.1037
+G4WT0 > Energy: 1.5704
+G4WT0 > Edep_Si = 86.6689
+G4WT0 > Energy: 1.36773
+G4WT0 > Edep_Si = 83.6836
+G4WT0 > Energy: 8.32062
+G4WT0 > Edep_Si = 86.4384
+G4WT1 > Edep_Si = 134.422
+G4WT0 > Energy: 3.06745
+G4WT1 > Energy: 1.53369
+G4WT0 > Edep_Si = 87.5453
+G4WT1 > Edep_Si = 86.7223
+G4WT0 > Energy: 2.0344
+G4WT1 > Energy: 1.24824
+G4WT0 > Edep_Si = 86.4005
+G4WT0 > Energy: 1.99186
+G4WT1 > Edep_Si = 80.811
+G4WT1 > Energy: 2.57191
+G4WT0 > Edep_Si = 97.1258
+G4WT0 > Energy: 1.2757
+G4WT0 > Edep_Si = 87.8363
+G4WT0 > Energy: 1.59561
+G4WT0 > Edep_Si = 85.2911
+G4WT0 > Energy: 1.55692
+G4WT0 > Edep_Si = 84.6968
+G4WT0 > Energy: 1.36217
+G4WT0 > Edep_Si = 86.3929
+G4WT0 > Energy: 1.22338
+G4WT0 > Edep_Si = 85.2272
+G4WT0 > Energy: 2.02165
+G4WT1 > Edep_Si = 113.657
+G4WT0 > Edep_Si = 85.1786
+G4WT1 > Energy: 1.97287
+G4WT0 > Energy: 1.46276
+G4WT1 > Edep_Si = 86.8788
+G4WT0 > Edep_Si = 85.2026
+G4WT1 > Energy: 1.47105
+G4WT0 > Energy: 1.29092
+G4WT1 > Edep_Si = 85.3148
+G4WT0 > Edep_Si = 85.5539
+G4WT1 > Energy: 1.35019
+G4WT0 > Energy: 1.27824
+G4WT1 > Edep_Si = 85.618
+G4WT0 > Edep_Si = 85.8904
+G4WT1 > Energy: 3.82035
+G4WT0 > Energy: 1.05839
+G4WT1 > Edep_Si = 84.74
+G4WT0 > Edep_Si = 87.2668
+G4WT1 > Energy: 1.93297
+G4WT0 > Energy: 1.87758
+G4WT1 > Edep_Si = 85.312
+G4WT0 > Edep_Si = 82.0993
+G4WT1 > Energy: 1.19976
+G4WT0 > Energy: 1.32304
+G4WT1 > Edep_Si = 86.0062
+G4WT0 > Edep_Si = 87.7702
+G4WT1 > Energy: 1.37871
+G4WT0 > Energy: 1.34138
+G4WT1 > Edep_Si = 83.934
+G4WT0 > Edep_Si = 86.1431
+G4WT1 > Energy: 1.05554
+G4WT0 > Energy: 2.08651
+G4WT1 > Edep_Si = 85.2693
+G4WT0 > Edep_Si = 83.092
+G4WT0 > Energy: 2.17553
+G4WT1 > Energy: 1.24965
+G4WT1 > Edep_Si = 85.3419
+G4WT0 > Edep_Si = 88.4451
+G4WT1 > Energy: 3.85373
+G4WT0 > Energy: 1.10281
+G4WT1 > Edep_Si = 88.7718
+G4WT0 > Edep_Si = 84.8823
+G4WT0 > Energy: 1.67652
+G4WT1 > Energy: 1.14283
+G4WT0 > Edep_Si = 83.4215
+G4WT1 > Edep_Si = 84.1877
+G4WT0 > Energy: 1.09962
+G4WT1 > Energy: 1.17949
+G4WT0 > Edep_Si = 85.6817
+G4WT1 > Edep_Si = 84.9572
+G4WT0 > Energy: 1.86716
+G4WT1 > Energy: 1.59426
+G4WT0 > Edep_Si = 84.7657
+G4WT1 > Edep_Si = 88.8379
+G4WT0 > Energy: 1.27062
+G4WT1 > Energy: 3.11149
+G4WT0 > Edep_Si = 84.7138
+G4WT1 > Edep_Si = 86.4909
+G4WT0 > Energy: 1.04181
+G4WT1 > Energy: 1.92368
+G4WT0 > Edep_Si = 83.6307
+G4WT1 > Edep_Si = 87.7825
+G4WT0 > Energy: 3.21125
+G4WT1 > Energy: 1.94267
+G4WT1 > Edep_Si = 89.8615
+G4WT1 > Energy: 32.4059
+G4WT1 > Edep_Si = 85.3025
+G4WT1 > Energy: 1.08827
+G4WT1 > Edep_Si = 85.2836
+G4WT1 > Energy: 1.52647
+G4WT1 > Edep_Si = 87.0032
+G4WT1 > Energy: 1.3308
+G4WT1 > Edep_Si = 86.4427
+G4WT1 > Energy: 1.13033
+G4WT1 > Edep_Si = 85.8943
+G4WT1 > Energy: 2.37775
+G4WT1 > Edep_Si = 82.6609
+G4WT1 > Energy: 2.78961
+G4WT0 > Edep_Si = 84.8414
+G4WT1 > Edep_Si = 90.3451
+G4WT0 > Energy: 1.35745
+G4WT1 > Energy: 1.55851
+G4WT0 > Edep_Si = 86.3569
+G4WT0 > Energy: 1.21549
+G4WT1 > Edep_Si = 55.4438
+G4WT1 > Energy: 4.5677
+G4WT1 > Edep_Si = 85.8645
+G4WT1 > Energy: 1.27694
+G4WT1 > Edep_Si = 86.0636
+G4WT1 > Energy: 1.65262
+G4WT1 > Edep_Si = 83.3628
+G4WT1 > Energy: 1.26347
+G4WT1 > Edep_Si = 89.1392
+G4WT1 > Energy: 1.07123
+G4WT1 > Edep_Si = 85.7847
+G4WT1 > Energy: 1.26908
+G4WT0 > Edep_Si = 50.4227
+G4WT1 > Edep_Si = 87.7967
+G4WT0 > Energy: 1.07791
+G4WT1 > Energy: 1.41396
+G4WT0 > Edep_Si = 86.997
+G4WT1 > Edep_Si = 88.8873
+G4WT0 > Energy: 1.33306
+G4WT1 > Energy: 4.10928
+G4WT0 > Edep_Si = 84.7118
+G4WT1 > Edep_Si = 87.113
+G4WT0 > Energy: 1.78441
+G4WT1 > Energy: 1.34089
+G4WT1 > Edep_Si = 86.525
+G4WT1 > Energy: 1.61127
+G4WT1 > Edep_Si = 87.8245
+G4WT1 > Energy: 3.50333
+G4WT1 > Edep_Si = 83.2819
+G4WT1 > Energy: 1.07508
+G4WT0 > Edep_Si = 140.757
+G4WT0 > Energy: 1.81352
+G4WT0 > Edep_Si = 81.2498
+G4WT0 > Energy: 2.37617
+G4WT1 > Edep_Si = 128.005
+G4WT1 > Energy: 3.46705
+G4WT0 > Edep_Si = 84.6909
+G4WT1 > Edep_Si = 83.5586
+G4WT0 > Energy: 1.18667
+G4WT1 > Energy: 1.10379
+G4WT0 > Edep_Si = 83.9542
+G4WT1 > Edep_Si = 82.2904
+G4WT0 > Energy: 1.56301
+G4WT1 > Energy: 2.31624
+G4WT1 > Edep_Si = 86.3751
+G4WT0 > Edep_Si = 85.8679
+G4WT1 > Energy: 2.14671
+G4WT0 > Energy: 1.26372
+G4WT0 > Edep_Si = 84.3895
+G4WT0 > Energy: 1.22193
+G4WT0 > Edep_Si = 84.701
+G4WT0 > Energy: 1.18169
+G4WT0 > Edep_Si = 85.2058
+G4WT0 > Energy: 1.53462
+G4WT0 > Edep_Si = 84.916
+G4WT0 > Energy: 1.2273
+G4WT0 > Edep_Si = 84.5884
+G4WT0 > Energy: 1.16135
+G4WT1 > Edep_Si = 128.578
+G4WT1 > Energy: 1.78667
+G4WT0 > Edep_Si = 87.8558
+G4WT1 > Edep_Si = 89.1214
+G4WT0 > Energy: 1.13546
+G4WT1 > Energy: 1.33006
+G4WT0 > Edep_Si = 89.2098
+G4WT1 > Edep_Si = 85.016
+G4WT0 > Energy: 1.01833
+G4WT1 > Energy: 6.31833
+G4WT1 > Edep_Si = 87.762
+G4WT1 > Energy: 1.38339
+G4WT1 > Edep_Si = 84.5462
+G4WT1 > Energy: 1.41937
+G4WT1 > Edep_Si = 83.9698
+G4WT1 > Energy: 1.09634
+G4WT0 > Edep_Si = 16.4863
+G4WT0 > Energy: 2.74167
+G4WT0 > Edep_Si = 86.1184
+G4WT0 > Energy: 2.09683
+G4WT0 > Edep_Si = 88.2246
+G4WT0 > Energy: 1.05333
+G4WT0 > Edep_Si = 86.2514
+G4WT0 > Energy: 1.53304
+G4WT0 > Edep_Si = 82.7348
+G4WT0 > Energy: 3.15766
+G4WT0 > Edep_Si = 84.3042
+G4WT0 > Energy: 1.01716
+G4WT0 > Edep_Si = 87.8054
+G4WT0 > Energy: 1.04679
+G4WT0 > Edep_Si = 85.2659
+G4WT0 > Energy: 1.53224
+G4WT0 > Edep_Si = 87.6505
+G4WT0 > Energy: 1.05525
+G4WT0 > Edep_Si = 83.1935
+G4WT0 > Energy: 1.324
+G4WT0 > Edep_Si = 86.7854
+G4WT0 > Energy: 1.04989
+G4WT1 > Edep_Si = 117.685
+G4WT1 > Energy: 1.39656
+G4WT0 > Edep_Si = 88.2919
+G4WT0 > Energy: 1.20803
+G4WT1 > Edep_Si = 86.1721
+G4WT1 > Energy: 1.00477
+G4WT0 > Edep_Si = 86.4382
+G4WT0 > Energy: 1.01668
+G4WT1 > Edep_Si = 86.979
+G4WT0 > Edep_Si = 86.2788
+G4WT1 > Energy: 1.18915
+G4WT0 > Energy: 1.10686
+G4WT1 > Edep_Si = 87.3584
+G4WT0 > Edep_Si = 86.4729
+G4WT1 > Energy: 2.95015
+G4WT0 > Energy: 1.31796
+G4WT1 > Edep_Si = 85.7275
+G4WT1 > Energy: 1.25934
+G4WT0 > Edep_Si = 83.7343
+G4WT1 > Edep_Si = 84.9866
+G4WT0 > Energy: 1.23509
+G4WT1 > Energy: 3.22384
+G4WT0 > Edep_Si = 87.2311
+G4WT1 > Edep_Si = 85.7084
+G4WT0 > Energy: 1.0245
+G4WT1 > Energy: 1.06006
+G4WT0 > Edep_Si = 84.4056
+G4WT1 > Edep_Si = 86.4345
+G4WT0 > Energy: 1.0309
+G4WT1 > Energy: 2.96898
+G4WT1 > Edep_Si = 86.3864
+G4WT1 > Energy: 1.21512
+G4WT1 > Edep_Si = 87.0644
+G4WT1 > Energy: 2.79333
+G4WT1 > Edep_Si = 85.6366
+G4WT1 > Energy: 1.17026
+G4WT1 > Edep_Si = 86.2621
+G4WT1 > Energy: 1.72098
+G4WT1 > Edep_Si = 87.1866
+G4WT1 > Energy: 6.34916
+G4WT1 > Edep_Si = 91.5866
+G4WT0 > Edep_Si = 150.993
+G4WT1 > Energy: 3.24003
+G4WT0 > Energy: 1.59344
+G4WT1 > Edep_Si = 109.575
+G4WT1 > Energy: 1.61793
+G4WT1 > Edep_Si = 193.821
+G4WT1 > Energy: 1.18966
+G4WT1 > Edep_Si = 84.1
+G4WT1 > Energy: 1.94136
+G4WT1 > Edep_Si = 86.5223
+G4WT0 > Edep_Si = 153.838
+G4WT1 > Energy: 1.04971
+G4WT0 > Energy: 2.42766
+G4WT0 > Edep_Si = 88.1723
+G4WT1 > Edep_Si = 93.3095
+G4WT0 > Energy: 3.57086
+G4WT1 > Energy: 1.60071
+G4WT1 > Edep_Si = 85.0911
+G4WT1 > Energy: 1.95487
+G4WT0 > Edep_Si = 98.3769
+G4WT0 > Energy: 1.14764
+G4WT0 > Edep_Si = 84.4313
+G4WT0 > Energy: 1.30141
+G4WT0 > Edep_Si = 83.0355
+G4WT0 > Energy: 1.20849
+G4WT0 > Edep_Si = 87.3175
+G4WT0 > Energy: 4.94005
+G4WT0 > Edep_Si = 83.4922
+G4WT0 > Energy: 1.3388
+G4WT1 > Edep_Si = 133.319
+G4WT0 > Edep_Si = 85.7959
+G4WT1 > Energy: 1.24407
+G4WT0 > Energy: 5.73039
+G4WT1 > Edep_Si = 84.2699
+G4WT0 > Edep_Si = 84.5495
+G4WT1 > Energy: 1.07034
+G4WT0 > Energy: 1.23871
+G4WT1 > Edep_Si = 84.8056
+G4WT0 > Edep_Si = 87.1564
+G4WT1 > Energy: 1.26182
+G4WT0 > Energy: 2.09597
+G4WT0 > Edep_Si = 84.6907
+G4WT0 > Energy: 1.04003
+G4WT0 > Edep_Si = 87.6478
+G4WT0 > Energy: 4.87284
+G4WT0 > Edep_Si = 83.6584
+G4WT0 > Energy: 1.0025
+G4WT0 > Edep_Si = 88.1282
+G4WT0 > Energy: 1.2682
+G4WT1 > Edep_Si = 58.1777
+G4WT1 > Energy: 3.09941
+G4WT1 > Edep_Si = 84.6656
+G4WT1 > Energy: 1.14397
+G4WT1 > Edep_Si = 84.442
+G4WT1 > Energy: 1.15441
+G4WT1 > Edep_Si = 85.4152
+G4WT1 > Energy: 2.70797
+G4WT0 > Edep_Si = 143.614
+G4WT0 > Energy: 2.82202
+G4WT0 > Edep_Si = 85.7383
+G4WT0 > Energy: 2.47736
+G4WT0 > Edep_Si = 88.5035
+G4WT0 > Energy: 1.2542
+G4WT0 > Edep_Si = 86.9132
+G4WT0 > Energy: 1.89477
+G4WT0 > Edep_Si = 84.9531
+G4WT0 > Energy: 1.25317
+G4WT1 > Edep_Si = 140.163
+G4WT1 > Energy: 1.40898
+G4WT1 > Edep_Si = 85.8239
+G4WT1 > Energy: 2.42768
+G4WT1 > Edep_Si = 85.8879
+G4WT1 > Energy: 2.51248
+G4WT0 > Edep_Si = 90.6199
+G4WT0 > Energy: 2.31783
+G4WT0 > Edep_Si = 86.169
+G4WT0 > Energy: 1.3066
+G4WT0 > Edep_Si = 84.4221
+G4WT0 > Energy: 3.63619
+G4WT0 > Edep_Si = 84.2367
+G4WT0 > Energy: 1.16753
+G4WT1 > Edep_Si = 152.366
+G4WT1 > Energy: 1.29571
+G4WT0 > Edep_Si = 176.229
+G4WT0 > Energy: 2.36686
+G4WT0 > Edep_Si = 88.2217
+G4WT0 > Energy: 1.52275
+G4WT0 > Edep_Si = 84.6923
+G4WT0 > Energy: 1.30777
+G4WT0 > Edep_Si = 84.3297
+G4WT0 > Energy: 1.01292
+G4WT0 > Edep_Si = 86.8157
+G4WT0 > Energy: 5.20365
+G4WT0 > Edep_Si = 84.189
+G4WT0 > Energy: 2.21202
+G4WT0 > Edep_Si = 85.7839
+G4WT0 > Energy: 1.71736
+G4WT1 > Edep_Si = 143.673
+G4WT0 > Edep_Si = 85.915
+G4WT1 > Energy: 1.42713
+G4WT0 > Energy: 1.37079
+G4WT1 > Edep_Si = 83.957
+G4WT0 > Edep_Si = 89.3098
+G4WT1 > Energy: 1.0377
+G4WT0 > Energy: 1.22954
+G4WT1 > Edep_Si = 87.2138
+G4WT0 > Edep_Si = 85.5808
+G4WT1 > Energy: 1.07176
+G4WT0 > Energy: 1.3105
+G4WT1 > Edep_Si = 84.8928
+G4WT0 > Edep_Si = 86.8312
+G4WT1 > Energy: 5.86023
+G4WT0 > Energy: 1.56513
+G4WT1 > Edep_Si = 83.8441
+G4WT0 > Edep_Si = 85.7251
+G4WT1 > Energy: 1.09742
+G4WT0 > Energy: 1.41356
+G4WT1 > Edep_Si = 85.9688
+G4WT1 > Energy: 2.46515
+G4WT0 > Edep_Si = 176.334
+G4WT0 > Energy: 3.90409
+G4WT0 > Edep_Si = 84.316
+G4WT0 > Energy: 1.34083
+G4WT0 > Edep_Si = 85.6103
+G4WT0 > Energy: 1.8116
+G4WT0 > Edep_Si = 112.154
+G4WT1 > Edep_Si = 160.01
+G4WT0 > Energy: 1.39491
+G4WT1 > Energy: 3.98469
+G4WT0 > Edep_Si = 84.7103
+G4WT0 > Energy: 4.82102
+G4WT0 > Edep_Si = 87.3964
+G4WT0 > Energy: 1.14996
+G4WT0 > Edep_Si = 86.7885
+G4WT0 > Energy: 2.60282
+G4WT0 > Edep_Si = 85.5426
+G4WT0 > Energy: 1.90375
+G4WT0 > Edep_Si = 86.777
+G4WT0 > Energy: 1.26446
+G4WT0 > Edep_Si = 86.3477
+G4WT0 > Energy: 1.66171
+G4WT0 > Edep_Si = 87.1993
+G4WT0 > Energy: 1.06651
+G4WT0 > Edep_Si = 90.0355
+G4WT0 > Energy: 1.59189
+G4WT0 > Edep_Si = 82.814
+G4WT0 > Energy: 1.27467
+G4WT0 > Edep_Si = 85.139
+G4WT0 > Energy: 2.2103
+G4WT1 > Edep_Si = 67.0232
+G4WT1 > Energy: 1.07012
+G4WT1 > Edep_Si = 87.1242
+G4WT1 > Energy: 1.43609
+G4WT1 > Edep_Si = 85.2154
+G4WT1 > Energy: 1.06153
+G4WT1 > Edep_Si = 84.6627
+G4WT0 > Edep_Si = 101.5
+G4WT1 > Energy: 1.66169
+G4WT0 > Energy: 1.7937
+G4WT1 > Edep_Si = 85.582
+G4WT0 > Edep_Si = 86.372
+G4WT1 > Energy: 1.14494
+G4WT0 > Energy: 1.50943
+G4WT1 > Edep_Si = 86.415
+G4WT0 > Edep_Si = 88.3307
+G4WT1 > Energy: 1.5786
+G4WT1 > Edep_Si = 85.8958
+G4WT1 > Energy: 1.71885
+G4WT1 > Edep_Si = 101.654
+G4WT1 > Energy: 2.06607
+G4WT1 > Edep_Si = 89.6449
+G4WT1 > Energy: 2.31629
+G4WT1 > Edep_Si = 86.8213
+G4WT1 > Energy: 4.9511
+G4WT1 > Edep_Si = 90.5135
+G4WT1 > Energy: 1.28699
+G4WT1 > Edep_Si = 86.208
+G4WT1 > Energy: 2.00932
+G4WT1 > Edep_Si = 87.5008
+G4WT1 > Energy: 1.06365
+G4WT1 > Edep_Si = 87.3092
+G4WT1 > Energy: 1.98977
+G4WT1 > Edep_Si = 86.6896
+G4WT1 > Energy: 1.33952
+G4WT1 > Edep_Si = 84.1802
+Graphics systems deleted.
+Visualization Manager deleting...
